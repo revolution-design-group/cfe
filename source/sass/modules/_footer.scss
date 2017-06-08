@@ -56,8 +56,8 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 }
 
 
-// No padding around the whole footer. The padding is applied to the rows of the footer.
-.Footer-inner{ padding: 0px; }
+// No padding around the footer. The padding is applied to the rows of the footer.
+.Footer-inner{ padding: 0px 17px; }
 .tweak-footer-layout-stacked .Footer-blocks--top{ background: white; }
 .tweak-footer-layout-stacked .Footer-blocks--bottom{ 
     padding-bottom: 75px !important; 
@@ -69,9 +69,9 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom{
     background-color: $color-footer-overlay;
-    //box-sizing: border-box;
+    box-sizing: border-box;
     
-    //@extend .Index-page-content;
+    @extend .Index-page-content;
     
     
     // stretch it to the width of the site and horizontally center.
