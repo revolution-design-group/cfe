@@ -366,6 +366,7 @@ h1 em {
   background-color: rgba(24, 47, 61, 0.7);
   box-sizing: border-box;
   width: 88%;
+  color: orange;
   /*position: relative;
     left: 50% !important;
     @include transform(translatex(-50%));
