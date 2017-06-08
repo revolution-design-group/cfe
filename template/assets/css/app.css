@@ -62,8 +62,8 @@
 
 .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
-  padding-left: 6%;
-  padding-right: 6%; }
+  padding-left: 90px;
+  padding-right: 90px; }
   @media (max-width: 1024px) {
     .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
     .tweak-footer-layout-stacked .Footer-blocks--bottom {
@@ -160,8 +160,8 @@
 *******************************************************************************/
 .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 90px;
+  padding-right: 90px;
   /*@media (max-width: 1024px) {
         padding-left: $desktop-padding;
         padding-right: $desktop-padding;
