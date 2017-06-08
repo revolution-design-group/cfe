@@ -60,28 +60,23 @@
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%); }
 
-.Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-.tweak-footer-layout-stacked .Footer-blocks--bottom {
+.Index-page-content {
   padding-left: 90px;
   padding-right: 90px; }
   @media (max-width: 1024px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+    .Index-page-content {
       padding-left: 64px;
       padding-right: 64px; } }
   @media (max-width: 960px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+    .Index-page-content {
       padding-left: 48px;
       padding-right: 48px; } }
   @media (max-width: 768px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+    .Index-page-content {
       padding-left: 36px;
       padding-right: 36px; } }
   @media (max-width: 640px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+    .Index-page-content {
       padding-left: 20px;
       padding-right: 20px; } }
 
@@ -158,8 +153,7 @@
  *
  * I inferred these rules from the code inspector of the Brine template.
 *******************************************************************************/
-.Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-.tweak-footer-layout-stacked .Footer-blocks--bottom {
+.Index-page-content {
   padding-left: 90px;
   padding-right: 90px;
   /*@media (max-width: 1024px) {
@@ -364,7 +358,6 @@ h1 em {
 .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
   background-color: rgba(24, 47, 61, 0.7);
-  box-sizing: border-box;
   /*position: relative;
     left: 50% !important;
     @include transform(translatex(-50%));
@@ -503,9 +496,7 @@ h1 em {
 *******************************************************************************/
 #home-brand-logos {
   background-color: #f4f4f4; }
-  #home-brand-logos .Index-page-content, #home-brand-logos .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-brand-logos .Footer-nav, #home-brand-logos
-  .tweak-footer-layout-stacked .Footer-blocks--bottom,
-  .tweak-footer-layout-stacked #home-brand-logos .Footer-blocks--bottom {
+  #home-brand-logos .Index-page-content {
     padding-bottom: 0;
     padding-top: 0; }
   #home-brand-logos .sqs-gallery-design-grid .sqs-gallery-design-grid-slide .margin-wrapper {
@@ -516,15 +507,11 @@ h1 em {
   background-position: center 60px;
   background-size: cover;
   background-repeat: no-repeat; }
-  #home-markets-served .Index-page-content, #home-markets-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-markets-served .Footer-nav, #home-markets-served
-  .tweak-footer-layout-stacked .Footer-blocks--bottom,
-  .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
+  #home-markets-served .Index-page-content {
     padding-top: 0;
     padding-bottom: 0; }
 
-#home-regions-served .Index-page-content, #home-regions-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-regions-served .Footer-nav, #home-regions-served
-.tweak-footer-layout-stacked .Footer-blocks--bottom,
-.tweak-footer-layout-stacked #home-regions-served .Footer-blocks--bottom {
+#home-regions-served .Index-page-content {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939b87303596ed39c39da73/1496954995520/usa-map.png");
   background-position: right 20%;
   background-repeat: no-repeat;
@@ -541,9 +528,7 @@ h1 em {
         left: 50% !important;
         @include transform(translatex(-50%));
     }*/ }
-  #home-featured-projects .Index-page-content, #home-featured-projects .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-featured-projects .Footer-nav, #home-featured-projects
-  .tweak-footer-layout-stacked .Footer-blocks--bottom,
-  .tweak-footer-layout-stacked #home-featured-projects .Footer-blocks--bottom {
+  #home-featured-projects .Index-page-content {
     padding: 0; }
   #home-featured-projects .image-block {
     padding-bottom: 0;
