@@ -363,6 +363,7 @@ h1 em {
 
 .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
+  margin: 0 -17px;
   background-color: rgba(24, 47, 61, 0.7);
   box-sizing: border-box;
   /*position: relative;

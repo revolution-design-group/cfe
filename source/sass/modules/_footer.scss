@@ -68,6 +68,7 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 // add overlay color to very bottom of site
 .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom{
+    margin: 0 -17px;
     background-color: $color-footer-overlay;
     box-sizing: border-box;
     
