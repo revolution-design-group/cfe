@@ -71,6 +71,7 @@ $color-footer-overlay: rgba(24,47,61,0.7);
     background-color: $color-footer-overlay;
     box-sizing: border-box;
     
+    @extend .Index-page-content;
     
     
     // stretch it to the width of the site and horizontally center.
