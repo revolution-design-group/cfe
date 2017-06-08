@@ -47,37 +47,44 @@ $color-background-accent: #353535;
 // simple way to keep a reference of brand palette colors
 $color-mt-sky-blue: #3c769f;
 
-$color-brand-palette-blue: #5f92bc;
 $color-brand-palette-red: #b85856;
+$color-brand-palette-blue: #5f92bc;
+
+$color-default-accent: $color-brand-palette-red;
+$color-secondary-accent: $color-brand-palette-blue;
+
+
+
+
 
 
 
 /******************************************************************************
- * Grid
+ * Backgrounds
+ *
+ * Assign variables to the background images uploaded in the CSS Editor
 *******************************************************************************/
-$grid-length: 12;
-$grid-columns: 12 11 10 9 8 7 6 5 4 3 2 1;
+$white-bg1: url('https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939ad156b8f5baa570196cc/1496952085417/bg-white1.jpg');
+$white-bg2: url('https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939ad1646c3c47304341c9a/1496952087178/bg-white2.jpg');
 
+
+$usa-map: url('https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939b87303596ed39c39da73/1496954995520/usa-map.png');
 
 
 /******************************************************************************
  * Sizes
  *
- * Still working on this with regards to Squarespace templates. :)
+ * Should match what is define in the Squarespace Style Editor (or site.css)
 *******************************************************************************/
-$page-padding: 115px;
-$mobile-padding: 40px;
-$wrapper-padding: 25px;
 
-$p-width: 680px;
-$p-width-wide: 740px;
-$p-width-narrow: 520px;
+$max-page-width: 1920px; //from SS
 
-$page-width: 960px;
-$page-width-wide: 1280px;
-$page-width-narrow: 720px;
 
-$nudge-size: 80px;
+$page-padding: 90px; //from SS
+$desktop-padding: 64px; //screen and (max-width: 1024px)
+$laptop-padding: 48px; //screen and (max-width: 960px)
+$tablet-padding: 36px; //screen and (max-width: 768px)
+$mobile-padding: 20px; //screen and (max-width: 640px)
 
 
 

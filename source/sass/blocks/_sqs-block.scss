@@ -1,0 +1,10 @@
+/******************************************************************************
+ * Squarespace Blocks
+ *
+ * Custom CSS styles that relate to all Squarespace Blocks in general.
+*******************************************************************************/
+
+.sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):first-child:last-child {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}

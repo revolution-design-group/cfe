@@ -4,5 +4,34 @@
  * Custom CSS styles that relate to Squarespace Image Blocks.
 *******************************************************************************/
 .sqs-block-image {
-    background: orange;
+}
+
+
+
+
+
+// Collage Layout
+.sqs-block-image .design-layout-collage .image-card{
+    background-image: url('https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939c102d1758e275ba3f85a/1496957186692/red-bailey-for-collage-block.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100%;
+    
+    .image-title-wrapper{
+        @extend .vertically-centered;
+        .image-title{
+            padding: .5em 0;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+        }
+    }
+    .image-subtitle-wrapper, .image-button-wrapper{
+        display: none;
+    }
+    
+}
+.sqs-block-image .design-layout-collage:not(.sqs-narrow-width).image-position-right>div:first-child>div{
+    left: -30%;
 }

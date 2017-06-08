@@ -1,0 +1,53 @@
+/******************************************************************************
+ * Fonts / Typography
+ *
+ * Set the extended default font behavior for the site.
+ * Customization beyond what is doable in the Style Editor
+*******************************************************************************/
+
+
+
+/******************************************************************************
+ * Accent lines preceeding headings and titles
+*******************************************************************************/
+#home-featured-projects .image-title-wrapper:before,
+.html-block h1:before{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 4px;
+    background-color: $color-default-accent;
+    margin-bottom: 25px;
+}
+.html-block h1.text-align-center:before{
+    margin-left: auto;
+    margin-right: auto;
+}
+.html-block h1.text-align-right:before{
+    margin-left: auto;
+}
+
+
+
+
+/******************************************************************************
+ * Headings
+*******************************************************************************/
+// Same as h2
+h1 em{
+    font-family: alternate-gothic-no-2-d;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-default-accent;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+/******************************************************************************
+ * Buttons
+*******************************************************************************/
+.medium-button-style-outline .sqs-block-button .sqs-block-button-element--medium{
+    color: #656668;
+}

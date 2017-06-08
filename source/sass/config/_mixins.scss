@@ -3,3 +3,66 @@
  *
  * Still working on useful mixins for Squarespace non-dev templates.
 *******************************************************************************/
+
+
+
+
+
+@mixin transition($parameters) {
+    transition         : $parameters;
+    -webkit-transition : $parameters;
+    -moz-transition    : $parameters;
+    -ms-transition     : $parameters;
+}
+
+@mixin transform($parameters) {
+    transform         : $parameters;
+    -webkit-transform : $parameters;
+    -moz-transform    : $parameters;
+    -ms-transform     : $parameters;
+}
+
+.vertically-centered {
+    position: relative;
+    top: 50% !important;
+    @include transform(translateY(-50%));
+}
+
+.Index-page-content{
+    padding-left: $page-padding;
+    padding-right: $page-padding;
+    
+    @media (max-width: 1024px) {
+        padding-left: $desktop-padding;
+        padding-right: $desktop-padding;
+    }
+    @media (max-width: 960px) {
+        padding-left: $laptop-padding;
+        padding-right: $laptop-padding;
+    }
+    @media (max-width: 768px) {
+        padding-left: $tablet-padding;
+        padding-right: $tablet-padding;
+    }
+    @media (max-width: 640px) {
+        padding-left: $mobile-padding;
+        padding-right: $mobile-padding;
+    }
+}
+
+
+.white-bg{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.white-bg1{
+    @extend .white-bg; 
+    background-image: $white-bg1;
+    background-color: #ffffff;
+}
+.white-bg2{
+    @extend .white-bg;
+    background-image: $white-bg2;
+    background-color: #f6f6f6;
+}

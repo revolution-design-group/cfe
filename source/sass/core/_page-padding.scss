@@ -1,0 +1,29 @@
+/******************************************************************************
+ * Page Padding
+ *
+ * I inferred these rules from the code inspector of the Brine template.
+*******************************************************************************/
+
+
+
+.Index-page-content{
+    padding-left: $page-padding;
+    padding-right: $page-padding;
+    
+    @media (max-width: 1024px) {
+        padding-left: $desktop-padding;
+        padding-right: $desktop-padding;
+    }
+    @media (max-width: 960px) {
+        padding-left: $laptop-padding;
+        padding-right: $laptop-padding;
+    }
+    @media (max-width: 768px) {
+        padding-left: $tablet-padding;
+        padding-right: $tablet-padding;
+    }
+    @media (max-width: 640px) {
+        padding-left: $mobile-padding;
+        padding-right: $mobile-padding;
+    }
+}

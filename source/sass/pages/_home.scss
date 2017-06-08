@@ -1,0 +1,104 @@
+/******************************************************************************
+ * Page - Home Page
+ *
+ * Custom CSS styles that relate to the Home Page.
+*******************************************************************************/
+
+
+#home-slides{}
+
+#home-intro{
+    @extend .white-bg1;
+}
+
+#home-brand-logos{
+    background-color: #f4f4f4;
+    .Index-page-content{ padding-bottom: 0; padding-top: 0; }
+    .sqs-gallery-design-grid .sqs-gallery-design-grid-slide .margin-wrapper{ margin-bottom: 0 !important; }
+}
+
+#home-markets-served{
+    background: url('https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg') $color-mt-sky-blue;
+    background-position: center 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    .Index-page-content{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .sqs-block-gallery{
+        img{
+            @extend .vertically-centered;
+        }
+    }
+}
+
+#home-regions-served{
+    @extend .white-bg2;
+    .Index-page-content {
+        background-image: $usa-map;
+        background-position: right 20%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+}
+
+#home-featured-projects {
+    .Index-page-content{ padding: 0; }
+    
+    .image-block{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    // Add overlay
+    .sqs-block-image .design-layout-card .image-overlay{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,111111+100&0.55+0,0+40 */
+        background: -moz-linear-gradient(top, rgba(0,0,0,0.55) 0%, rgba(7,7,7,0) 40%, rgba(17,17,17,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(7,7,7,0) 40%,rgba(17,17,17,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(7,7,7,0) 40%,rgba(17,17,17,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#00111111',GradientType=0 ); /* IE6-9 */
+    }
+    
+    
+    // Add "FEATURED" text above project title
+    .image-title:before{
+        content: "FEATURED";
+        display: block;
+        font-family: proxima-nova;
+        text-transform: uppercase;
+        font-size: .55em;
+    }
+    
+    
+    // Alternate accent color for every other row
+    @mixin accent($color) {
+        .image-title:before{ color: $color; }
+        .image-title-wrapper:before{ background-color: $color; }
+        .image-button a{ border-color: $color; } 
+    }
+    .sqs-layout > .sqs-row > .sqs-col-12 {
+        .image-block:nth-of-type(2n){ @include accent($color-brand-palette-red); }
+        .image-block:nth-of-type(2n+1){ @include accent($color-brand-palette-blue); }
+    }
+    
+    
+    
+    /* // Adjust image so it is full-height of the row, and it centers horizontally if it overflows
+    .sqs-block-image .image-block-outer-wrapper.image-block-v2 .image-inset{
+        min-height: 100%;
+    }
+    .sqs-block-image .design-layout-card .intrinsic img{
+        
+        position: relative !important;
+        left: 50% !important;
+        @include transform(translatex(-50%));
+    }*/
+    
+}
+
+.tweak-footer-layout-stacked.homepage .Footer-blocks--top{
+    display: none;
+}
