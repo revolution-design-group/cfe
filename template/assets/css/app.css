@@ -314,6 +314,9 @@ h1 em {
 .Intro--has-image h1, .Intro--has-image h2, .Intro--has-image h3, .Intro--has-image p {
   color: white; }
 
+.Intro--has-image h1:before {
+  background-color: white; }
+
 /******************************************************************************
  * Modules
 *******************************************************************************/

@@ -60,4 +60,5 @@ h1 em{
 *******************************************************************************/
 .Intro--has-image {
     h1, h2, h3, p{ color: white; }
+    h1:before{ background-color: white; }
 }
