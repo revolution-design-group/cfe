@@ -42,7 +42,7 @@
 
 // Card Layout
 .sqs-block-image .design-layout-card .image-card{
-    .image-title p{
+    .image-title{
         &:before{
             content: "";
             display: block;
@@ -51,13 +51,15 @@
             background-color: $color-default-accent;
             margin-bottom: 25px;
         }
-        em{
-            font-family: alternate-gothic-no-2-d;
-            font-weight: 400;
-            font-style: normal;
-            color: $color-default-accent;
-            letter-spacing: 0.05em;
+        
+        p{
+            em{
+                font-family: alternate-gothic-no-2-d;
+                font-weight: 400;
+                font-style: normal;
+                color: $color-default-accent;
+                letter-spacing: 0.05em;
+            }
         }
     }
-
 }

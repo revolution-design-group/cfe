@@ -442,7 +442,7 @@ header.Header.Header--top,
 .sqs-block-image .design-layout-collage:not(.sqs-narrow-width).image-position-right > div:first-child > div {
   left: -30% !important; }
 
-.sqs-block-image .design-layout-card .image-card .image-title p:before {
+.sqs-block-image .design-layout-card .image-card .image-title:before {
   content: "";
   display: block;
   width: 65px;
