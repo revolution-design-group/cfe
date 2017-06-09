@@ -85,7 +85,7 @@
       padding-left: 20px;
       padding-right: 20px; } }
 
-.white-bg, .white-bg1, #home-intro, .white-bg2, #home-regions-served {
+.white-bg, .white-bg1, #home-intro, .white-bg2, #home-regions-served, .white-bg3 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top; }
@@ -97,6 +97,11 @@
 .white-bg2, #home-regions-served {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939ad1646c3c47304341c9a/1496952087178/bg-white2.jpg");
   background-color: #f6f6f6; }
+
+.white-bg3 {
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593b06e0cd0f6820fdb7db6f/1497040608910/bg-white3.jpg");
+  background-color: #ffffff;
+  background-position: left bottom; }
 
 /******************************************************************************
  * Core
@@ -361,7 +366,7 @@ h1 em {
     padding: 0; }
 
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
-  padding-bottom: 75px !important;
+  padding-bottom: 35px !important;
   border-top: solid 1px rgba(255, 255, 255, 0.25); }
 
 .tweak-footer-layout-stacked .Footer-nav,

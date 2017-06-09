@@ -4,3 +4,8 @@
  * Custom CSS styles that relate to the About Page.
 *******************************************************************************/
 
+#about-us-banner{}
+
+#about-us-content{
+    @extend .white-bg3; 
+}

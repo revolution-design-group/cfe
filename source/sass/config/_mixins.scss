@@ -67,3 +67,9 @@
     background-image: $white-bg2;
     background-color: #f6f6f6;
 }
+.white-bg3{
+    @extend .white-bg;
+    background-image: $white-bg3;
+    background-color: #ffffff;
+    background-position: left bottom;
+}
