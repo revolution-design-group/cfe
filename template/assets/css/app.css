@@ -384,6 +384,13 @@ h1 em {
  * Custom CSS styles that relate to the header area.
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
+header.Header.Header--top,
+.Mobile-bar.Mobile-bar--top {
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593ae0bbd482e98a02c1c868/1497030843526/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto 100%; }
+
 /******************************************************************************
  * Videos
  *
