@@ -43,6 +43,14 @@
 // Card Layout
 .sqs-block-image .design-layout-card .image-card{
     .image-title p{
+        &:before{
+            content: "";
+            display: block;
+            width: 65px;
+            height: 4px;
+            background-color: $color-default-accent;
+            margin-bottom: 25px;
+        }
         em{
             font-family: alternate-gothic-no-2-d;
             font-weight: 400;
