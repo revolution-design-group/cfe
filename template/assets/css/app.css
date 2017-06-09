@@ -529,6 +529,9 @@ header.Header.Header--top,
  *
  * Custom CSS styles that relate to gallery sections on index pages.
 *******************************************************************************/
+section:not(#home-slides) .Index-gallery-control {
+  display: none; }
+
 .Index-gallery-wrapper .Index-gallery-item-content-heading:before {
   content: "";
   display: block;

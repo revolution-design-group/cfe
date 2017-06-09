@@ -4,6 +4,12 @@
  * Custom CSS styles that relate to gallery sections on index pages.
 *******************************************************************************/
 
+
+//Only the Home Slideshow will get arrows (since there isn't a way to hide them on galleries with only one slide).
+section:not(#home-slides) .Index-gallery-control{
+    display: none;
+}
+
 .Index-gallery-wrapper{
     
     
