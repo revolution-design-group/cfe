@@ -517,17 +517,20 @@ header.Header.Header--top,
   background-color: white;
   margin: 0 auto 25px; }
 
-.Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
-  padding-top: 0; }
-  .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
-    margin: 0; }
-    .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
-      font-size: 35px;
-      line-height: 1em;
-      letter-spacing: .05em;
-      vertical-align: middle;
-      padding: 0.15em .5em;
-      border: solid 2px #5f92bc; }
+.Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body {
+  text-shadow: 0px 0px 5px rgba(20, 20, 20, 0.4); }
+  .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
+    padding-top: 0; }
+    .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
+      margin: 0; }
+      .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
+        text-shadow: none;
+        font-size: 35px;
+        line-height: 1em;
+        letter-spacing: .05em;
+        vertical-align: middle;
+        padding: 0.15em .5em;
+        border: solid 2px #5f92bc; }
 
 /******************************************************************************
  * Pages
