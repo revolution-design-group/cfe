@@ -476,7 +476,7 @@ header.Header.Header--top,
   color: #b85856;
   letter-spacing: 0.05em; }
 
-.sqs-layout:not(.sqs-editing) > .sqs-row > .sqs-col-12 .sqs-block-image .design-layout-inline .sqs-intrinsic:not(.stretch) {
+.sqs-layout:not(.sqs-editing) > .sqs-row > .sqs-col-12 .sqs-block-image .design-layout-inline .intrinsic[style="max-width:100%;"] {
   width: 100vw;
   max-width: 1920px;
   left: 50%;
