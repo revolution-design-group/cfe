@@ -316,7 +316,9 @@ h1 em {
   margin: 0 auto; }
 
 .Intro--has-image h1:before {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 15px;
+  width: 45px; }
 
 .Intro--has-image h1 {
   font-size: 30px;
