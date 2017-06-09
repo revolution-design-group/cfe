@@ -312,10 +312,18 @@ h1 em {
  * Page Intros
 *******************************************************************************/
 .Intro--has-image h1, .Intro--has-image h2, .Intro--has-image h3, .Intro--has-image p {
-  color: white; }
+  color: white;
+  margin: 0 auto; }
 
 .Intro--has-image h1:before {
   background-color: white; }
+
+.Intro--has-image h1 {
+  font-size: 30px;
+  font-weight: 300; }
+
+.Intro--has-image h2 {
+  font-size: 70px; }
 
 /******************************************************************************
  * Modules

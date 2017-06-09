@@ -59,6 +59,16 @@ h1 em{
  * Page Intros
 *******************************************************************************/
 .Intro--has-image {
-    h1, h2, h3, p{ color: white; }
+    h1, h2, h3, p{ 
+        color: white; 
+        margin: 0 auto;
+    }
     h1:before{ background-color: white; }
+    h1{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    h2{
+        font-size: 70px;
+    }
 }
