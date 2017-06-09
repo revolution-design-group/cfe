@@ -1,6 +1,11 @@
 /******************************************************************************
- * Collection Type - Index
+ * Collection Type - Page
  *
- * Custom CSS styles that relate to Index pages.
+ * Custom CSS styles that relate to regular pages.
 *******************************************************************************/
-.collection-type-index {}
+
+.collection-type-page {
+    main.Main{
+        @extend .white-bg3;
+    }
+}

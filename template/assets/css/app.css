@@ -85,7 +85,7 @@
       padding-left: 20px;
       padding-right: 20px; } }
 
-.white-bg, .white-bg1, #home-intro, .white-bg2, #home-regions-served, .white-bg3 {
+.white-bg, .white-bg1, #home-intro, .white-bg2, #home-regions-served, .white-bg3, .collection-type-page main.Main {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top; }
@@ -98,7 +98,7 @@
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939ad1646c3c47304341c9a/1496952087178/bg-white2.jpg");
   background-color: #f6f6f6; }
 
-.white-bg3 {
+.white-bg3, .collection-type-page main.Main {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593b103fbebafbb47a1afd9a/1497043008224/bg-white3.jpg");
   background-color: #ffffff;
   background-position: left bottom;
@@ -539,9 +539,9 @@ header.Header.Header--top,
  * Custom CSS styles that relate to Events pages.
 *******************************************************************************/
 /******************************************************************************
- * Collection Type - Index
+ * Collection Type - Page
  *
- * Custom CSS styles that relate to Index pages.
+ * Custom CSS styles that relate to regular pages.
 *******************************************************************************/
 /******************************************************************************
  * Collection Type - Index Gallery
