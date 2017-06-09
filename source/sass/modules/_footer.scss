@@ -7,7 +7,7 @@
 
 $color-footer-overlay: rgba(24,47,61,0.7);
 
-.Footer-blocks{ 
+.Footer-blocks:not(.Footer-blocks--top){ 
     .html-block h1:before{
         background-color: white;
     }

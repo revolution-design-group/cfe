@@ -311,19 +311,19 @@ h1 em {
  * Custom CSS styles that relate to the footer area.
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
-.Footer-blocks .html-block h1:before {
+.Footer-blocks:not(.Footer-blocks--top) .html-block h1:before {
   background-color: white; }
 
-.Footer-blocks h1 em, .Footer-blocks h1 strong, .Footer-blocks h2 em, .Footer-blocks h2 strong, .Footer-blocks h3 em, .Footer-blocks h3 strong, .Footer-blocks p em, .Footer-blocks p strong {
+.Footer-blocks:not(.Footer-blocks--top) h1 em, .Footer-blocks:not(.Footer-blocks--top) h1 strong, .Footer-blocks:not(.Footer-blocks--top) h2 em, .Footer-blocks:not(.Footer-blocks--top) h2 strong, .Footer-blocks:not(.Footer-blocks--top) h3 em, .Footer-blocks:not(.Footer-blocks--top) h3 strong, .Footer-blocks:not(.Footer-blocks--top) p em, .Footer-blocks:not(.Footer-blocks--top) p strong {
   color: white; }
 
-.Footer-blocks p {
+.Footer-blocks:not(.Footer-blocks--top) p {
   font-weight: 500; }
 
-.Footer-blocks h1 {
+.Footer-blocks:not(.Footer-blocks--top) h1 {
   margin-bottom: 0; }
 
-.Footer-blocks h1 + p {
+.Footer-blocks:not(.Footer-blocks--top) h1 + p {
   margin-top: 0; }
 
 .Footer {
