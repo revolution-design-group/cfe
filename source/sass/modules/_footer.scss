@@ -56,13 +56,18 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 }
 
 
-// No padding around the footer. The padding is applied to the rows of the footer.
+// This left/right padding needs to be at least 17px otherwise dumb overflow happens
 .Footer-inner{ padding: 0px 17px; }
-.tweak-footer-layout-stacked .Footer-blocks--top{ background: white; }
+.tweak-footer-layout-stacked .Footer-blocks--top{ 
+    background: white;
+    padding-bottom: 0px;
+    .image-block{ padding: 0; }
+}
 .tweak-footer-layout-stacked .Footer-blocks--bottom{ 
     padding-bottom: 75px !important; 
     border-top: solid 1px rgba(255,255,255,.25);
 }
+
 
 
 // add overlay color to very bottom of site

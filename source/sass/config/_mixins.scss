@@ -32,6 +32,7 @@
     padding-left: $page-padding;
     padding-right: $page-padding;
     
+    
     @media (max-width: 1024px) {
         padding-left: $desktop-padding;
         padding-right: $desktop-padding;
@@ -52,7 +53,7 @@
 
 
 .white-bg{
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
 }

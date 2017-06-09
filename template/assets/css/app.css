@@ -86,7 +86,7 @@
       padding-right: 20px; } }
 
 .white-bg, .white-bg1, #home-intro, .white-bg2, #home-regions-served {
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top; }
 
@@ -355,7 +355,10 @@ h1 em {
   padding: 0px 17px; }
 
 .tweak-footer-layout-stacked .Footer-blocks--top {
-  background: white; }
+  background: white;
+  padding-bottom: 0px; }
+  .tweak-footer-layout-stacked .Footer-blocks--top .image-block {
+    padding: 0; }
 
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
   padding-bottom: 75px !important;
