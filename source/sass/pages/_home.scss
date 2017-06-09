@@ -62,6 +62,15 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#00111111',GradientType=0 ); /* IE6-9 */
     }
     
+    .sqs-block-image .design-layout-card .image-title p{
+        font-family: alternate-gothic-no-2-d;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+        line-height: 1.1em;
+    }
+    
     
     // Add "FEATURED" text above project title
     .image-title:before{

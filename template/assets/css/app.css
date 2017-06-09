@@ -595,6 +595,13 @@ header.Header.Header--top,
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#00111111',GradientType=0 );
     /* IE6-9 */ }
+  #home-featured-projects .sqs-block-image .design-layout-card .image-title p {
+    font-family: alternate-gothic-no-2-d;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    line-height: 1.1em; }
   #home-featured-projects .image-title:before {
     content: "FEATURED";
     display: block;
