@@ -502,6 +502,14 @@ h1 em {
  *
  * Custom CSS styles that relate to gallery sections on index pages.
 *******************************************************************************/
+.Index-gallery-wrapper .Index-gallery-item-content-heading:before {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 4px;
+  background-color: white;
+  margin-bottom: 25px; }
+
 .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
   padding-top: 0; }
   .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {

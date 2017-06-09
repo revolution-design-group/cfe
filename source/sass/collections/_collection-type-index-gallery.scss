@@ -6,6 +6,15 @@
 
 .Index-gallery-wrapper{
     
+    
+    .Index-gallery-item-content-heading:before{
+        content: "";
+        display: block;
+        width: 65px;
+        height: 4px;
+        background-color: white;
+        margin-bottom: 25px;   
+    }
     .Index-gallery-item-content--has-title-and-body {
         .Index-gallery-item-content-body {
             padding-top: 0;
