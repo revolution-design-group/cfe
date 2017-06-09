@@ -280,7 +280,7 @@
 .html-block h1:before {
   content: "";
   display: block;
-  width: 65px;
+  width: 50px;
   height: 4px;
   background-color: #b85856;
   margin-bottom: 25px; }
@@ -317,15 +317,14 @@ h1 em {
 
 .Intro--has-image h1:before {
   background-color: white;
-  margin-bottom: 15px;
-  width: 45px; }
+  margin-bottom: 15px; }
 
 .Intro--has-image h1 {
   font-size: 30px;
   font-weight: 300; }
 
 .Intro--has-image h2 {
-  font-size: 70px; }
+  font-size: 80px; }
 
 /******************************************************************************
  * Modules
