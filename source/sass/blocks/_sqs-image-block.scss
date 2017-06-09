@@ -69,10 +69,13 @@
 
 
 // --------- Inline Layout
-// Make full width, 'stretch' images go edge to edge
+
+/* 
+ * EXPERIEMENTAL
+ * Make full width, 'stretch' images go edge to edge
 .sqs-layout:not(.sqs-editing)>.sqs-row>.sqs-col-12>.sqs-block-image .design-layout-inline .intrinsic[style="max-width:100%;"]{
-    width: 100vw;
-    max-width: $max-page-width;
+    width: 100.1vw;
+    max-width: $max-page-width !important;
     left: 50%;
     @include transform(translateX(-50%));
-}
+}*/
