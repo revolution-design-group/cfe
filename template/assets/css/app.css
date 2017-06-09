@@ -498,18 +498,15 @@ h1 em {
  * Custom CSS styles that relate to Index pages.
 *******************************************************************************/
 /******************************************************************************
- * Pages
-*******************************************************************************/
-/******************************************************************************
- * Page - Home Page
+ * Collection Type - Index Gallery
  *
- * Custom CSS styles that relate to the Home Page.
+ * Custom CSS styles that relate to gallery sections on index pages.
 *******************************************************************************/
-#home-slides .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
+Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
   padding-top: 0; }
-  #home-slides .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
+  Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
     margin: 0; }
-    #home-slides .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
+    Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
       font-size: 35px;
       line-height: 1em;
       letter-spacing: .05em;
@@ -517,6 +514,14 @@ h1 em {
       padding: 0.15em .5em;
       border: solid 2px #5f92bc; }
 
+/******************************************************************************
+ * Pages
+*******************************************************************************/
+/******************************************************************************
+ * Page - Home Page
+ *
+ * Custom CSS styles that relate to the Home Page.
+*******************************************************************************/
 #home-brand-logos {
   background-color: #f4f4f4; }
   #home-brand-logos .Index-page-content, #home-brand-logos .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-brand-logos .Footer-nav, #home-brand-logos
