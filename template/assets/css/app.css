@@ -502,11 +502,11 @@ h1 em {
  *
  * Custom CSS styles that relate to gallery sections on index pages.
 *******************************************************************************/
-Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
+.Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
   padding-top: 0; }
-  Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
+  .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
     margin: 0; }
-    Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
+    .Index-gallery-wrapper .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
       font-size: 35px;
       line-height: 1em;
       letter-spacing: .05em;
