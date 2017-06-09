@@ -99,9 +99,10 @@
   background-color: #f6f6f6; }
 
 .white-bg3, #about-us-content {
-  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593b0df1440243168b3a4bfb/1497042418091/bg-white3.jpg");
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593b103fbebafbb47a1afd9a/1497043008224/bg-white3.jpg");
   background-color: #ffffff;
-  background-position: left bottom; }
+  background-position: left bottom;
+  background-size: cover; }
 
 /******************************************************************************
  * Core
