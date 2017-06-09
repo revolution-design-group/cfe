@@ -428,7 +428,7 @@ h1 em {
     display: none; }
 
 .sqs-block-image .design-layout-collage:not(.sqs-narrow-width).image-position-right > div:first-child > div {
-  left: -30%; }
+  left: -30% !important; }
 
 /******************************************************************************
  * Squarespace Block - Summary
@@ -505,6 +505,18 @@ h1 em {
  *
  * Custom CSS styles that relate to the Home Page.
 *******************************************************************************/
+#home-slides .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body {
+  padding-top: 0; }
+  #home-slides .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p {
+    margin: 0; }
+    #home-slides .Index-gallery-item-content--has-title-and-body .Index-gallery-item-content-body p a {
+      font-size: 35px;
+      line-height: 1em;
+      letter-spacing: .05em;
+      vertical-align: middle;
+      padding: 0.15em .5em;
+      border: solid 2px #5f92bc; }
+
 #home-brand-logos {
   background-color: #f4f4f4; }
   #home-brand-logos .Index-page-content, #home-brand-logos .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-brand-logos .Footer-nav, #home-brand-logos
