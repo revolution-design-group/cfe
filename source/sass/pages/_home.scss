@@ -7,9 +7,7 @@
 
 #home-slides{}
 
-#home-intro{
-    @extend .white-bg1;
-}
+#home-intro{}
 
 #home-brand-logos{
     background-color: #f4f4f4;
@@ -36,7 +34,6 @@
 }
 
 #home-regions-served{
-    @extend .white-bg2;
     .Index-page-content {
         background-image: $usa-map;
         background-position: right 20%;
