@@ -561,7 +561,8 @@ section:not(#home-slides) .Index-gallery-control {
   display: none; }
 
 .collection-type-index:not(.homepage) main.Index > section.Index-gallery:first-of-type {
-  height: 14% !important; }
+  height: 0 !important;
+  padding-bottom: 14%; }
 
 .Index-gallery-wrapper .Index-gallery-item-content-heading:before {
   content: "";
