@@ -494,6 +494,12 @@ header.Header.Header--top,
       width: 100% !important;
       height: auto !important;
       top: 60px !important; }
+  .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-video-overlay,
+  .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
+    overflow: visible !important; }
+  .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+    left: calc(25% + $img-displacement);
+    top: calc(50% + $img-displacement); }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
@@ -623,8 +629,6 @@ header.Header.Header--top,
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%); }
-  #home-markets-served .sqs-gallery-design-stacked-slide {
-    overflow: visible !important; }
 
 #home-regions-served .Index-page-image:before {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939b87303596ed39c39da73/1496954995520/usa-map.png");

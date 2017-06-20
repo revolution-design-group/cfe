@@ -25,8 +25,8 @@ $img-displacement: 60px;
     }
     
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        left: 25% + $img-displacement;
-        top: 50% + $img-displacement;
+        left: calc(25% + $img-displacement);
+        top: calc(50% + $img-displacement);
     }
     
     .sqs-gallery-controls .previous{ left: -3.5%; }
