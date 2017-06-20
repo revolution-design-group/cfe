@@ -33,11 +33,11 @@
 .sqs-block-image .design-layout-card {
     .image-title-wrapper, .image-subtitle-wrapper, .image-button-wrapper{
         padding: 0 2 * $page-padding;
-    }
-    @media (max-width: 768px) {
-        padding: 0 2 * $tablet-padding;
-    }
-    @media (max-width: 640px) {
-        padding: 0 2 * $mobile-padding;
+        @media (max-width: 768px) {
+            padding: 0 2 * $tablet-padding;
+        }
+        @media (max-width: 640px) {
+            padding: 0 2 * $mobile-padding;
+        }
     }
 }
