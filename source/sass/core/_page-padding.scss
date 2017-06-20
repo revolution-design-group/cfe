@@ -10,7 +10,8 @@
     padding-left: $page-padding;
     padding-right: $page-padding;
     
-    /*@media (max-width: 1024px) {
+    
+    @media (max-width: 1024px) {
         padding-left: $desktop-padding;
         padding-right: $desktop-padding;
     }
@@ -25,5 +26,5 @@
     @media (max-width: 640px) {
         padding-left: $mobile-padding;
         padding-right: $mobile-padding;
-    }*/
+    }
 }

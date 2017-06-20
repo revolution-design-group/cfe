@@ -60,31 +60,6 @@
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%); }
 
-.Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-.tweak-footer-layout-stacked .Footer-blocks--bottom {
-  padding-left: 7%;
-  padding-right: 7%; }
-  @media (max-width: 1024px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
-      padding-left: 64px;
-      padding-right: 64px; } }
-  @media (max-width: 960px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
-      padding-left: 48px;
-      padding-right: 48px; } }
-  @media (max-width: 768px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
-      padding-left: 36px;
-      padding-right: 36px; } }
-  @media (max-width: 640px) {
-    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
-    .tweak-footer-layout-stacked .Footer-blocks--bottom {
-      padding-left: 20px;
-      padding-right: 20px; } }
-
 .white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -178,23 +153,27 @@
 .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
 .tweak-footer-layout-stacked .Footer-blocks--bottom {
   padding-left: 7%;
-  padding-right: 7%;
-  /*@media (max-width: 1024px) {
-        padding-left: $desktop-padding;
-        padding-right: $desktop-padding;
-    }
-    @media (max-width: 960px) {
-        padding-left: $laptop-padding;
-        padding-right: $laptop-padding;
-    }
-    @media (max-width: 768px) {
-        padding-left: $tablet-padding;
-        padding-right: $tablet-padding;
-    }
-    @media (max-width: 640px) {
-        padding-left: $mobile-padding;
-        padding-right: $mobile-padding;
-    }*/ }
+  padding-right: 7%; }
+  @media (max-width: 1024px) {
+    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
+    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+      padding-left: 64px;
+      padding-right: 64px; } }
+  @media (max-width: 960px) {
+    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
+    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+      padding-left: 48px;
+      padding-right: 48px; } }
+  @media (max-width: 768px) {
+    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
+    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+      padding-left: 36px;
+      padding-right: 36px; } }
+  @media (max-width: 640px) {
+    .Index-page-content, .tweak-footer-layout-stacked .Footer-nav,
+    .tweak-footer-layout-stacked .Footer-blocks--bottom {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 /******************************************************************************
  * UI & State
