@@ -31,7 +31,7 @@ $img-displacementY: 10%;
     }
     
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        left: 25% + $img-displacementX;
+        left: 25% + $img-displacementX / 2;
         top: 50% + $img-displacementY;
     }
     
