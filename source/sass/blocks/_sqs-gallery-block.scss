@@ -15,7 +15,7 @@ $img-displacement: 60px;
         img{
             width: 100% !important;
             height: auto !important;
-            top: $img-displacement !important;
+            top: 0 !important;
             
             @box-shadow(-20px 20px 40px rgba(0, 0, 0, .2));
         }
@@ -46,7 +46,8 @@ $img-displacement: 60px;
     .img-wrapper{
         float: left;
         img{
-            left: $img-displacement !important;
+            left: 0 !important;
+            @include transform(translate($img-displacement, $img-displacement ));
         }
     }
     .meta{
@@ -58,7 +59,8 @@ $img-displacement: 60px;
     .img-wrapper{
         float: right;
         img{
-            right: $img-displacement !important;
+            right: 0 !important;
+            @include transform(translate(-1*$img-displacement, $img-displacement ));
         }
     }
     .meta{
