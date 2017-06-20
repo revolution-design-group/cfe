@@ -27,7 +27,7 @@
     }
     
     .sqs-block-gallery{
-        img{
+        .img-wrapper{
             @extend .vertically-centered; 
         }
     }
