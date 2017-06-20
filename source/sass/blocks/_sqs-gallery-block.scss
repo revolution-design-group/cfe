@@ -48,7 +48,7 @@
     .img-wrapper{
         float: left;
         img{
-            @include transform(translate(5%, 7%));
+            @include transform(translate(8%,10%));
         }
     }
     .meta{
@@ -60,7 +60,7 @@
     .img-wrapper{
         float: right;
         img{
-            @include transform(translate(-5%, 7%));
+            @include transform(translate(-8%,10%));
         }
     }
     .meta{
