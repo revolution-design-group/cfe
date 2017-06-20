@@ -502,7 +502,8 @@ header.Header.Header--top,
     .sqs-block-gallery .sqs-gallery-block-slideshow .img-wrapper img {
       width: 100% !important;
       height: auto !important;
-      top: 60px !important; }
+      top: 60px !important;
+      @box-shadow (-20px 20px 40px rgba(0, 0, 0, .2)); }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-video-overlay,
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
     overflow: visible !important; }
