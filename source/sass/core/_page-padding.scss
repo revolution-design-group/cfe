@@ -32,7 +32,10 @@
 
 .sqs-block-image .design-layout-card {
     .image-title-wrapper, .image-subtitle-wrapper, .image-button-wrapper{
+        // since these elements are half the full width, doubling the padding (as a percent) here effectively makes it the same as elsewhere
+        
         padding: 0 2 * $page-padding;
+        
         @media (max-width: 768px) {
             padding: 0 2 * $tablet-padding;
         }
