@@ -47,7 +47,7 @@
     margin: auto;
     
     .meta{
-        @extend .vertically-centered;
+        @include vertically-centered(relative);
         bottom: initial;
         position: absolute;
     }

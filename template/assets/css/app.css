@@ -52,14 +52,6 @@
  *
  * Still working on useful mixins for Squarespace non-dev templates.
 *******************************************************************************/
-.vertically-centered, .sqs-block-image .design-layout-collage .image-card .image-title-wrapper, .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked .meta, #home-markets-served .sqs-block-gallery .img-wrapper {
-  position: absolute;
-  top: 50% !important;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%); }
-
 .white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -441,10 +433,17 @@ header.Header.Header--top,
   background-size: cover;
   background-position: center;
   height: 100%; }
-  .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title {
-    padding: .5em 0;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white; }
+  .sqs-block-image .design-layout-collage .image-card .image-title-wrapper {
+    position: relative;
+    top: 50% !important;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%); }
+    .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title {
+      padding: .5em 0;
+      border-top: 3px solid white;
+      border-bottom: 3px solid white; }
   .sqs-block-image .design-layout-collage .image-card .image-subtitle-wrapper, .sqs-block-image .design-layout-collage .image-card .image-button-wrapper {
     display: none; }
 
@@ -522,6 +521,12 @@ header.Header.Header--top,
   width: 75%;
   margin: auto; }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked .meta {
+    position: relative;
+    top: 50% !important;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     bottom: initial;
     position: absolute; }
 
@@ -604,6 +609,13 @@ header.Header.Header--top,
   .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
     padding-top: 0;
     padding-bottom: 0; }
+  #home-markets-served .sqs-block-gallery .img-wrapper {
+    position: absolute;
+    top: 50% !important;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%); }
 
 #home-regions-served .Index-page-image:before {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939b87303596ed39c39da73/1496954995520/usa-map.png");

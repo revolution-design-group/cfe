@@ -31,8 +31,8 @@
 
 
 
-.vertically-centered {
-    position: absolute;
+@mixin vertically-centered($position: relative) {
+    position: $position;
     top: 50% !important;
     @include transform(translateY(-50%));
 }

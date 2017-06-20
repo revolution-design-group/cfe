@@ -20,7 +20,7 @@
     height: 100%;
     
     .image-title-wrapper{
-        @extend .vertically-centered;
+        @include vertically-centered(relative);
         .image-title{
             padding: .5em 0;
             border-top: 3px solid white;
