@@ -4,6 +4,8 @@
  * Custom CSS styles that relate to Squarespace Gallery Blocks.
 *******************************************************************************/
 
+$img-displacementX: 8%;
+$img-displacementY: 10%;
 
 .sqs-block-gallery .sqs-gallery-block-slideshow {
     background-color: transparent;
@@ -29,14 +31,8 @@
     }
     
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        left: 26.5%;
-        left: unquote("-webkit-calc(25% + #{$img-displacement})");
-        left: unquote("-moz-calc(25% + #{$img-displacement})");
-        left: unquote("calc(25% + #{$img-displacement})");
-        top: 51.5%;
-        top: unquote("-webkit-calc(50% + #{$img-displacement})");
-        top: unquote("-moz-calc(50% + #{$img-displacement})");
-        top: unquote("calc(50% + #{$img-displacement})");
+        left: 25% + $img-displacementX;
+        top: 50% + $img-displacementY;
     }
     
     .sqs-gallery-controls .previous{ left: -3.5%; }
@@ -48,7 +44,7 @@
     .img-wrapper{
         float: left;
         img{
-            @include transform(translate(8%,10%));
+            @include transform(translate($img-displacementX,$img-displacementY));
         }
     }
     .meta{
@@ -60,7 +56,7 @@
     .img-wrapper{
         float: right;
         img{
-            @include transform(translate(-8%,10%));
+            @include transform(translate(-1*$img-displacementX,$img-displacementY));
         }
     }
     .meta{
