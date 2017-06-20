@@ -34,10 +34,12 @@
 }
 
 #home-regions-served{
-    background-image: $usa-map;
-    background-position: right 20%;
-    background-repeat: no-repeat;
-    background-size: 50%;
+    .Index-page-image:before{
+        background-image: $usa-map;
+        background-position: right 20%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
 }
 
 #home-featured-projects {
