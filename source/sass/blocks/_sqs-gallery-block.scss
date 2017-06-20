@@ -18,6 +18,11 @@ $img-displacement: 60px;
             top: $img-displacement !important;
         }
     }
+    .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
+        left: 25% + $img-displacement;
+        top: 50% + $img-displacement;
+    }
+    
     .sqs-gallery-controls .previous{ left: -3.5%; }
     .sqs-gallery-controls .next{ right: -3.5%; }
 }
