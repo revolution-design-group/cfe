@@ -397,6 +397,15 @@ header.Header.Header--top,
   background-size: auto 100%; }
 
 /******************************************************************************
+ * Header
+ *
+ * Custom CSS styles that relate to the header banners
+ * Note: Not all Squarespace templates have the same classes/IDs.
+*******************************************************************************/
+.collection-type-index main section.Index-page--has-image:first-of-type .sqs-layout-empty-message {
+  display: none; }
+
+/******************************************************************************
  * Videos
  *
  * Custom CSS styles that relate to custom videos module.
