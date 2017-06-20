@@ -26,9 +26,13 @@ $img-displacement: 60px;
     
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
         left: 26.5%;
-        left: calc(25% + $img-displacement);
-        top: calc(50% + $img-displacement);
+        left: unquote("-webkit-calc(25% + #{$img-displacement})");
+        left: unquote("-moz-calc(25% + #{$img-displacement})");
         left: unquote("calc(25% + #{$img-displacement})");
+        top: 51.5%;
+        top: unquote("-webkit-calc(50% + #{$img-displacement})");
+        top: unquote("-moz-calc(50% + #{$img-displacement})");
+        top: unquote("calc(50% + #{$img-displacement})");
     }
     
     .sqs-gallery-controls .previous{ left: -3.5%; }

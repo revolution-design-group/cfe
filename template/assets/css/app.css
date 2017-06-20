@@ -499,9 +499,9 @@ header.Header.Header--top,
     overflow: visible !important; }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
     left: 26.5%;
-    left: calc(25% + $img-displacement);
-    top: calc(50% + $img-displacement);
-    left: calc(25% + 60px); }
+    left: calc(25% + 60px);
+    top: 51.5%;
+    top: calc(50% + 60px); }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
