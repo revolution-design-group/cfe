@@ -1,0 +1,12 @@
+/******************************************************************************
+ * Page - About Page
+ *
+ * Custom CSS styles that relate to the Products Landing Page and Individual Product Pages.
+*******************************************************************************/
+
+.collection-type-index main section[id$="-videos"]{
+    background: $blue-asphalt-bg #f4f4f4;
+    background-position: center top;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+}

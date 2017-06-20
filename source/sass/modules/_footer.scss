@@ -23,7 +23,7 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 
 
 .Footer{
-    background: url('https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg') $color-mt-sky-blue;
+    background: $blue-tree-mt-bg $color-mt-sky-blue;
     background-position: left bottom;
     background-size: contain;
     background-repeat: no-repeat;
