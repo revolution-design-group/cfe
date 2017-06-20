@@ -18,6 +18,12 @@ $img-displacement: 60px;
             top: $img-displacement !important;
         }
     }
+    
+    .sqs-video-overlay,
+    .sqs-gallery-design-stacked-slide{
+        overflow: visible !important;
+    }
+    
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
         left: 25% + $img-displacement;
         top: 50% + $img-displacement;
