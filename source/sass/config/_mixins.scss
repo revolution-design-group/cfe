@@ -32,7 +32,7 @@
 
 
 .vertically-centered {
-    position: relative;
+    position: absolute;
     top: 50% !important;
     @include transform(translateY(-50%));
 }
