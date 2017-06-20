@@ -403,7 +403,7 @@ header.Header.Header--top,
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
 .collection-type-index main section.Index-page--has-image:first-of-type .sqs-layout-empty-message {
-  display: none; }
+  display: none !important; }
 
 /******************************************************************************
  * Videos
