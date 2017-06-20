@@ -5,19 +5,21 @@
 *******************************************************************************/
 .sqs-block-gallery .sqs-gallery-block-slideshow {
     background-color: transparent;
+    width: 50% ;
+    height: auto;
+    overflow: visible;
+    img{
+        width: 100% !important;
+        height: auto !important;
+        top: 100px !important;
+    }
 }
 
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right{
     .img-wrapper{
-        width: 50% ;
-        height: auto;
         float: left;
-        overflow: visible;
         img{
-            width: 100% !important;
-            height: auto !important;
-            top: 100px !important;
             left: 100px !important;
         }
     }
@@ -28,14 +30,8 @@
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left{
     .img-wrapper{
-        width: 50%;
-        height: auto;
         float: right;
-        overflow: visible;
         img{
-            width: 100% !important;
-            height: auto !important;
-            top: 100px !important;
             right: 100px !important;
         }
     }
