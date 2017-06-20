@@ -493,14 +493,18 @@ header.Header.Header--top,
     .sqs-block-gallery .sqs-gallery-block-slideshow .img-wrapper img {
       width: 100% !important;
       height: auto !important;
-      top: 70px !important; }
+      top: 60px !important; }
+  .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
+    left: -3.5%; }
+  .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
+    right: -3.5%; }
 
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right .img-wrapper,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right .img-wrapper {
   float: left; }
   .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right .img-wrapper img,
   .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right .img-wrapper img {
-    left: 70px !important; }
+    left: 60px !important; }
 
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right .meta,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right .meta {
@@ -511,7 +515,7 @@ header.Header.Header--top,
   float: right; }
   .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left .img-wrapper img,
   .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left .img-wrapper img {
-    right: 70px !important; }
+    right: 60px !important; }
 
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left .meta,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left .meta {
@@ -519,8 +523,8 @@ header.Header.Header--top,
 
 .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
   height: 0 !important;
-  padding-bottom: 30%;
-  width: 75%;
+  padding-bottom: 36%;
+  width: 90%;
   margin: auto; }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked .meta {
     position: relative;
