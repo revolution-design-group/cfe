@@ -13,11 +13,12 @@
         width: 50% ;
         height: auto;
         float: left;
+        overflow: visible;
         img{
             width: 100% !important;
             height: auto !important;
-            top: 0 !important;
-            left: 0 !important;
+            top: 100px !important;
+            left: 100px !important;
         }
     }
     .meta{
@@ -30,9 +31,12 @@
         width: 50%;
         height: auto;
         float: right;
+        overflow: visible;
         img{
             width: 100% !important;
             height: auto !important;
+            top: 100px !important;
+            right: 100px !important;
         }
     }
     .meta{
