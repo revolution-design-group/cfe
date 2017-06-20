@@ -5,16 +5,10 @@
 *******************************************************************************/
 
 
-//Only the Home Slideshow will get arrows (since there isn't a way to hide them on galleries with only one slide).
-section:not(#home-slides) .Index-gallery-control{
-    display: none;
-}
-
-
 //By this rule, all non-homepage pages will have a header banner that's set to the same height as the regular page intro banners
 .collection-type-index:not(.homepage) main.Index > section.Index-gallery:first-of-type {
-    height: 0 !important;
-    padding-bottom: 14%;
+    //height: 0 !important;
+    //padding-bottom: 14%;
 }
 
 

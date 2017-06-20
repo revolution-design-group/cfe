@@ -108,6 +108,17 @@
  * Core
 *******************************************************************************/
 /******************************************************************************
+ * Site
+ *
+ * Rules that affect the outer-most elements of the website
+*******************************************************************************/
+.tweak-site-width-option-constrained-width .Site {
+  transform: 0px 0px 25px 10px rgba(30, 30, 30, 0.1);
+  -webkit-transform: 0px 0px 25px 10px rgba(30, 30, 30, 0.1);
+  -moz-transform: 0px 0px 25px 10px rgba(30, 30, 30, 0.1);
+  -ms-transform: 0px 0px 25px 10px rgba(30, 30, 30, 0.1); }
+
+/******************************************************************************
  * Icons
  *
  * Here you can create a site-wide icon system that's easy to edit.
@@ -557,13 +568,6 @@ header.Header.Header--top,
  *
  * Custom CSS styles that relate to gallery sections on index pages.
 *******************************************************************************/
-section:not(#home-slides) .Index-gallery-control {
-  display: none; }
-
-.collection-type-index:not(.homepage) main.Index > section.Index-gallery:first-of-type {
-  height: 0 !important;
-  padding-bottom: 14%; }
-
 .Index-gallery-wrapper .Index-gallery-item-content-heading:before {
   content: "";
   display: block;

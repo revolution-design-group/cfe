@@ -22,6 +22,15 @@
     -ms-transform     : $parameters;
 }
 
+@mixin box-shadow($parameters) {
+    box-shadow         : $parameters;
+    -webkit-box-shadow : $parameters;
+    -moz-box-shadow    : $parameters;
+    -ms-box-shadow     : $parameters;
+}
+
+
+
 .vertically-centered {
     position: relative;
     top: 50% !important;
