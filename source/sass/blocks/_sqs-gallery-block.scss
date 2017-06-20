@@ -25,6 +25,7 @@ $img-displacement: 60px;
     }
     
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
+        left: 26.5%;
         left: calc(25% + $img-displacement);
         top: calc(50% + $img-displacement);
         left: unquote("calc(25% + #{$img-displacement})");
