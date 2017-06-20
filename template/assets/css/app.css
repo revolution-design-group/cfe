@@ -605,11 +605,12 @@ header.Header.Header--top,
   background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg") #3c769f;
   background-position: center 60px;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow: visible; }
   #home-markets-served .Index-page-content, #home-markets-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-markets-served .Footer-nav, #home-markets-served
   .tweak-footer-layout-stacked .Footer-blocks--bottom,
   .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
-    padding-top: 0;
+    padding-top: 4%;
     padding-bottom: 0; }
   #home-markets-served .sqs-block-gallery .img-wrapper {
     position: absolute;
@@ -618,6 +619,8 @@ header.Header.Header--top,
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%); }
+  #home-markets-served .sqs-gallery-design-stacked-slide {
+    overflow: visible !important; }
 
 #home-regions-served .Index-page-image:before {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939b87303596ed39c39da73/1496954995520/usa-map.png");

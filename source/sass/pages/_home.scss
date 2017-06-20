@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     
     .Index-page-content{
-        padding-top: 0;
+        padding-top: 4%;
         padding-bottom: 0;
     }
     
@@ -30,6 +30,12 @@
         .img-wrapper{
             @include vertically-centered(absolute); 
         }
+    }
+    
+    // make overflow visible
+    overflow: visible;
+    .sqs-gallery-design-stacked-slide{
+        overflow: visible !important;
     }
 }
 
