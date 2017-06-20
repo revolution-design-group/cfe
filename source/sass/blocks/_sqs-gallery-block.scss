@@ -3,7 +3,7 @@
  *
  * Custom CSS styles that relate to Squarespace Gallery Blocks.
 *******************************************************************************/
-$img-displacement: 60px;
+
 
 .sqs-block-gallery .sqs-gallery-block-slideshow {
     background-color: transparent;
@@ -16,6 +16,8 @@ $img-displacement: 60px;
             width: 100% !important;
             height: auto !important;
             top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
             
             @box-shadow(-20px 20px 40px rgba(0, 0, 0, .2));
         }
@@ -46,8 +48,7 @@ $img-displacement: 60px;
     .img-wrapper{
         float: left;
         img{
-            left: 0 !important;
-            @include transform(translate($img-displacement, $img-displacement ));
+            @include transform(translate(5%, 7%));
         }
     }
     .meta{
@@ -59,8 +60,7 @@ $img-displacement: 60px;
     .img-wrapper{
         float: right;
         img{
-            right: 0 !important;
-            @include transform(translate(-1*$img-displacement, $img-displacement ));
+            @include transform(translate(-5%, 7%));
         }
     }
     .meta{
