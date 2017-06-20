@@ -10,10 +10,13 @@
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right{
     .img-wrapper{
-        top: 0 !important;
-        width: 50% !important;
-        height: auto !important;
+        width: 50% ;
+        height: auto;
         float: left;
+        img{
+            width: 100% !important;
+            height: auto !important;
+        }
     }
     .meta{
         right: 0 !important;
@@ -21,11 +24,14 @@
 }
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left{
-    img{
-        top: 0 !important;
-        width: 50% !important;
-        height: auto !important;
+    .img-wrapper{
+        width: 50%;
+        height: auto;
         float: right;
+        img{
+            width: 100% !important;
+            height: auto !important;
+        }
     }
     .meta{
         left: 0 !important;
