@@ -544,7 +544,10 @@ header.Header.Header--top,
     -ms-transform: translateY(-50%);
     position: absolute !important; }
   .sqs-block-gallery .sqs-gallery-block-slideshow img {
-    @box-shadow (-20px 20px 40px rgba(0, 0, 0, .2)); }
+    box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2); }
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-video-overlay,
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
     overflow: visible !important; }

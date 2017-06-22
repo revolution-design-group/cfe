@@ -24,7 +24,7 @@ $img-displacementY: 10%;
         position: absolute !important;
 
     }
-    img{ @box-shadow(-20px 20px 40px rgba(0, 0, 0, .2)); }
+    img{ @include box-shadow(-20px 20px 40px rgba(0, 0, 0, .2)); }
 
     /*.img-wrapper{
         width: 50%;
