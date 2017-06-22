@@ -418,6 +418,10 @@ header.Header.Header--top,
   .main__video.is-loaded {
     opacity: 1; }
 
+/* Regular Page
+ *
+ * Custom CSS styles that relate to Basic Pages.
+*******************************************************************************/
 /******************************************************************************
  * Blocks
 *******************************************************************************/
@@ -579,10 +583,13 @@ header.Header.Header--top,
  * Custom CSS styles that relate to Events pages.
 *******************************************************************************/
 /******************************************************************************
- * Collection Type - Page
+ * Collection Type - Index
  *
- * Custom CSS styles that relate to regular pages.
+ * Custom CSS styles that relate to Index pages.
 *******************************************************************************/
+.Index-page--has-image {
+  background-color: white; }
+
 /******************************************************************************
  * Collection Type - Index Gallery
  *

@@ -1,0 +1,12 @@
+/* Regular Page
+ *
+ * Custom CSS styles that relate to Basic Pages.
+*******************************************************************************/
+
+
+
+.collection-type-page {
+    main.Main{
+        @extend .white-bg3;
+    }
+}
