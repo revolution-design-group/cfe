@@ -5,10 +5,17 @@
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
 
+// BACKGROUND IMAGE
 header.Header.Header--top,
 .Mobile-bar.Mobile-bar--top{
     background-image: $header-bg;
     background-repeat: no-repeat;
     background-position: left;
     background-size: auto 100%;
+}
+    
+// LEFT / RIGHT PADDING
+.Header-inner.Header-inner--top{
+    padding-left: 7%;
+    padding-right: 7%;
 }
