@@ -10,7 +10,7 @@ $img-displacementY: 10%;
 .sqs-block-gallery .sqs-gallery-block-slideshow {
     background-color: transparent;
     .slide img{
-        background-image: url(https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/594c1d3bccf2102ebc55d55b/1498160443303/white-box.png);
+        background-image: $white-box;
         background-repeat: no-repeat;
         background-position: left top;
         background-size: 85.185% 81.8182%;
