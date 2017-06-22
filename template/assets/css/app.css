@@ -316,6 +316,11 @@ h1 em {
  * Custom CSS styles that relate to the footer area.
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
+/* FOOTER FONTS */
+.Footer-blocks.Footer-blocks--top .sqs-block-image p a:hover {
+  color: rgba(60, 118, 159, 0.6);
+  border-color: rgba(60, 118, 159, 0.15); }
+
 .Footer-blocks:not(.Footer-blocks--top) .html-block h1:before {
   background-color: white; }
 
@@ -356,6 +361,7 @@ h1 em {
     letter-spacing: .025em;
     font-size: 17px !important; }
 
+/* LAYOUT */
 .Footer-inner {
   padding: 0px 17px; }
 
@@ -461,6 +467,10 @@ header.Header.Header--top,
 
 .sqs-block-image .design-layout-collage:not(.sqs-narrow-width).image-position-right > div:first-child > div {
   left: -30% !important; }
+
+.sqs-block-image .design-layout-card .image-card .image-title-wrapper a:hover,
+.sqs-block-image .design-layout-card .image-card .image-subtitle-wrapper a:hover {
+  opacity: 1; }
 
 .sqs-block-image .design-layout-card .image-card .image-title:before {
   content: "";

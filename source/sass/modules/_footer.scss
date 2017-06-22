@@ -7,6 +7,14 @@
 
 $color-footer-overlay: rgba(24,47,61,0.7);
 
+
+/* FOOTER FONTS */
+.Footer-blocks.Footer-blocks--top{
+    .sqs-block-image p a:hover{
+        color: rgba(60,118,159,.6);
+        border-color: rgba(60,118,159,.15);
+    }
+}
 .Footer-blocks:not(.Footer-blocks--top){ 
     .html-block h1:before{
         background-color: white;
@@ -20,6 +28,8 @@ $color-footer-overlay: rgba(24,47,61,0.7);
     h1{ margin-bottom: 0; }
     h1 + p{ margin-top: 0; }
 }
+
+
 
 
 .Footer{
@@ -55,6 +65,10 @@ $color-footer-overlay: rgba(24,47,61,0.7);
     }
 }
 
+
+
+
+/* LAYOUT */
 
 // This left/right padding needs to be at least 17px otherwise dumb overflow happens
 .Footer-inner{ padding: 0px 17px; }

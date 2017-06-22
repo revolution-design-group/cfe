@@ -42,6 +42,11 @@
 
 // --------- Card Layout
 .sqs-block-image .design-layout-card .image-card{
+    // Override Squarespace opacity rule.
+    .image-title-wrapper a:hover,
+    .image-subtitle-wrapper a:hover{ opacity: 1; }
+    
+    //Format the fonts
     .image-title{
         &:before{
             content: "";
