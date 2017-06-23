@@ -572,11 +572,8 @@ header.Header.Header--top,
     top: 57%;
     left: -o-calc(44% /2 + 50px);
     left: calc(44% /2 + 50px);
-    /*left: -moz-calc(44% /2 + 50px);
-        left: -webkit-calc(44% /2 + 50px);
-        left: -o-calc(44% /2 + 50px);
-        left: expression(44% /2 + 50px);
-        left: calc(44% /2 + 50px);*/ }
+    top: -o-calc(50% + 50px);
+    top: calc(50% + 50px); }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .next {

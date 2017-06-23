@@ -76,14 +76,7 @@ $img-width: 44%;
         top: 57%; //fallback
         
         @include calc(left, "#{$img-width} /2 + #{$img-displacementX}")
-        
-        /*left: -moz-calc(#{$img-width} /2 + #{$img-displacementX});
-        left: -webkit-calc(#{$img-width} /2 + #{$img-displacementX});
-        left: -o-calc(#{$img-width} /2 + #{$img-displacementX});
-        left: expression(#{$img-width} /2 + #{$img-displacementX});
-        left: calc(#{$img-width} /2 + #{$img-displacementX});*/
-        
-        //top: 50% + $img-displacementY;
+        @include calc(top, "50% + #{$img-displacementY}")
     }
     
     /* Controls */
