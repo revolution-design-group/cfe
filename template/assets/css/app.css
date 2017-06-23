@@ -553,10 +553,6 @@ header.Header.Header--top,
   .sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
     right: -3.5%; }
 
-.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right img,
-.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right img {
-  left: 0 !important; }
-
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right .meta,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right .meta {
   right: 0 !important; }
