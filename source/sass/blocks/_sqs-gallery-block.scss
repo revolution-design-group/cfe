@@ -4,14 +4,25 @@
  * Custom CSS styles that relate to Squarespace Gallery Blocks.
 *******************************************************************************/
 
+
+/* GALLERY BLOCK SLIDESHOW */
+/***************************/
+
 $img-displacementX: 8%;
 $img-displacementY: 10%;
 
-.sqs-block-gallery .sqs-gallery-block-slideshow {
+.sqs-gallery-block-slideshow {
     background-color: transparent;
-    
-    img{ @include box-shadow(-20px 20px 40px rgba(0, 0, 0, .2)); }
 
+    /* set height/width of the gallery section */
+    .sqs-gallery-design-stacked {
+        height: 0 !important;
+        padding-bottom: 36%;
+        width: 90%;
+        margin: auto;
+    }
+    
+    /* img-wrapper class (injected) used to add floating line frame behind img */
     .img-wrapper{
         width: 50%;
         height: auto;
@@ -25,7 +36,6 @@ $img-displacementY: 10%;
             left: 50px !important;
         }
     }
-    
     /* // Second way that uses background image
     .slide img{
         background-image: $white-box;
@@ -43,53 +53,51 @@ $img-displacementY: 10%;
     }*/
     
     
-    
-    
-    
-    .sqs-video-overlay,
-    .sqs-gallery-design-stacked-slide{
-        overflow: visible !important;
-    }
-    
-    .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        left: 25% + $img-displacementX / 2;
-        top: 50% + $img-displacementY;
-    }
-    
-    .sqs-gallery-controls .previous{ left: -3.5%; }
-    .sqs-gallery-controls .next{ right: -3.5%; }
-}
-
-.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right,
-.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right{
-    .img-wrapper{
-        float: left;
-    }
-    .meta{
-        right: 0 !important;
-    }
-}
-.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left,
-.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left{
-    .img-wrapper{
-        float: right;
-    }
-    .meta{
-        left: 0 !important;
-    }
-}
-
-
-
-.sqs-block-gallery .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
-    height: 0 !important;
-    padding-bottom: 36%;
-    width: 90%;
-    margin: auto;
-    
+    /* Title and Description */
     .meta{
         @include vertically-centered(relative);
         bottom: initial;
         position: absolute;
     }
+    
+    /* Videos */
+    .sqs-video-overlay,
+    .sqs-gallery-design-stacked-slide{
+        overflow: visible !important;
+    }
+    .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
+        left: 25% + $img-displacementX / 2;
+        top: 50% + $img-displacementY;
+    }
+    
+    /* Controls */
+    .sqs-gallery-controls .previous{ left: -3.5%; }
+    .sqs-gallery-controls .next{ right: -3.5%; }
 }
+
+/* Position the img and text */
+.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right,
+.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-right{
+    .img-wrapper{  float: left; }
+    .meta{  right: 0 !important; }
+}
+.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left,
+.sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left{
+    .img-wrapper{ float: right; }
+    .meta{ left: 0 !important; }
+}
+
+/* All img get a box shadow */
+.sqs-block-gallery img{ @include box-shadow(-20px 20px 40px rgba(0, 0, 0, .2)); }
+
+
+
+
+
+
+
+
+
+
+/* GALLERY BLOCK [TYPE] */
+/***************************/
