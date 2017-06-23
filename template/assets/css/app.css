@@ -574,9 +574,9 @@ header.Header.Header--top,
     left: -o-calc(35% /2 + 50px);
     top: calc(50% + 50px);
     top: -o-calc(50% + 50px);
-    transform: translateY(calc("-50% - 50px"));
-    -moz-transform: translateY(moz-calc("-50% - 50px"));
-    -ms-transform: translateY(-ms-calc("-50% - 50px")); }
+    transform: translateY(calc(-50% - 50px));
+    -moz-transform: translateY(moz-calc(-50%-50px));
+    -ms-transform: translateY(-ms-calc(-50% - 50px)); }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
