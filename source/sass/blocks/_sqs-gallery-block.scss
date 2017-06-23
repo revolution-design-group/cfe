@@ -8,11 +8,16 @@
 /* GALLERY BLOCK SLIDESHOW */
 /***************************/
 
-$img-displacementX: 8%;
-$img-displacementY: 10%;
+$img-displacementX: 50px;
+$img-displacementY: $img-displacementX;
+
+@mixin slideshow-mb($base) {
+    margin-bottom: $base * 1.5;
+}
 
 .sqs-gallery-block-slideshow {
     background-color: transparent;
+    @include slideshow-mb($img-displacementY);
 
     /* set height/width of the gallery section */
     .sqs-gallery-design-stacked {
@@ -32,8 +37,8 @@ $img-displacementY: 10%;
         img{
             max-width: 100% !important;
             height: auto !important;
-            top: 50px !important;
-            left: 50px !important;
+            left: $img-displacementX !important;
+            top: $img-displacementY !important;
         }
     }
     /* // Second way that uses background image
@@ -66,8 +71,8 @@ $img-displacementY: 10%;
         overflow: visible !important;
     }
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        left: 25% + $img-displacementX / 2;
-        top: 50% + $img-displacementY;
+        //left: 25% + $img-displacementX / 2;
+        //top: 50% + $img-displacementY;
     }
     
     /* Controls */
