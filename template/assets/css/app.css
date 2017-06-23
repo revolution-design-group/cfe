@@ -52,6 +52,7 @@
  *
  * Still working on useful mixins for Squarespace non-dev templates.
 *******************************************************************************/
+/* CSS3 calc() function to perform calculations */
 .subtle-box-shadow, .sqs-gallery-block-slideshow img, .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip img {
   box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
@@ -566,6 +567,16 @@ header.Header.Header--top,
   .sqs-gallery-block-slideshow .sqs-video-overlay,
   .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
     overflow: visible !important; }
+  .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+    left: 26%;
+    top: 57%;
+    left: -o-calc(44% /2 + 50px);
+    left: calc(44% /2 + 50px);
+    /*left: -moz-calc(44% /2 + 50px);
+        left: -webkit-calc(44% /2 + 50px);
+        left: -o-calc(44% /2 + 50px);
+        left: expression(44% /2 + 50px);
+        left: calc(44% /2 + 50px);*/ }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .next {

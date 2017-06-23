@@ -10,6 +10,7 @@
 
 $img-displacementX: 50px;
 $img-displacementY: $img-displacementX;
+$img-width: 44%;
 
 @mixin slideshow-mb($base) {
     margin-bottom: $base * 1.5;
@@ -29,7 +30,7 @@ $img-displacementY: $img-displacementX;
     
     /* img-wrapper class (injected) used to add floating line frame behind img */
     .img-wrapper{
-        width: 44%;
+        width: $img-width;
         height: auto;
         //height: 85%;
         overflow: visible !important;
@@ -71,7 +72,17 @@ $img-displacementY: $img-displacementX;
         overflow: visible !important;
     }
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        //left: 25% + $img-displacementX / 2;
+        left: 26%; //fallback
+        top: 57%; //fallback
+        
+        @include calc(left, "#{$img-width} /2 + #{$img-displacementX}")
+        
+        /*left: -moz-calc(#{$img-width} /2 + #{$img-displacementX});
+        left: -webkit-calc(#{$img-width} /2 + #{$img-displacementX});
+        left: -o-calc(#{$img-width} /2 + #{$img-displacementX});
+        left: expression(#{$img-width} /2 + #{$img-displacementX});
+        left: calc(#{$img-width} /2 + #{$img-displacementX});*/
+        
         //top: 50% + $img-displacementY;
     }
     

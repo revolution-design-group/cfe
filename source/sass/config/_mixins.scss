@@ -37,6 +37,15 @@
 }
 
 
+/* CSS3 calc() function to perform calculations */
+@mixin calc($property, $expression) { 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -o-calc(#{$expression});
+  #{$property}: calc(#{$expression}); 
+} 
+
+
 .subtle-box-shadow{
     @include box-shadow(-20px 20px 40px rgba(0, 0, 0, .2));
 }
