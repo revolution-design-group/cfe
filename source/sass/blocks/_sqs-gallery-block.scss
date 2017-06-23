@@ -17,8 +17,8 @@ $img-width: 35%;
 }
 
 @mixin fn-position-video-icon($width, $dispX, $dispY){
-    @include calc(left, "#{$width} /2 + #{$dispX}")
-    @include calc(top, "50% + #{$dispY}")
+    @include calc(left, "#{$width} /2 + #{$dispX}");
+    @include calc(top, "50% + #{$dispY}");
     //transform         : translateY(calc(-50% - #{$dispY}));
     //-webkit-transform : translateY(-webkit-calc(-50% - #{$dispY}));
     //-moz-transform    : translateY(moz-calc(-50% - #{$dispY}));
