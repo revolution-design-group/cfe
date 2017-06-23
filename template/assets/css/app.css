@@ -546,7 +546,7 @@ header.Header.Header--top,
     height: 0 !important;
     padding-bottom: 36%; }
   .sqs-gallery-block-slideshow .img-wrapper {
-    width: 44%;
+    width: 35%;
     height: auto;
     overflow: visible !important;
     border: 1px solid rgba(255, 255, 255, 0.5); }
@@ -568,10 +568,10 @@ header.Header.Header--top,
   .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
     overflow: visible !important; }
   .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
-    left: 26%;
+    left: 21%;
     top: 57%;
-    left: -o-calc(44% /2 + 50px);
-    left: calc(44% /2 + 50px);
+    left: -o-calc(35% /2 + 50px);
+    left: calc(35% /2 + 50px);
     top: -o-calc(50% + 50px);
     top: calc(50% + 50px); }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {

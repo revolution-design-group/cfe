@@ -10,7 +10,7 @@
 
 $img-displacementX: 50px;
 $img-displacementY: $img-displacementX;
-$img-width: 44%;
+$img-width: 35%;
 
 @mixin slideshow-mb($base) {
     margin-bottom: $base * 1.5;
@@ -72,7 +72,7 @@ $img-width: 44%;
         overflow: visible !important;
     }
     .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
-        left: 26%; //fallback
+        left: $img-width * .6; //fallback
         top: 57%; //fallback
         
         @include calc(left, "#{$img-width} /2 + #{$img-displacementX}")
