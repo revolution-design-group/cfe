@@ -96,9 +96,9 @@ $img-displacementY: $img-displacementX;
 .sqs-block-gallery .sqs-gallery-design-strip{
     overflow: visible;
     .sqs-gallery-design-strip-slide{
-        padding: 0 20px;
-        &:first-of-type{ padding-left: 0; }
-        &:last-of-type{ padding-right: 0; }
+        margin: 0 20px;
+        &:first-of-type{ margin-left: 0; }
+        &:last-of-type{ margin-right: 0; }
     }
 }
 
