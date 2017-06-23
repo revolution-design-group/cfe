@@ -77,6 +77,11 @@ $img-displacementY: 10%;
     /* Thumbnail Stirp */
     .sqs-gallery-design-strip{
         overflow: visible;
+        .sqs-gallery-design-strip-slide{
+            padding: 0 20px;
+            &:first-of-type{ padding-left: 0; }
+            &:last-of-type{ padding-right: 0; }
+        }
     }
 }
 
