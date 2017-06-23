@@ -73,6 +73,11 @@ $img-displacementY: 10%;
     /* Controls */
     .sqs-gallery-controls .previous{ left: -3.5%; }
     .sqs-gallery-controls .next{ right: -3.5%; }
+    
+    /* Thumbnail Stirp */
+    .sqs-gallery-design-strip{
+        overflow: visible;
+    }
 }
 
 /* Position the img and text */

@@ -533,7 +533,8 @@ header.Header.Header--top,
     }*/
   /* Title and Description */
   /* Videos */
-  /* Controls */ }
+  /* Controls */
+  /* Thumbnail Stirp */ }
   .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
     height: 0 !important;
     padding-bottom: 36%;
@@ -568,6 +569,8 @@ header.Header.Header--top,
     left: -3.5%; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
     right: -3.5%; }
+  .sqs-gallery-block-slideshow .sqs-gallery-design-strip {
+    overflow: visible; }
 
 /* Position the img and text */
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-right .img-wrapper,
