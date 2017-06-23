@@ -23,6 +23,7 @@ $img-width: 35%;
     -webkit-transform : translateY(-webkit-calc(-50% - #{$dispY}));
     -moz-transform    : translateY(moz-calc(-50% - #{$dispY}));
     -ms-transform     : translateY(-ms-calc(-50% - #{$dispY}));
+background: yellow;
 }
 
 .sqs-gallery-block-slideshow {

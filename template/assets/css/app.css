@@ -576,7 +576,8 @@ header.Header.Header--top,
     top: -o-calc(50% + 50px);
     transform: translateY(calc(-50% - 50px));
     -moz-transform: translateY(moz-calc(-50%-50px));
-    -ms-transform: translateY(-ms-calc(-50% - 50px)); }
+    -ms-transform: translateY(-ms-calc(-50% - 50px));
+    background: yellow; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
