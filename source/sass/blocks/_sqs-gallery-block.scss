@@ -18,6 +18,8 @@ $img-displacementY: $img-displacementX;
 .sqs-gallery-block-slideshow {
     background-color: transparent;
     @include slideshow-mb($img-displacementY);
+    
+    img{ @extend .subtle-box-shadow; }
 
     /* set height/width of the gallery section */
     .sqs-gallery-design-stacked {
@@ -93,17 +95,16 @@ $img-displacementY: $img-displacementX;
 }
 
     /* Thumbnail Stirp */
-.sqs-block-gallery .sqs-gallery-design-strip{
+.sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip{
     overflow: visible;
     .sqs-gallery-design-strip-slide{
         margin: 0 20px;
         &:first-of-type{ margin-left: 0; }
         &:last-of-type{ margin-right: 0; }
     }
+    img{ @extend .subtle-box-shadow; }
 }
 
-/* All img get a box shadow */
-.sqs-block-gallery img{ @include box-shadow(-20px 20px 40px rgba(0, 0, 0, .2)); }
 
 
 

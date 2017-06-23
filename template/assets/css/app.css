@@ -52,6 +52,12 @@
  *
  * Still working on useful mixins for Squarespace non-dev templates.
 *******************************************************************************/
+.subtle-box-shadow, .sqs-gallery-block-slideshow img, .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip img {
+  box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2); }
+
 .white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -585,21 +591,14 @@ header.Header.Header--top,
   left: 0 !important; }
 
 /* Thumbnail Stirp */
-.sqs-block-gallery .sqs-gallery-design-strip {
+.sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
   overflow: visible; }
-  .sqs-block-gallery .sqs-gallery-design-strip .sqs-gallery-design-strip-slide {
+  .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip .sqs-gallery-design-strip-slide {
     margin: 0 20px; }
-    .sqs-block-gallery .sqs-gallery-design-strip .sqs-gallery-design-strip-slide:first-of-type {
+    .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip .sqs-gallery-design-strip-slide:first-of-type {
       margin-left: 0; }
-    .sqs-block-gallery .sqs-gallery-design-strip .sqs-gallery-design-strip-slide:last-of-type {
+    .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip .sqs-gallery-design-strip-slide:last-of-type {
       margin-right: 0; }
-
-/* All img get a box shadow */
-.sqs-block-gallery img {
-  box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2); }
 
 /* GALLERY BLOCK [TYPE] */
 /***************************/

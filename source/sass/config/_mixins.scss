@@ -30,13 +30,16 @@
 }
 
 
-
 @mixin vertically-centered($position: relative) {
     position: $position;
     top: 50% !important;
     @include transform(translateY(-50%));
 }
 
+
+.subtle-box-shadow{
+    @include box-shadow(-20px 20px 40px rgba(0, 0, 0, .2));
+}
 
 .white-bg{
     background-size: 100%;
