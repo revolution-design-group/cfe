@@ -73,16 +73,6 @@ $img-displacementY: 10%;
     /* Controls */
     .sqs-gallery-controls .previous{ left: -3.5%; }
     .sqs-gallery-controls .next{ right: -3.5%; }
-    
-    /* Thumbnail Stirp */
-    .sqs-gallery-design-strip{
-        overflow: visible;
-        .sqs-gallery-design-strip-slide{
-            padding: 0 20px;
-            &:first-of-type{ padding-left: 0; }
-            &:last-of-type{ padding-right: 0; }
-        }
-    }
 }
 
 /* Position the img and text */
@@ -95,6 +85,16 @@ $img-displacementY: 10%;
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left{
     .img-wrapper{ float: right; }
     .meta{ left: 0 !important; }
+}
+
+    /* Thumbnail Stirp */
+.sqs-block-gallery .sqs-gallery-design-strip{
+    overflow: visible;
+    .sqs-gallery-design-strip-slide{
+        padding: 0 20px;
+        &:first-of-type{ padding-left: 0; }
+        &:last-of-type{ padding-right: 0; }
+    }
 }
 
 /* All img get a box shadow */
