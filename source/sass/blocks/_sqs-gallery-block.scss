@@ -65,17 +65,16 @@ $img-displacementY: 10%;
     img{
     }
     .meta{
-        right: 0 !important;
+        //right: 0 !important;
     }
 }
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-bottom-left,
 .sqs-block-gallery .sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-top-left{
-    img{
-        left: initial !important;
-        right: 0 !important;
+    .img-wrapper{
+        float: right;
     }
     .meta{
-        left: 0 !important;
+        //left: 0 !important;
     }
 }
 
