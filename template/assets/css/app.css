@@ -567,6 +567,8 @@ header.Header.Header--top,
       height: 4px;
       background-color: white;
       margin-bottom: 25px; }
+    .sqs-gallery-block-slideshow .meta .meta-description p {
+      font-size: 16px; }
     .sqs-gallery-block-slideshow .meta .meta-title {
       font-family: alternate-gothic-no-2-d;
       font-weight: 400;
