@@ -1,0 +1,35 @@
+/******************************************************************************
+ * Squarespace Block - Button
+ *
+ * Custom CSS styles that relate to Squarespace Button Blocks.
+*******************************************************************************/
+
+
+
+.sqs-block-button .sqs-block-button-element--large{
+  border: solid 1px #e1e1e1;
+  margin: 1em 0;
+  padding: 40px 20px;
+  line-height: 1.5em;
+  b{
+	font-family: alternate-gothic-no-2-d;
+    font-size: 2em;
+    line-height: 1em;
+	font-weight: 400;
+    letter-spacing: .0em;
+    color: #231f20;
+  }
+  
+  &:after{
+    display: block;
+    max-width: 200px;
+    margin: 1.4em auto 0;
+    padding: .25em 1em;
+    font-size: .83333em;
+    line-height: 1em;
+    font-weight: normal;
+    content: "Learn More >";
+    border: solid 2px #5f92bc;
+    color: #656668;
+  }
+}
