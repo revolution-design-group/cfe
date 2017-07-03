@@ -550,7 +550,7 @@ header.Header.Header--top,
 /***************************/
 .sqs-gallery-block-slideshow {
   background-color: transparent;
-  margin-bottom: 75px;
+  margin-bottom: 80px;
   /* set height/width of the gallery section */
   /* img-wrapper class (injected) used to add floating line frame behind img */
   /* // Second way that uses background image
@@ -582,8 +582,8 @@ header.Header.Header--top,
     .sqs-gallery-block-slideshow .img-wrapper img {
       max-width: 100% !important;
       height: auto !important;
-      left: 50px !important;
-      top: 50px !important; }
+      left: 40px !important;
+      top: 40px !important; }
   .sqs-gallery-block-slideshow .meta {
     height: auto !important;
     max-width: 100% !important;
@@ -626,10 +626,10 @@ header.Header.Header--top,
   .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
     left: 21%;
     top: 45.5%;
-    left: calc(35% /2 + 50px);
-    left: -o-calc(35% /2 + 50px);
-    top: calc(50% + 50px);
-    top: -o-calc(50% + 50px); }
+    left: calc(35% /2 + 40px);
+    left: -o-calc(35% /2 + 40px);
+    top: calc(50% + 40px);
+    top: -o-calc(50% + 40px); }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
     left: -3.5%; }
   .sqs-gallery-block-slideshow .sqs-gallery-controls .next {
@@ -670,6 +670,64 @@ header.Header.Header--top,
  *
  * Custom CSS styles that relate to Squarespace Video Blocks.
 *******************************************************************************/
+/******************************************************************************
+ * Squarespace Block - Form
+ *
+ * Custom CSS styles that relate to Squarespace Form Blocks.
+*******************************************************************************/
+/* Input field text */
+.form-wrapper .field-list .field .field-element {
+  font-family: proxima-nova;
+  font-size: 14px; }
+
+/* Submit Button (lightbox submit button) */
+.form-wrapper input[type=submit] {
+  font-family: proxima-nova;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+/* Lightbox Button */
+.sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button {
+  border: solid 1px #e1e1e1;
+  margin: 1em 0;
+  padding: 40px 20px;
+  line-height: 1.5em;
+  background-color: #fff;
+  font-family: alternate-gothic-no-2-d;
+  font-size: 42px;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: .0em;
+  color: #231f20; }
+  .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button:before {
+    display: block;
+    max-width: 200px;
+    margin: 1.4em auto 0;
+    padding: .25em 1em;
+    font-size: .5em;
+    line-height: 1em;
+    font-family: proxima-nova;
+    font-weight: normal;
+    content: "FORM";
+    color: #5f92bc; }
+  .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button:after {
+    display: block;
+    max-width: 200px;
+    margin: 1.4em auto 0;
+    padding: .5em 1em;
+    font-size: .41666666em;
+    line-height: 1em;
+    font-family: proxima-nova;
+    font-weight: normal;
+    content: "Open Form >";
+    border: solid 2px #5f92bc;
+    color: #656668; }
+  .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button:hover {
+    background-color: #fcfcfc;
+    color: inherit; }
+
 /******************************************************************************
  * Collections
 *******************************************************************************/

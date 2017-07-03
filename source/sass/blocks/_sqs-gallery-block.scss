@@ -8,12 +8,12 @@
 /* GALLERY BLOCK SLIDESHOW */
 /***************************/
 
-$img-displacementX: 50px;
+$img-displacementX: 40px;
 $img-displacementY: $img-displacementX;
 $img-width: 35%;
 
 @mixin slideshow-mb($base) {
-    margin-bottom: $base * 1.5;
+    margin-bottom: $base * 2;
 }
 
 @mixin fn-position-video-icon($width, $dispX, $dispY){

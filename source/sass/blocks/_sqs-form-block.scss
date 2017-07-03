@@ -1,0 +1,71 @@
+/******************************************************************************
+ * Squarespace Block - Form
+ *
+ * Custom CSS styles that relate to Squarespace Form Blocks.
+*******************************************************************************/
+
+/* Input field text */
+.form-wrapper .field-list .field .field-element{
+  font-family: proxima-nova;
+  font-size: 14px;
+}
+
+
+/* Submit Button (lightbox submit button) */
+.form-wrapper input[type=submit]{
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+
+/* Lightbox Button */
+.sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button{
+  border: solid 1px #e1e1e1;
+  margin: 1em 0;
+  padding: 40px 20px;
+  line-height: 1.5em;
+  background-color: #fff;
+  
+  font-family: alternate-gothic-no-2-d;
+  font-size: 42px;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: .0em;
+  color: #231f20;
+  
+  &:before{
+    display: block;
+    max-width: 200px;
+    margin: 1.4em auto 0;
+    padding: .25em 1em;
+    font-size: .5em;
+    line-height: 1em;
+    font-family: proxima-nova;
+    font-weight: normal;
+    content: "FORM";
+    color: #5f92bc;
+  }
+  
+  &:after{
+    display: block;
+    max-width: 200px;
+    margin: 1.4em auto 0;
+    padding: .5em 1em;
+    font-size: .41666666em;
+    line-height: 1em;
+    font-family: proxima-nova;
+    font-weight: normal;
+    content: "Open Form >";
+    border: solid 2px #5f92bc;
+    color: #656668;
+  }
+  
+  &:hover{
+    //@extend .subtle-box-shadow;
+    background-color: #fcfcfc;
+    color: inherit;
+  }
+}
