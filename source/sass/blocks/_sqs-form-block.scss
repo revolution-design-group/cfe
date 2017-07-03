@@ -64,7 +64,7 @@
   }
   
   &:hover{
-    //@extend .subtle-box-shadow;
+    @extend .subtle-box-shadow;
     background-color: #fcfcfc;
     color: inherit;
   }
