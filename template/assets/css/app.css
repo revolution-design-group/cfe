@@ -704,7 +704,7 @@ header.Header.Header--top,
   .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button:before {
     display: block;
     max-width: 200px;
-    margin-left: auto;
+    margin: 0 auto;
     padding: .25em 1em;
     font-size: .5em;
     line-height: 1em;
