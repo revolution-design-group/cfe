@@ -691,6 +691,7 @@ header.Header.Header--top,
 /* Lightbox Button */
 .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button {
   border: solid 1px #e1e1e1;
+  margin: .5em 0;
   padding: 40px 20px;
   line-height: 1.5em;
   background-color: #fff;
@@ -703,7 +704,6 @@ header.Header.Header--top,
   .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button:before {
     display: block;
     max-width: 200px;
-    margin: 1.4em auto 0;
     padding: .25em 1em;
     font-size: .5em;
     line-height: 1em;
