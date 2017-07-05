@@ -586,7 +586,7 @@ header.Header.Header--top,
       top: 40px !important; }
   .sqs-gallery-block-slideshow .meta {
     height: auto !important;
-    max-width: 100% !important;
+    max-width: 50% !important;
     text-shadow: 0 0 7.5px rgba(20, 20, 20, 0.4);
     background-color: transparent; }
     .sqs-gallery-block-slideshow .meta .meta-inside:before {
