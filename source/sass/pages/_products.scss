@@ -5,8 +5,5 @@
 *******************************************************************************/
 
 .collection-type-index main section[id$="-videos-section"]{
-    background: $blue-asphalt-bg #f4f4f4;
-    background-position: center top;
-    background-size: 100% 75%;
-    background-repeat: no-repeat;
+    @extend .blue-asphalt-bg;
 }

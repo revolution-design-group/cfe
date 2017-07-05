@@ -78,6 +78,12 @@
   background-position: left bottom;
   background-size: cover; }
 
+.blue-asphalt-bg, #about-markets-we-serve-gallery, .collection-type-index main section[id$="-videos-section"] {
+  background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59497e071b10e371ac6f7717/1497988616734/blue-asphalt-bg.jpg") #f4f4f4;
+  background-position: center top;
+  background-size: 100% 75%;
+  background-repeat: no-repeat; }
+
 /******************************************************************************
  * Core
 *******************************************************************************/
@@ -168,10 +174,10 @@
   padding: 0 14%; }
   @media (max-width: 768px) {
     .sqs-block-image .design-layout-card .image-title-wrapper, .sqs-block-image .design-layout-card .image-subtitle-wrapper, .sqs-block-image .design-layout-card .image-button-wrapper {
-      padding: 0 72px; } }
+      padding: 0 36px; } }
   @media (max-width: 640px) {
     .sqs-block-image .design-layout-card .image-title-wrapper, .sqs-block-image .design-layout-card .image-subtitle-wrapper, .sqs-block-image .design-layout-card .image-button-wrapper {
-      padding: 0 40px; } }
+      padding: 0 20px; } }
 
 /******************************************************************************
  * UI & State
@@ -897,12 +903,6 @@ header.Header.Header--top,
  *
  * Custom CSS styles that relate to the Products Landing Page and Individual Product Pages.
 *******************************************************************************/
-.collection-type-index main section[id$="-videos-section"] {
-  background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59497e071b10e371ac6f7717/1497988616734/blue-asphalt-bg.jpg") #f4f4f4;
-  background-position: center top;
-  background-size: 100% 75%;
-  background-repeat: no-repeat; }
-
 /******************************************************************************
  * Squarespace
 *******************************************************************************/
