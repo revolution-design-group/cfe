@@ -1,9 +1,9 @@
 /******************************************************************************
- * Page - About Page
+ * Page - About Markets We Serve
  *
- * Custom CSS styles that relate to the About Page.
+ * Custom CSS styles that relate to the About Markets We Serve Page.
 *******************************************************************************/
 
 #about-markets-we-serve-gallery{
-    @extend .blue-asphalt-bg;
+    @extend .blue-asphalt-bg !optional; // don't know why the optional is necessary
 }
