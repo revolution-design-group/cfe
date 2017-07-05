@@ -148,11 +148,11 @@ $img-width: 35%;
 .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip{
     overflow: visible;
     .sqs-gallery-design-strip-slide{
-        margin: 0 20px;
+        padding: 0 20px;
         &:first-of-type{ margin-left: 0; }
         &:last-of-type{ margin-right: 0; }
     }
-    img{ @extend .subtle-box-shadow; }
+    img:not(.sqs-gallery-design-strip-slide){ @extend .subtle-box-shadow; }
 }
 
 
