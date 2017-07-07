@@ -6,13 +6,37 @@
 
 
 body#collection-593b2371579fb3fa4a624423{
-
+    
+    /* Style the Slideshow Galleries */
     section[id^="locations-served-"][id$="-installations"]{
         @extend .blue-asphalt-bg;
         padding-bottom: 4%;
 
         .sqs-block-gallery .sqs-gallery-block-slideshow+.sqs-gallery-design-strip{
             position: absolute;
+        }
+    }
+    
+    
+    /* Per state, change the meta-title:before to be the state name */
+    section[id="locations-served-hawaii-installations"]{
+        .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before{
+            content: "Hawaii";
+        }
+    }
+    section[id="locations-served-oregon-installations"]{
+        .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before{
+            content: "Oregon";
+        }
+    }
+    section[id="locations-served-nevada-installations"]{
+        .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before{
+            content: "Nevada";
+        }
+    }
+    section[id="locations-served-california-installations"]{
+        .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before{
+            content: "California";
         }
     }
 
