@@ -898,6 +898,8 @@ body:not(.collection-type-blog) {
 *******************************************************************************/
 #about-markets-we-serve-gallery {
   padding-bottom: 4%; }
+  #about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
+    position: absolute; }
 
 /******************************************************************************
  * Page - About Page
