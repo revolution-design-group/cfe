@@ -625,10 +625,6 @@ body:not(.collection-type-blog) {
           margin-bottom: .5em;
           font-size: .6em;
           display: block; }
-    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
-      content: "Video"; }
-    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
-      content: "Image"; }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-overlay,
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
       overflow: visible !important; }
@@ -925,6 +921,17 @@ body#collection-593b2371579fb3fa4a624423 {
     content: "California"; }
 
 /******************************************************************************
+ * Page - About Innovation and Technology
+ *
+ * Custom CSS styles that relate to the About Innovation and Technology Page.
+*******************************************************************************/
+body#collection-595ab206bf629a87a18d58a8 .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
+  content: "Video"; }
+
+body#collection-595ab206bf629a87a18d58a8 .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
+  content: "Image"; }
+
+/******************************************************************************
  * Page - About Page
  *
  * Custom CSS styles that relate to the Products Landing Page and Individual Product Pages.
@@ -933,6 +940,10 @@ body#collection-593b2371579fb3fa4a624423 {
   padding-bottom: 4%; }
   .collection-type-index main section[id$="-videos-section"] .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
     position: absolute; }
+  .collection-type-index main section[id$="-videos-section"] .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
+    content: "Video"; }
+  .collection-type-index main section[id$="-videos-section"] .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
+    content: "Image"; }
 
 /******************************************************************************
  * Squarespace

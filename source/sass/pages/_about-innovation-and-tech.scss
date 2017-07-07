@@ -1,17 +1,13 @@
 /******************************************************************************
- * Page - About Page
+ * Page - About Innovation and Technology
  *
- * Custom CSS styles that relate to the Products Landing Page and Individual Product Pages.
+ * Custom CSS styles that relate to the About Innovation and Technology Page.
 *******************************************************************************/
 
-.collection-type-index main section[id$="-videos-section"]{
-    @extend .blue-asphalt-bg;
-    padding-bottom: 4%;
-    
-    .sqs-block-gallery .sqs-gallery-block-slideshow+.sqs-gallery-design-strip{
-        position: absolute;
-    }
-    
+
+body#collection-595ab206bf629a87a18d58a8{
+ 
     .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before{ content: "Video"; }
     .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before{ content: "Image"; }
+
 }

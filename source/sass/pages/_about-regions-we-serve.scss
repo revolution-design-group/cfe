@@ -21,7 +21,7 @@ body#collection-593b2371579fb3fa4a624423{
     /* Per state, change the meta-title:before to be the state name */
     section.Index-page{
         .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before{
-            content: none;
+            content: none; //base case
         }
     }
     section[id="locations-served-hawaii-installations"]{
