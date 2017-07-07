@@ -896,11 +896,19 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to the About Markets We Serve Page.
 *******************************************************************************/
+#about-markets-we-serve-gallery {
+  padding-bottom: 4%; }
+
 /******************************************************************************
  * Page - About Page
  *
  * Custom CSS styles that relate to the Products Landing Page and Individual Product Pages.
 *******************************************************************************/
+.collection-type-index main section[id$="-videos-section"] {
+  padding-bottom: 4%; }
+  .collection-type-index main section[id$="-videos-section"] .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
+    position: absolute; }
+
 /******************************************************************************
  * Squarespace
 *******************************************************************************/
