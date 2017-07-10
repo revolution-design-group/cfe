@@ -309,11 +309,11 @@
 /******************************************************************************
  * Buttons
 *******************************************************************************/
-.sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
-.sqs-block-button .sqs-block-button-container--center a {
+.sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a:not(.sqs-block-button-element--large),
+.sqs-block-button .sqs-block-button-container--center a:not(.sqs-block-button-element--large) {
   border-color: #b85856; }
-  .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a:hover,
-  .sqs-block-button .sqs-block-button-container--center a:hover {
+  .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a:not(.sqs-block-button-element--large):hover,
+  .sqs-block-button .sqs-block-button-container--center a:not(.sqs-block-button-element--large):hover {
     background-color: #b85856; }
 
 .medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium,
