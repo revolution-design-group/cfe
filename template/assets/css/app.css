@@ -312,6 +312,9 @@
 .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
 .sqs-block-button .sqs-block-button-container--center a {
   border-color: #b85856; }
+  .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a:hover,
+  .sqs-block-button .sqs-block-button-container--center a:hover {
+    background-color: #b85856; }
 
 .medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium,
 .medium-button-style-outline .sqs-block-button .sqs-block-button-element--medium {

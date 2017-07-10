@@ -66,6 +66,7 @@
 .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
 .sqs-block-button .sqs-block-button-container--center a{
     border-color: $color-secondary-accent; 
+    &:hover{ background-color: $color-secondary-accent; }
 }
 
 .medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium,
