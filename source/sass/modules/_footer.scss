@@ -10,9 +10,17 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 
 /* FOOTER FONTS */
 .Footer-blocks.Footer-blocks--top{
-    .sqs-block-image p a:hover{
-        color: rgba(60,118,159,.6);
-        border-color: rgba(60,118,159,.15);
+    .sqs-block-image {
+        .design-layout-card .image-card .image-title:before{
+            background-color: $color-secondary-accent;
+        }
+        .design-layout-card .image-card .image-title p em{
+            color: $color-secondary-accent;
+        }
+        p a:hover{
+            color: rgba(60,118,159,.6);
+            border-color: rgba(60,118,159,.15);
+        }
     }
 }
 .Footer-blocks:not(.Footer-blocks--top){ 

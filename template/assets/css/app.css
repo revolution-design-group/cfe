@@ -345,6 +345,12 @@
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
 /* FOOTER FONTS */
+.Footer-blocks.Footer-blocks--top .sqs-block-image .design-layout-card .image-card .image-title:before {
+  background-color: #b85856; }
+
+.Footer-blocks.Footer-blocks--top .sqs-block-image .design-layout-card .image-card .image-title p em {
+  color: #b85856; }
+
 .Footer-blocks.Footer-blocks--top .sqs-block-image p a:hover {
   color: rgba(60, 118, 159, 0.6);
   border-color: rgba(60, 118, 159, 0.15); }
