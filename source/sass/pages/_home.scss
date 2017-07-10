@@ -120,7 +120,13 @@
     @mixin accent($color) {
         .image-title:before{ color: $color; }
         .image-title-wrapper:before{ background-color: $color; }
-        .image-button a{ border-color: $color; } 
+        .image-button a{ 
+            border-color: $color;
+            &:hover{
+                background-color: $color;
+                color: white;
+            }
+        } 
     }
     .sqs-layout > .sqs-row > .sqs-col-12 {
         .image-block:nth-of-type(2n){ @include accent($color-brand-palette-red); }

@@ -922,12 +922,18 @@ body:not(.collection-type-blog) {
     background-color: #b85856; }
   #home-featured-projects .sqs-layout > .sqs-row > .sqs-col-12 .image-block:nth-of-type(2n) .image-button a {
     border-color: #b85856; }
+    #home-featured-projects .sqs-layout > .sqs-row > .sqs-col-12 .image-block:nth-of-type(2n) .image-button a:hover {
+      background-color: #b85856;
+      color: white; }
   #home-featured-projects .sqs-layout > .sqs-row > .sqs-col-12 .image-block:nth-of-type(2n+1) .image-title:before {
     color: #5f92bc; }
   #home-featured-projects .sqs-layout > .sqs-row > .sqs-col-12 .image-block:nth-of-type(2n+1) .image-title-wrapper:before {
     background-color: #5f92bc; }
   #home-featured-projects .sqs-layout > .sqs-row > .sqs-col-12 .image-block:nth-of-type(2n+1) .image-button a {
     border-color: #5f92bc; }
+    #home-featured-projects .sqs-layout > .sqs-row > .sqs-col-12 .image-block:nth-of-type(2n+1) .image-button a:hover {
+      background-color: #5f92bc;
+      color: white; }
 
 .tweak-footer-layout-stacked.homepage .Footer-blocks--top {
   display: none; }
