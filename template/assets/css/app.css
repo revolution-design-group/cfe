@@ -837,6 +837,25 @@ body:not(.collection-type-blog) {
   .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
     padding-top: 4%;
     padding-bottom: 0; }
+  #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .img-wrapper {
+    width: 45%; }
+  #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta {
+    width: 45% !important;
+    top: 30px; }
+  #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside {
+    text-align: center; }
+    #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside:before {
+      margin-left: auto;
+      margin-right: auto; }
+    #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside .meta-title:before {
+      content: "Markets Served";
+      text-transform: uppercase;
+      color: #5f92bc;
+      font-weight: 500;
+      margin-bottom: 5px;
+      width: 100%; }
+    #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside .meta-description p {
+      visibility: hidden; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow, #home-markets-served .sqs-block-gallery .sqs-gallery-design-stacked {
     width: 90%;
     margin: auto; }
