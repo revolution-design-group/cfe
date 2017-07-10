@@ -3,6 +3,10 @@
  *
  * Set the extended default font behavior for the site.
  * Customization beyond what is doable in the Style Editor
+ *
+ *
+ * RULE: center-aligned text will have the secondary accent colors (line, h1 font, button)
+ * while left-aligned - default - will have default accent color 
 *******************************************************************************/
 
 
@@ -27,6 +31,11 @@
     margin-left: auto;
 }
 
+// Alternate accent color for center-aligned
+.html-block h1.text-align-center:before{
+    background-color: $color-secondary-accent;
+}
+
 
 
 
@@ -34,12 +43,16 @@
  * Headings
 *******************************************************************************/
 // Same as h2
-h1 em{
+.html-block h1 em{
     font-family: alternate-gothic-no-2-d;
     font-weight: 400;
     font-style: normal;
     color: $color-default-accent;
     letter-spacing: 0.05em;
+}
+// Alternate accent color for center-aligned
+.html-block h1.text-align-center em{
+    color: $color-secondary-accent;
 }
 
 
@@ -48,8 +61,15 @@ h1 em{
 /******************************************************************************
  * Buttons
 *******************************************************************************/
+
+// Alternate accent color for center-aligned
+.sqs-block-button .sqs-block-button-container--center a{
+    border-color: $color-secondary-accent; 
+}
+
 .medium-button-style-outline .sqs-block-button .sqs-block-button-element--medium{
     color: #656668;
+    padding: .7em 1.75em;
 }
 
 
