@@ -63,7 +63,10 @@
 *******************************************************************************/
 
 // Alternate accent color for center-aligned
-.sqs-block-button .sqs-block-button-container--center a{
+.medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
+.medium-button-style-outline .sqs-block-button .sqs-block-button-container--center a,
+.small-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
+.small-button-style-outline .sqs-block-button .sqs-block-button-container--center a,{
     border-color: $color-secondary-accent; 
 }
 
