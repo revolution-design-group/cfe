@@ -36,6 +36,13 @@
     background-color: $color-secondary-accent;
 }
 
+// Banner image text should have white accent line
+section.Intro.Intro--has-image{
+    .html-block h1:before,
+    .html-block h1.text-align-center:before{
+        background-color: white;
+    }
+}
 
 
 

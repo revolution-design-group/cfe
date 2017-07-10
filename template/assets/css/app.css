@@ -293,6 +293,10 @@
 .html-block h1.text-align-center:before {
   background-color: #b85856; }
 
+section.Intro.Intro--has-image .html-block h1:before,
+section.Intro.Intro--has-image .html-block h1.text-align-center:before {
+  background-color: white; }
+
 /******************************************************************************
  * Headings
 *******************************************************************************/
