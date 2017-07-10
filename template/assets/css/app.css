@@ -309,10 +309,8 @@
 /******************************************************************************
  * Buttons
 *******************************************************************************/
-.medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
-.medium-button-style-outline .sqs-block-button .sqs-block-button-container--center a,
-.small-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
-.small-button-style-outline .sqs-block-button .sqs-block-button-container--center a {
+.sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-container--center a,
+.sqs-block-button .sqs-block-button-container--center a {
   border-color: #b85856; }
 
 .medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium,
