@@ -105,7 +105,7 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 .Footer-inner{ padding: 0px 17px; }
 .tweak-footer-layout-stacked .Footer-blocks--top{ 
     background: white;
-    padding-bottom: 0px;
+    padding-bottom: 0px !important;
     .image-block{ padding: 0; }
 }
 .tweak-footer-layout-stacked .Footer-blocks--bottom{ 
