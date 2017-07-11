@@ -585,10 +585,10 @@ header.Header.Header--top,
   letter-spacing: 0.05em; }
 
 .sqs-block-image .design-layout-card .image-card .image-button a {
-  transition: "0.1s background-color linear, 0.1s color linear";
-  -webkit-transition: "0.1s background-color linear, 0.1s color linear";
-  -moz-transition: "0.1s background-color linear, 0.1s color linear";
-  -ms-transition: "0.1s background-color linear, 0.1s color linear"; }
+  transition: 0.1s all linear;
+  -webkit-transition: 0.1s all linear;
+  -moz-transition: 0.1s all linear;
+  -ms-transition: 0.1s all linear; }
 
 /* 
  * EXPERIEMENTAL

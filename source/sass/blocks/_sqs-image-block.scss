@@ -75,7 +75,7 @@
             }
         }
     }
-    .image-button a{ @include transition("0.1s background-color linear, 0.1s color linear"); }
+    .image-button a{ @include transition(0.1s all linear); }
 }
 
 
