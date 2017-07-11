@@ -584,6 +584,12 @@ header.Header.Header--top,
   color: #5f92bc;
   letter-spacing: 0.05em; }
 
+.sqs-block-image .design-layout-card .image-card .image-button a {
+  transition: "0.1s background-color linear, 0.1s color linear";
+  -webkit-transition: "0.1s background-color linear, 0.1s color linear";
+  -moz-transition: "0.1s background-color linear, 0.1s color linear";
+  -ms-transition: "0.1s background-color linear, 0.1s color linear"; }
+
 /* 
  * EXPERIEMENTAL
  * Make full width, 'stretch' images go edge to edge
