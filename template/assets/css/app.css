@@ -59,11 +59,11 @@
   -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2); }
 
-.white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main, .collection-type-index .Content-outer seciton.Index-page, .white-bg4, .collection-type-index[id^="collection-1"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-2"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-3"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-4"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-5"] .Content-outer seciton.Index-page, .white-bg5, .collection-type-blog.view-item .Main.Main--blog-item, .white-bg6, .collection-type-blog.view-list .Main.Main--blog-list {
+.white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main, .collection-type-index .Content-outer section.Index-page, .white-bg4, .collection-type-index[id^="collection-1"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-2"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-3"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-4"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-5"] .Content-outer section.Index-page, .white-bg5, .collection-type-blog.view-item .Main.Main--blog-item, .white-bg6, .collection-type-blog.view-list .Main.Main--blog-list {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top; }
@@ -76,17 +76,17 @@
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939ad1646c3c47304341c9a/1496952087178/bg-white2.jpg");
   background-color: #f6f6f6; }
 
-.white-bg3, .collection-type-page main.Main, .collection-type-index .Content-outer seciton.Index-page {
+.white-bg3, .collection-type-page main.Main, .collection-type-index .Content-outer section.Index-page {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593b103fbebafbb47a1afd9a/1497043008224/bg-white3.jpg");
   background-color: #ffffff;
   background-position: left bottom;
   background-size: cover; }
 
-.white-bg4, .collection-type-index[id^="collection-1"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-2"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-3"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-4"] .Content-outer seciton.Index-page,
-.collection-type-index[id^="collection-5"] .Content-outer seciton.Index-page {
+.white-bg4, .collection-type-index[id^="collection-1"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-2"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-3"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-4"] .Content-outer section.Index-page,
+.collection-type-index[id^="collection-5"] .Content-outer section.Index-page {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59653b2336e5d3e912c2c4f8/1499806500250/bg-white4.gif");
   background-color: #ffffff;
   background-position: left bottom;
