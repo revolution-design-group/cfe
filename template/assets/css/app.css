@@ -87,7 +87,7 @@
 .white-bg5, .collection-type-blog.view-item .Main.Main--blog-item {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59652aaabebafbd8a362ae16/1499802282734/bg-white5.gif");
   background-color: #ffffff;
-  background-position: right bottom;
+  background-position: right top;
   background-size: cover; }
 
 .white-bg6, .collection-type-blog.view-list .Main.Main--blog-list {
