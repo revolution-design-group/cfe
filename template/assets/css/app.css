@@ -557,7 +557,7 @@ header.Header.Header--top,
       .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title p a {
         border-color: rgba(255, 255, 255, 0); }
       .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title p a:hover {
-        border-color: rgba(255, 255, 255, 0.15);
+        border-color: rgba(255, 255, 255, 0.75);
         color: white; }
   .sqs-block-image .design-layout-collage .image-card .image-subtitle-wrapper, .sqs-block-image .design-layout-collage .image-card .image-button-wrapper {
     display: none; }
