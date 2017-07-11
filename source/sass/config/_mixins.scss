@@ -72,6 +72,27 @@
     background-position: left bottom;
     background-size: cover;
 }
+.white-bg4{
+    @extend .white-bg; 
+    background-image: $white-bg4;
+    background-color: #ffffff;
+    background-position: right top;
+    background-size: cover;
+}
+.white-bg5{
+    @extend .white-bg; 
+    background-image: $white-bg5;
+    background-color: #ffffff;
+    background-position: right bottom;
+    background-size: cover;
+}
+.white-bg6{
+    @extend .white-bg; 
+    background-image: $white-bg6;
+    background-color: #fefefe;
+    background-position: right top;
+    background-size: cover;
+}
 
 .blue-asphalt-bg{
     background: $blue-asphalt-bg #f4f4f4;

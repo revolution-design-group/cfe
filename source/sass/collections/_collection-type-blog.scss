@@ -6,6 +6,17 @@
 
 .collection-type-blog {
     
+    // Add white abstract bg to list view
+    Content-outer{
+        @extend .white-bg6;
+    }
+    // Add white abstract bg to individual posts
+    &.view-item {
+        Content-outer{
+            @extend .white-bg5;
+        }
+    }
+
     
    
     .sqs-gallery-block-slideshow {
