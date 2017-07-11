@@ -26,13 +26,13 @@
             top: -1 * $displacement;
             bottom: $displacement;
             right: $displacement;
-            
-            @extend .subtle-box-shadow;
+
+            @include box-shadow(20px 20px 40px rgba(0,0,0,.1));
         } 
         
         /* add drop shadows to slide image */
         .slide img{
-            @extend .subtle-box-shadow;
+            @include box-shadow(20px 20px 40px rgba(0,0,0,.1));
         }
     }
     
