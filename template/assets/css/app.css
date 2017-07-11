@@ -89,7 +89,7 @@
 .collection-type-index[id^="collection-5"] .Content-outer seciton.Index-page {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59653b2336e5d3e912c2c4f8/1499806500250/bg-white4.gif");
   background-color: #ffffff;
-  background-position: right top;
+  background-position: left bottom;
   background-size: cover; }
 
 .white-bg5, .collection-type-blog.view-item .Main.Main--blog-item {
@@ -100,8 +100,8 @@
 
 .white-bg6, .collection-type-blog.view-list .Main.Main--blog-list {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/596539a437c5816f308f3799/1499806117054/bg-white6.gif");
-  background-color: #fefefe;
-  background-position: right top;
+  background-color: #ffffff;
+  background-position: right center;
   background-size: cover; }
 
 .blue-asphalt-bg, #about-markets-we-serve-gallery, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"], .collection-type-index main section[id$="-videos-section"] {
