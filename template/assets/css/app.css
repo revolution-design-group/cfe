@@ -59,7 +59,7 @@
   -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2); }
 
-.white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main {
+.white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main, .white-bg4, .white-bg5, .collection-type-blog.view-item Content-outer, .white-bg6, .collection-type-blog Content-outer {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top; }
@@ -76,6 +76,24 @@
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593b103fbebafbb47a1afd9a/1497043008224/bg-white3.jpg");
   background-color: #ffffff;
   background-position: left bottom;
+  background-size: cover; }
+
+.white-bg4 {
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59652aa8ccf210b2b7dfb34c/1499802281064/bg-white4.gif");
+  background-color: #ffffff;
+  background-position: right top;
+  background-size: cover; }
+
+.white-bg5, .collection-type-blog.view-item Content-outer {
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59652aaabebafbd8a362ae16/1499802282734/bg-white5.gif");
+  background-color: #ffffff;
+  background-position: right bottom;
+  background-size: cover; }
+
+.white-bg6, .collection-type-blog Content-outer {
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59652f383e00be66d5f92f6e/1499803448986/bg-white6.gif");
+  background-color: #fefefe;
+  background-position: right top;
   background-size: cover; }
 
 .blue-asphalt-bg, #about-markets-we-serve-gallery, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"], .collection-type-index main section[id$="-videos-section"] {
