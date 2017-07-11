@@ -14,7 +14,7 @@
     }
     // Add white abstract bg to individual posts
     &.view-item {
-        Content-outer{
+        .Main.Main--blog-item{
             @extend .white-bg5;
         }
     }
