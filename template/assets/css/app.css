@@ -394,18 +394,29 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
     max-width: 922px; }
   .Footer form input.button {
     color: white !important; }
-  .Footer .form-wrapper .field-list .title {
-    font-weight: 500;
-    letter-spacing: .025em;
-    font-size: 16px; }
-  .Footer .form-wrapper .field-list .field .field-element {
-    border: 0;
-    background-color: rgba(255, 255, 255, 0.15);
-    color: white;
-    font-family: proxima-nova;
-    font-weight: 500;
-    letter-spacing: .025em;
-    font-size: 17px !important; }
+  .Footer .form-wrapper .field-list {
+    /* first 4 fields get half width */ }
+    .Footer .form-wrapper .field-list .title {
+      font-weight: 500;
+      letter-spacing: .025em;
+      font-size: 16px; }
+    .Footer .form-wrapper .field-list .field .field-element {
+      border: 0;
+      background-color: rgba(255, 255, 255, 0.15);
+      color: white;
+      font-family: proxima-nova;
+      font-weight: 500;
+      letter-spacing: .025em;
+      font-size: 17px !important; }
+    .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4) {
+      width: 48%;
+      float: left; }
+      .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n) {
+        padding-left: 2%; }
+        .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n).fields {
+          padding-left: 3%; }
+      .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n+1) {
+        padding-right: 2%; }
 
 /* LAYOUT */
 .Footer-inner {
