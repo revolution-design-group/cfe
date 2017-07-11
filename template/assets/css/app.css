@@ -554,6 +554,11 @@ header.Header.Header--top,
       padding: .5em 0;
       border-top: 3px solid white;
       border-bottom: 3px solid white; }
+      .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title p a {
+        border-color: rgba(255, 255, 255, 0); }
+      .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title p a:hover {
+        border-color: rgba(255, 255, 255, 0.15);
+        color: white; }
   .sqs-block-image .design-layout-collage .image-card .image-subtitle-wrapper, .sqs-block-image .design-layout-collage .image-card .image-button-wrapper {
     display: none; }
 

@@ -25,6 +25,14 @@
             padding: .5em 0;
             border-top: 3px solid white;
             border-bottom: 3px solid white;
+                
+            p a{
+                border-color: rgba(255,255,255,0);
+            }
+            p a:hover{ 
+                border-color: rgba(255,255,255,.15);
+                color: white; 
+            }
         }
     }
     .image-subtitle-wrapper, .image-button-wrapper{
