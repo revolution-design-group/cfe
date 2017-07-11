@@ -36,6 +36,11 @@ $color-footer-overlay: rgba(24,47,61,0.7);
     h1{ margin-bottom: 0; }
     h1 + p{ margin-top: 0; }
 }
+.Footer-blocks--bottom{
+    .html-block p{
+        font-size: 14px;
+    }
+}
 
 
 
