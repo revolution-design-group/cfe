@@ -771,7 +771,7 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to Blog pages.
 *******************************************************************************/
-.collection-type-blog .sqs-gallery-block-slideshow:after {
+.collection-type-blog .sqs-gallery-block-slideshow .sqs-gallery-design-stacked:after {
   content: "";
   display: block;
   position: absolute;
