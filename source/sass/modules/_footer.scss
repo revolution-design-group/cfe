@@ -90,6 +90,9 @@ $color-footer-overlay: rgba(24,47,61,0.7);
                 padding-right: 2%;
             }
         }
+        > .form-item:nth-child(5){
+            clear: both;
+        }
     }
 }
 

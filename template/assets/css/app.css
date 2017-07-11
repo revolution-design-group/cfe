@@ -417,6 +417,8 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
           padding-left: 3%; }
       .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n+1) {
         padding-right: 2%; }
+    .Footer .form-wrapper .field-list > .form-item:nth-child(5) {
+      clear: both; }
 
 /* LAYOUT */
 .Footer-inner {
