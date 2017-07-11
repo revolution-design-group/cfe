@@ -275,6 +275,7 @@
  * Accent lines preceeding headings and titles
 *******************************************************************************/
 #home-featured-projects .image-title-wrapper:before,
+.BlogItem-title:before,
 .html-block h1:before {
   content: "";
   display: block;
