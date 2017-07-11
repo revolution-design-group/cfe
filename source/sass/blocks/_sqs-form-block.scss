@@ -20,6 +20,14 @@
   font-size: 14px;
 }
 
+.form-wrapper .field-list .section{
+    text-transform: none;
+    font-size: 1em;
+    
+    .title{ font-size: 1.5em; font-weight: bolder; }
+    .description{ font-size: 1em; }
+}
+
 
 /* Submit Button (lightbox submit button) */
 .form-wrapper input[type=submit]{
@@ -34,7 +42,7 @@
 }
 
 
-/* Lightbox Button */
+/* Lightbox Open Button */
 .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button{
   border: solid 1px #e1e1e1;
   margin: .5em 0;
