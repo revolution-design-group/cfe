@@ -28,24 +28,25 @@
     
     
     .sqs-block-gallery .sqs-gallery-block-slideshow {
-      .img-wrapper{
-        width:45%
-      }
-      .meta{ width: 45% !important; top: 30px; }
-      .meta-inside{
-        text-align: center;
-        &:before{
-          margin-left: auto;
-          margin-right: auto;
+        .img-wrapper{
+            width:45%
         }
+        .meta{ width: 45% !important; top: 30px; }
+        .meta-inside{
+            text-align: center;
+            &:before{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        .meta .meta-title{ font-size: 50px; }
         .meta-title:before{
-          content: "Markets Served";
-          text-transform: uppercase;
-          color: #5f92bc;
-          //color: $color-brand-palette-blue;
-          font-weight: 500;
-          margin-bottom: 5px;
-          width: 100%;
+                content: "Markets Served";
+                text-transform: uppercase;
+                color: $color-brand-palette-blue;
+                font-weight: 500;
+                margin-bottom: 5px;
+                font-size: .6em;
+                width: 100%;
         }
         .meta-description p{ visibility: hidden; }
       }

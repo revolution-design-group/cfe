@@ -904,12 +904,15 @@ body:not(.collection-type-blog) {
     #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside:before {
       margin-left: auto;
       margin-right: auto; }
+    #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside .meta .meta-title {
+      font-size: 50px; }
     #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside .meta-title:before {
       content: "Markets Served";
       text-transform: uppercase;
       color: #5f92bc;
       font-weight: 500;
       margin-bottom: 5px;
+      font-size: .6em;
       width: 100%; }
     #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside .meta-description p {
       visibility: hidden; }
