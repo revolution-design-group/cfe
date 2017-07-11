@@ -28,6 +28,9 @@
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: .1em;
+    background-color: $color-brand-palette-blue;
+    @include transition(0.1s opacity linear);
+    &:hover{ opacity: .8; }
 }
 
 

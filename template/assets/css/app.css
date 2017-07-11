@@ -775,7 +775,14 @@ body:not(.collection-type-blog) {
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+  background-color: #5f92bc;
+  transition: 0.1s opacity linear;
+  -webkit-transition: 0.1s opacity linear;
+  -moz-transition: 0.1s opacity linear;
+  -ms-transition: 0.1s opacity linear; }
+  .form-wrapper input[type=submit]:hover {
+    opacity: .8; }
 
 /* Lightbox Button */
 .sqs-block-form .lightbox-handle.sqs-system-button.sqs-editable-button {
