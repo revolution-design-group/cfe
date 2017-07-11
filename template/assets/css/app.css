@@ -53,7 +53,7 @@
  * Still working on useful mixins for Squarespace non-dev templates.
 *******************************************************************************/
 /* CSS3 calc() function to perform calculations */
-.subtle-box-shadow, body:not(.collection-type-blog) .sqs-gallery-block-slideshow img, body:not(.collection-type-blog) .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip img:not(.sqs-gallery-design-strip-slide) {
+.subtle-box-shadow, body:not(.collection-type-blog) .sqs-gallery-block-slideshow img, body:not(.collection-type-blog) .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip img:not(.sqs-gallery-design-strip-slide), .collection-type-blog .sqs-gallery-block-slideshow .sqs-gallery-design-stacked:after, .collection-type-blog .sqs-gallery-block-slideshow .slide img {
   box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
@@ -772,18 +772,21 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to Blog pages.
 *******************************************************************************/
-.collection-type-blog .sqs-gallery-block-slideshow .sqs-gallery-design-stacked:after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939c102d1758e275ba3f85a/1496957186692/red-bailey-for-collage-block.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-  left: -25px;
-  top: -25px;
-  bottom: 25px;
-  right: 25px; }
+.collection-type-blog .sqs-gallery-block-slideshow {
+  /* add red collage bg to slide image */
+  /* add drop shadows to slide image */ }
+  .collection-type-blog .sqs-gallery-block-slideshow .sqs-gallery-design-stacked:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939c102d1758e275ba3f85a/1496957186692/red-bailey-for-collage-block.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    left: -25px;
+    top: -25px;
+    bottom: 25px;
+    right: 25px; }
 
 /******************************************************************************
  * Collection Type - Events

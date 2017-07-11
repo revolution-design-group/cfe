@@ -8,22 +8,33 @@
     
     
    
-    .sqs-gallery-block-slideshow .sqs-gallery-design-stacked:after {
-        $displacement: 25px;
+    .sqs-gallery-block-slideshow {
         
-        content: "";
-        display: block;
-        position: absolute;
+        /* add red collage bg to slide image */
+        .sqs-gallery-design-stacked:after {
+            $displacement: 25px;
+
+            content: "";
+            display: block;
+            position: absolute;
+
+            background-image: $red-collage-accent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+            left: -1 * $displacement;
+            top: -1 * $displacement;
+            bottom: $displacement;
+            right: $displacement;
+            
+            @extend .subtle-box-shadow;
+        } 
         
-        background-image: $red-collage-accent;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50%;
-        left: -1 * $displacement;
-        top: -1 * $displacement;
-        bottom: $displacement;
-        right: $displacement;
-    } 
+        /* add drop shadows to slide image */
+        .slide img{
+            @extend .subtle-box-shadow;
+        }
+    }
     
     
     
