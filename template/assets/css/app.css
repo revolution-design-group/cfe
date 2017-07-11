@@ -771,6 +771,19 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to Blog pages.
 *******************************************************************************/
+.collection-type-blog .sqs-gallery-block-slideshow:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939c102d1758e275ba3f85a/1496957186692/red-bailey-for-collage-block.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  left: -25px;
+  top: -25px;
+  bottom: 25px;
+  right: 25px; }
+
 /******************************************************************************
  * Collection Type - Events
  *

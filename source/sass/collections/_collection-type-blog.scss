@@ -3,4 +3,35 @@
  *
  * Custom CSS styles that relate to Blog pages.
 *******************************************************************************/
-.collection-type-blog {}
+
+.collection-type-blog {
+    
+    
+   
+    .sqs-gallery-block-slideshow:before {
+        $displacement: 25px;
+        
+        content: "";
+        display: block;
+        position: absolute;
+        
+        background-image: $red-collage-accent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        left: -1 * $displacement;
+        top: -1 * $displacement;
+        bottom: $displacement;
+        right: $displacement;
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
