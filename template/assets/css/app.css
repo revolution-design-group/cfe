@@ -892,6 +892,9 @@ body:not(.collection-type-blog) {
         height: 4px;
         background-color: white;
         margin-bottom: 25px; }
+        @media screen and (max-width: 1080px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-inside:before {
+            margin-bottom: 15px; } }
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
         font-size: 16px; }
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
