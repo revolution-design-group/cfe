@@ -6,19 +6,8 @@
 
 
 
-// Add white abstract bg to list view. We have two different options that are selected based on the collection id
+// Add white abstract bg to list view.
 .collection-type-index{
-      .Content-outer{
-        section.Index-page{
-            @extend .white-bg3;
-        }
-    }
-}
-.collection-type-index[id^="collection-1"],
-.collection-type-index[id^="collection-2"],
-.collection-type-index[id^="collection-3"],
-.collection-type-index[id^="collection-4"],
-.collection-type-index[id^="collection-5"] {
       .Content-outer{
         section.Index-page{
             @extend .white-bg4;
