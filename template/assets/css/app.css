@@ -846,9 +846,10 @@ body:not(.collection-type-blog) {
     @media screen and (max-width: 1080px) {
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
         margin-bottom: 60px; } }
-    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
-      height: 0 !important;
-      padding-bottom: 26%; }
+    @media screen and (min-width: 641px) {
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
+        height: 0 !important;
+        padding-bottom: 26%; } }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper {
       width: 35%;
       height: auto;

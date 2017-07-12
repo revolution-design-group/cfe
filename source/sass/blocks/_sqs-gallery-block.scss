@@ -35,8 +35,10 @@ body:not(.collection-type-blog){
 
         /* set height/width of the gallery section */
         .sqs-gallery-design-stacked {
-            height: 0 !important;
-            padding-bottom: 26%;
+            @media screen and (min-width: 641px){
+                height: 0 !important;
+                padding-bottom: 26%;
+            }
         }
 
         /* img-wrapper class (injected) used to add floating line frame behind img */
