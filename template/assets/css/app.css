@@ -916,7 +916,7 @@ body:not(.collection-type-blog) {
             font-size: 30px; } }
         @media screen and (max-width: 640px) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
-            font-size: 30px; } }
+            font-size: 25px; } }
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title:before {
           font-family: proxima-nova;
           font-weight: 300;
