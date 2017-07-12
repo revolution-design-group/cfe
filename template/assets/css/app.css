@@ -852,6 +852,18 @@ body:not(.collection-type-blog) {
         height: auto !important;
         left: 40px !important;
         top: 40px !important; }
+        @media screen and (max-width: 1400px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper img {
+            left: 30px !important;
+            top: 30px !important; } }
+        @media screen and (max-width: 1080px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper img {
+            left: 20px !important;
+            top: 20px !important; } }
+        @media screen and (max-width: 640px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper img {
+            left: 15px !important;
+            top: 15px !important; } }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
       height: auto !important;
       max-width: 50% !important;
@@ -894,6 +906,24 @@ body:not(.collection-type-blog) {
       left: -o-calc(35% /2 + 40px);
       top: calc(50% + 40px);
       top: -o-calc(50% + 40px); }
+      @media screen and (max-width: 1400px) {
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+          left: calc(35% /2 + 30px);
+          left: -o-calc(35% /2 + 30px);
+          top: calc(50% + 30px);
+          top: -o-calc(50% + 30px); } }
+      @media screen and (max-width: 1080px) {
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+          left: calc(35% /2 + 20px);
+          left: -o-calc(35% /2 + 20px);
+          top: calc(50% + 20px);
+          top: -o-calc(50% + 20px); } }
+      @media screen and (max-width: 640px) {
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+          left: calc(35% /2 + 15px);
+          left: -o-calc(35% /2 + 15px);
+          top: calc(50% + 15px);
+          top: -o-calc(50% + 15px); } }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-controls .previous {
       left: -3.5%; }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-controls .next {

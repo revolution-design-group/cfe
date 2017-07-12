@@ -49,6 +49,18 @@ body:not(.collection-type-blog){
                 height: auto !important;
                 left: $img-displacementX !important;
                 top: $img-displacementY !important;
+                @media screen and (max-width: 1400px ){
+                    left: 3/4 * $img-displacementX !important;
+                    top: 3/4 * $img-displacementY !important;
+                }
+                @media screen and (max-width: 1080px ){
+                    left: 1/2 * $img-displacementX !important;
+                    top: 1/2 * $img-displacementY !important;
+                }
+                @media screen and (max-width: 640px ){
+                    left: 3/8 * $img-displacementX !important;
+                    top: 3/8 * $img-displacementY !important;
+                }
             }
         }
         /* // Second way that uses background image
@@ -123,6 +135,15 @@ body:not(.collection-type-blog){
             left: $img-width * .6; //fallback
             top: $img-width * 1.3; //fallback
             @include fn-position-video-icon($img-width, $img-displacementX, $img-displacementY);
+            @media screen and (max-width: 1400px ){
+                @include fn-position-video-icon($img-width, 3/4 * $img-displacementX, 3/4 * $img-displacementY);
+            }
+            @media screen and (max-width: 1080px ){
+                @include fn-position-video-icon($img-width, 1/2 * $img-displacementX, 1/2 * $img-displacementY);
+            }
+            @media screen and (max-width: 640px ){
+                @include fn-position-video-icon($img-width, 3/8 * $img-displacementX, 3/8 * $img-displacementY);
+            }
         }
 
         /* Controls */
