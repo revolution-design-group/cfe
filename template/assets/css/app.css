@@ -843,6 +843,15 @@ body:not(.collection-type-blog) {
     /* Title and Description */
     /* Videos */
     /* Controls */ }
+    @media screen and (max-width: 1400px) {
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
+        margin-bottom: 60px; } }
+    @media screen and (max-width: 1080px) {
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
+        margin-bottom: 40px; } }
+    @media screen and (max-width: 640px) {
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
+        margin-bottom: 30px; } }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
       height: 0 !important;
       padding-bottom: 26%; }

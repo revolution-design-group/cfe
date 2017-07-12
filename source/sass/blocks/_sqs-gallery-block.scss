@@ -28,6 +28,9 @@ body:not(.collection-type-blog){
     .sqs-gallery-block-slideshow {
         background-color: transparent;
         @include slideshow-mb($img-displacementY);
+        @media screen and (max-width: 1400px ){ @include slideshow-mb(3/4 * $img-displacementY); }
+        @media screen and (max-width: 1080px ){ @include slideshow-mb(1/2 * $img-displacementY); }
+        @media screen and (max-width: 640px ){ @include slideshow-mb(3/8 * $img-displacementY); }  
 
         img{ @extend .subtle-box-shadow; }
 
@@ -82,9 +85,6 @@ body:not(.collection-type-blog){
 
         /* Title and Description */
         .meta{
-            //@include vertically-centered(relative);
-            //bottom: initial;
-            //position: absolute;
             height: auto !important;
             max-width: 50% !important;
             text-shadow: 0 0 7.5px hsla(0,0%,8%,.4);
