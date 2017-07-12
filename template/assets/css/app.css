@@ -470,17 +470,18 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
       font-weight: 500;
       letter-spacing: .025em;
       font-size: 17px !important; }
-    .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4) {
-      width: 48%;
-      float: left; }
-      .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n) {
-        padding-left: 2%; }
-        .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n).fields {
-          padding-left: 3%; }
-      .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n+1) {
-        padding-right: 2%; }
-    .Footer .form-wrapper .field-list > .form-item:nth-child(5) {
-      clear: both; }
+    @media screen and (min-width: 590px) {
+      .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4) {
+        width: 48%;
+        float: left; }
+        .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n) {
+          padding-left: 2%; }
+          .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n).fields {
+            padding-left: 3%; }
+        .Footer .form-wrapper .field-list > .form-item:nth-child(-n+4):nth-child(2n+1) {
+          padding-right: 2%; }
+      .Footer .form-wrapper .field-list > .form-item:nth-child(5) {
+        clear: both; } }
 
 /* LAYOUT */
 .Footer-inner {

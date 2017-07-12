@@ -77,21 +77,23 @@ $color-footer-overlay: rgba(24,47,61,0.7);
         }
         
         /* first 4 fields get half width */
-        > .form-item:nth-child(-n+4){
-            width: 48%;
-            float: left;
-            &:nth-child(2n){
-                padding-left: 2%;
-                &.fields{
-                    padding-left: 3%;
+        @media screen and (min-width: 590px){
+            > .form-item:nth-child(-n+4){
+                width: 48%;
+                float: left;
+                &:nth-child(2n){
+                    padding-left: 2%;
+                    &.fields{
+                        padding-left: 3%;
+                    }
+                }
+                &:nth-child(2n+1){
+                    padding-right: 2%;
                 }
             }
-            &:nth-child(2n+1){
-                padding-right: 2%;
+            > .form-item:nth-child(5){
+                clear: both;
             }
-        }
-        > .form-item:nth-child(5){
-            clear: both;
         }
     }
 }
