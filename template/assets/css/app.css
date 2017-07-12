@@ -530,6 +530,9 @@ header.Header.Header--top,
     padding-left: 20px;
     padding-right: 20px; } }
 
+.Header [data-nc-container="top-left"] [data-nc-element] {
+  padding-left: 0; }
+
 @media screen and (max-width: 1120px) {
   .Header-branding-logo {
     max-width: 250px; } }

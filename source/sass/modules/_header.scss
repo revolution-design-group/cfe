@@ -47,6 +47,7 @@ header.Header.Header--top,
 }
 
 // SITE LOGO
+.Header [data-nc-container="top-left"] [data-nc-element]{ padding-left: 0; }
 .Header-branding-logo{
     @media screen and (max-width: 1120px){ max-width: 250px; }
     @media screen and (max-width: 1030px){ max-width: 200px; }
