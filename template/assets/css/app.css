@@ -882,7 +882,7 @@ body:not(.collection-type-blog) {
       max-width: 50% !important;
       text-shadow: 0 0 7.5px rgba(20, 20, 20, 0.4);
       background-color: transparent; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1350px) {
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
           margin-top: -25px; } }
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-inside:before {
