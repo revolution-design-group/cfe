@@ -50,6 +50,17 @@ section.Intro.Intro--has-image{
 /******************************************************************************
  * Headings
 *******************************************************************************/
+
+@media screen and (max-width: 640px){
+  h1, h2, h3{ -webkit-hyphens: initial; -moz-hyphens: initial; -ms-hyphens: initial; hyphens: initial;}
+}
+
+/* H1 */
+h1{
+    @media screen and (max-width: 640px){ font-size: 27px; }
+    @media screen and (max-width: 375px){ font-size: 25px; }
+}
+
 // Same as h2
 .html-block h1 em{
     font-family: alternate-gothic-no-2-d;
@@ -64,6 +75,21 @@ section.Intro.Intro--has-image{
 }
 
 
+/* H2 */
+h2{}
+
+
+/* H3 */
+h3{}
+
+
+/******************************************************************************
+ * Body Text
+*******************************************************************************/
+
+p, li{
+    @media screen and (max-width: 640px){ font-size: 16px; line-height: 1.5em; }
+}
 
 
 /******************************************************************************
@@ -85,24 +111,3 @@ section.Intro.Intro--has-image{
 
 
 
-
-/******************************************************************************
- * Page Intros
-*******************************************************************************/
-.Intro--has-image {
-    h1, h2, h3, p{ 
-        color: white; 
-        margin: 0 auto;
-    }
-    h1:before{ 
-        background-color: white; 
-        margin-bottom: 15px;
-    }
-    h1{
-        font-size: 30px;
-        font-weight: 300;
-    }
-    h2{
-        font-size: 80px;
-    }
-}
