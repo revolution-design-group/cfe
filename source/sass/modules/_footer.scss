@@ -39,6 +39,7 @@ $color-footer-overlay: rgba(24,47,61,0.7);
 .Footer-blocks--bottom{
     .html-block p{
         font-size: 14px;
+        @media screen and (max-width: 890px){ font-size: 12px; }
     }
 }
 

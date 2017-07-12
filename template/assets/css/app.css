@@ -443,6 +443,9 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
 
 .Footer-blocks--bottom .html-block p {
   font-size: 14px; }
+  @media screen and (max-width: 890px) {
+    .Footer-blocks--bottom .html-block p {
+      font-size: 12px; } }
 
 .Footer {
   background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg") #3c769f;
