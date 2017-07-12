@@ -11,6 +11,7 @@
 $img-displacementX: 40px;
 $img-displacementY: $img-displacementX;
 $img-width: 35%;
+$img-width-mobile: 45%; // for max-width: 640px
 
 @mixin slideshow-mb($base) {
     margin-bottom: $base * 2;
@@ -41,6 +42,7 @@ body:not(.collection-type-blog){
         /* img-wrapper class (injected) used to add floating line frame behind img */
         .img-wrapper{
             width: $img-width;
+            @media screen and (max-width: 640px ){ width: $img-width-mobile; }
             height: auto;
             //height: 85%;
             overflow: visible !important;
@@ -137,6 +139,8 @@ body:not(.collection-type-blog){
         .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
             left: $img-width * .6; //fallback
             top: $img-width * 1.3; //fallback
+            @media screen and (max-width: 640px ){ left: $img-width-mobile * .6; top: $img-width-mobile * 1.3; } //fallback
+            
             @include fn-position-video-icon($img-width, $img-displacementX, $img-displacementY);
             @media screen and (max-width: 1400px ){
                 @include fn-position-video-icon($img-width, 3/4 * $img-displacementX, 3/4 * $img-displacementY);
@@ -145,7 +149,7 @@ body:not(.collection-type-blog){
                 @include fn-position-video-icon($img-width, 1/2 * $img-displacementX, 1/2 * $img-displacementY);
             }
             @media screen and (max-width: 640px ){
-                @include fn-position-video-icon($img-width, 3/8 * $img-displacementX, 3/8 * $img-displacementY);
+                @include fn-position-video-icon($img-width-mobile, 3/8 * $img-displacementX, 3/8 * $img-displacementY);
             }
         }
 
