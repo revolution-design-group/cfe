@@ -334,6 +334,14 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
     hyphens: initial; } }
 
 /* H1 */
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 38px; } }
+
+@media screen and (max-width: 690px) {
+  h1 {
+    font-size: 33px; } }
+
 @media screen and (max-width: 640px) {
   h1 {
     font-size: 27px; } }

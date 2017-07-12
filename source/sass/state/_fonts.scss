@@ -57,6 +57,8 @@ section.Intro.Intro--has-image{
 
 /* H1 */
 h1{
+    @media screen and (max-width: 800px){ font-size: 38px; }
+    @media screen and (max-width: 690px){ font-size: 33px; }
     @media screen and (max-width: 640px){ font-size: 27px; }
     @media screen and (max-width: 375px){ font-size: 25px; }
 }
