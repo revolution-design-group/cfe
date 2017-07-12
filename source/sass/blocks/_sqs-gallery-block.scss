@@ -28,9 +28,7 @@ body:not(.collection-type-blog){
     .sqs-gallery-block-slideshow {
         background-color: transparent;
         @include slideshow-mb($img-displacementY);
-        @media screen and (max-width: 1400px ){ @include slideshow-mb(3/4 * $img-displacementY); }
-        @media screen and (max-width: 1080px ){ @include slideshow-mb(1/2 * $img-displacementY); }
-        @media screen and (max-width: 640px ){ @include slideshow-mb(3/8 * $img-displacementY); }  
+        @media screen and (max-width: 1080px ){ @include slideshow-mb(3/4 * $img-displacementY); }
 
         img{ @extend .subtle-box-shadow; }
 
@@ -102,6 +100,7 @@ body:not(.collection-type-blog){
             }
             .meta-description p{
                 font-size: 16px;
+                @media screen and (max-width: 1080px) { font-size: 14px; }
             }
             .meta-title{
                 font-family: alternate-gothic-no-2-d;
@@ -109,9 +108,9 @@ body:not(.collection-type-blog){
                 font-style: normal;
                 letter-spacing: .05em;
                 color:white;
-                font-size: 35px;
-                //font-size: 2.1vw;
                 text-transform: uppercase;
+                font-size: 35px;
+                @media screen and (max-width: 1080px) { font-size: 30px; }
 
                 &:before{
                   font-family: proxima-nova;
