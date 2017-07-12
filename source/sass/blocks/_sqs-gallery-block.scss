@@ -85,6 +85,8 @@ body:not(.collection-type-blog){
 
         /* Title and Description */
         .meta{
+            @media screen and (max-width: 1450px){ margin-top: -25px; }
+            
             height: auto !important;
             max-width: 50% !important;
             text-shadow: 0 0 7.5px hsla(0,0%,8%,.4);
