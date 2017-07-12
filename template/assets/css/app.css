@@ -900,6 +900,9 @@ body:not(.collection-type-blog) {
         @media screen and (max-width: 1080px) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
             font-size: 14px; } }
+        @media screen and (max-width: 640px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
+            display: none; } }
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
         font-family: alternate-gothic-no-2-d;
         font-weight: 400;
@@ -909,6 +912,9 @@ body:not(.collection-type-blog) {
         text-transform: uppercase;
         font-size: 35px; }
         @media screen and (max-width: 1080px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
+            font-size: 30px; } }
+        @media screen and (max-width: 640px) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
             font-size: 30px; } }
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title:before {

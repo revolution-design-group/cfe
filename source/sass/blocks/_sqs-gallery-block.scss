@@ -104,6 +104,7 @@ body:not(.collection-type-blog){
             .meta-description p{
                 font-size: 16px;
                 @media screen and (max-width: 1080px) { font-size: 14px; }
+                @media screen and (max-width: 640px) { display: none; }
             }
             .meta-title{
                 font-family: alternate-gothic-no-2-d;
@@ -114,6 +115,7 @@ body:not(.collection-type-blog){
                 text-transform: uppercase;
                 font-size: 35px;
                 @media screen and (max-width: 1080px) { font-size: 30px; }
+                @media screen and (max-width: 640px) { font-size: 30px; }
 
                 &:before{
                   font-family: proxima-nova;
