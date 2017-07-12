@@ -28,3 +28,6 @@ header.Header.Header--top,
 
 
 // SITE LOGO
+.Mobile-bar-branding-logo{
+    @media screen and (max-width: 639px){ width: 42vw; max-width: 160px; }
+}
