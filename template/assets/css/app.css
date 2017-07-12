@@ -361,6 +361,22 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
   color: #b85856; }
 
 /* H2 */
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 38px; } }
+
+@media screen and (max-width: 690px) {
+  h2 {
+    font-size: 33px; } }
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 27px; } }
+
+@media screen and (max-width: 375px) {
+  h2 {
+    font-size: 25px; } }
+
 /* H3 */
 /******************************************************************************
  * Body Text
