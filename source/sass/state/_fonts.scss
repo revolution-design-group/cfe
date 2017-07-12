@@ -62,8 +62,7 @@ h1{
     @media screen and (max-width: 640px){ font-size: 27px; }
     @media screen and (max-width: 375px){ font-size: 25px; }
 }
-
-// Same as h2
+// Format h1 em to be same as h2
 .html-block h1 em{
     font-family: alternate-gothic-no-2-d;
     font-weight: 400;
@@ -90,6 +89,7 @@ h3{}
 *******************************************************************************/
 
 p, li{
+    @media screen and (max-width: 768px){ font-size: 17px; line-height: 1.6em; }
     @media screen and (max-width: 640px){ font-size: 16px; line-height: 1.5em; }
 }
 
