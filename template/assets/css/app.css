@@ -823,7 +823,7 @@ body:not(.collection-type-blog) {
   body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
     background-color: transparent;
     margin-bottom: 80px;
-    /* set height/width of the gallery section */
+    /* set height of the gallery section */
     /* img-wrapper class (injected) used to add floating line frame behind img */
     /* // Second way that uses background image
         .slide img{

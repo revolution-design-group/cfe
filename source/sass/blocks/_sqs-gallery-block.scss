@@ -33,7 +33,7 @@ body:not(.collection-type-blog){
 
         img{ @extend .subtle-box-shadow; }
 
-        /* set height/width of the gallery section */
+        /* set height of the gallery section */
         .sqs-gallery-design-stacked {
             @media screen and (min-width: 641px){
                 height: 0 !important;
