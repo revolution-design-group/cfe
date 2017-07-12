@@ -59,7 +59,7 @@
   -moz-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.2); }
 
-.white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main, .white-bg4, .collection-type-index .Content-outer section.Index-page, .white-bg5, .collection-type-blog.view-item .Main.Main--blog-item, .white-bg6, .collection-type-blog.view-list .Main.Main--blog-list {
+.white-bg, .white-bg1, .white-bg2, .white-bg3, .collection-type-page main.Main, .white-bg4, .collection-type-index main section.Index-page, .white-bg5, .collection-type-blog.view-item .Main.Main--blog-item, .white-bg6, .collection-type-blog.view-list .Main.Main--blog-list {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top; }
@@ -78,7 +78,7 @@
   background-position: left bottom;
   background-size: cover; }
 
-.white-bg4, .collection-type-index .Content-outer section.Index-page {
+.white-bg4, .collection-type-index main section.Index-page {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59653b2336e5d3e912c2c4f8/1499806500250/bg-white4.gif");
   background-color: #ffffff;
   background-position: left bottom;
