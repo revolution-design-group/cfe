@@ -520,6 +520,16 @@ header.Header.Header--top,
       padding-left: 20px;
       padding-right: 20px; } }
 
+@media screen and (max-width: 768px) {
+  .Mobile-bar {
+    padding-left: 36px;
+    padding-right: 36px; } }
+
+@media screen and (max-width: 640px) {
+  .Mobile-bar {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
 @media screen and (max-width: 1120px) {
   .Header-branding-logo {
     max-width: 250px; } }
