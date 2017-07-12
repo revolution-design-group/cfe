@@ -12,37 +12,91 @@
 }
 
 
-//Other Index Gallery rules
+// Index Gallery sections are all formatted to the style of the Home slideshow, since that's the only one that the designs call for.
 .Index-gallery-wrapper{
+    
+    // Accent line above the title
     .Index-gallery-item-content-heading:before{
         content: "";
         display: block;
         width: 65px;
         height: 4px;
         background-color: white;
-        margin: 0 auto 25px;   
+        margin: 0 auto 25px;
+        
+        @media screen and (max-width: 768px){ height: 3px; }
+        @media screen and (max-width: 640px){ height: 2px; margin-bottom: 10px; }
     }
+    
+    
+    
+    // Arrow Controls
+    @media screen and (max-width: 768px){
+        $arrow-height: 36px;
+        .Index-gallery-control{
+             margin-top: -1/2 * $arrow-height; 
+        }
+        .Icon--caretLarge--left, .Icon--caretLarge--right{
+            width: 1/2 * $arrow-height; height: $arrow-height; 
+        }
+    }
+    @media screen and (max-width: 640px){
+        $arrow-height: 24px;
+        .Index-gallery-control{
+             margin-top: -1/2 * $arrow-height; 
+        }
+        .Icon--caretLarge--left, .Icon--caretLarge--right{
+            width: 1/2 * $arrow-height; height: $arrow-height; stroke-width: 2 !important;
+        }
+    }
+    
+    
+    
+    // Title text
     .Index-gallery-item-content--has-title-and-body {
         text-shadow: 0px 0px 7.5px rgba(20,20,20,.4);
         
+        // Heading
+        // h2 initial properties assigned in Sqsp Style Editor
+        .Index-gallery-item-content-heading{
+            @media screen and (max-width: 1150px){ font-size: 27px; }
+            @media screen and (max-width: 768px){ font-size: 22px; }
+            @media screen and (max-width: 640px){ font-size: 18px; }
+            @media screen and (max-width: 500px){ font-size: 15px; }
+            @media screen and (max-width: 400px){ font-size: 15px; }
+        }
+        
+        
+        // the p tag text
         .Index-gallery-item-content-body {
             padding-top: 0;
             
             p{ 
                 margin: 0;
+                @media screen and (max-width: 1150px){ font-size: 76px; line-height: 1em; }
+                @media screen and (max-width: 768px){ font-size: 63px; line-height: 1em; }
+                @media screen and (max-width: 640px){ font-size: 55px; line-height: 1em; }
+                @media screen and (max-width: 500px){ font-size: 45px; line-height: 1em; }
+                @media screen and (max-width: 400px){ font-size: 37px; line-height: 1em; }
                 
                 a{
                     text-shadow: none;
+                    vertical-align: middle;
+                    padding: 0.15em .5em;
+                    border: solid 2px #5f92bc;
                     
                     font-size: 35px;
                     line-height: 1em;
                     letter-spacing: .05em;
-                    vertical-align: middle;
-
-                    padding: 0.15em .5em;
-                    border: solid 2px #5f92bc;
+                    
+                    @media screen and (max-width: 1150px){ font-size: 30px; }
+                    @media screen and (max-width: 768px){ font-size: 25px; }
+                    @media screen and (max-width: 640px){ font-size: 20px; border-width: 1px; }
+                    @media screen and (max-width: 500px){ font-size: 18px; }
+                    @media screen and (max-width: 400px){ font-size: 16px; }
                 }
             }
         }
     }
+    
 }
