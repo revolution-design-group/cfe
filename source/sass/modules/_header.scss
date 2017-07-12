@@ -5,6 +5,25 @@
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
 
+
+$mobile-breakpoint-for-header: 848px;
+
+
+
+// The main nav was overlapping the spotlight icon, so I do this:
+.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+// MANUALLY HIDE DESKTOP & SHOW MOBILE HEADERS AT OUR OWN BREAKPOINT
+@media screen and (max-width: $mobile-breakpoint-for-header){
+  .Header--top{ display: none !important; }
+  [data-nc-base="mobile-bar"]{display: block;}
+}
+
+
 // BACKGROUND IMAGE
 header.Header.Header--top,
 .Mobile-bar.Mobile-bar--top{
@@ -18,16 +37,33 @@ header.Header.Header--top,
 .Header-inner.Header-inner--top{
     padding-left: 7%;
     padding-right: 7%;
+    
+    @media screen and (max-width: 1500px){ padding-left: 3.5%; padding-right: 3.5%; }
+    @media screen and (max-width: 1200px){ padding-left: 30px; padding-right: 30px; }
+    @media screen and (max-width: 930px){ padding-left: 20px; padding-right: 20px; }
 }
-
-// The main nav was overlapping the spotlight icon, so I do this:
-.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner{
-    margin-left: 0;
-    margin-right: 0;
-}
-
 
 // SITE LOGO
+.Header-branding-logo{
+    @media screen and (max-width: 1120px){ max-width: 250px; }
+    @media screen and (max-width: 1030px){ max-width: 200px; }
+    @media screen and (max-width: 930px){ max-width: 180px; }
+}
 .Mobile-bar-branding-logo{
-    @media screen and (max-width: 639px){ width: 42vw; max-width: 160px; }
+    @media screen and (max-width: $mobile-breakpoint-for-header){ width: 42vw; max-width: 200px; }
+}
+
+// LEFT / RIGHT MARGIN OF NAV ITEMS
+body:not(.tweak-header-primary-nav-hover-style-button) .Header-nav--primary .Header-nav-item{
+    // Initially defined by Squarespace Style Editor
+    @media screen and (max-width: 1500px){ margin: 0 1.45em; }
+    @media screen and (max-width: 1200px){ margin: 0 1.2em; }
+    @media screen and (max-width: 1120px){ margin: 0 1em; }
+}
+
+// FONT OF NAV
+.Header-nav{
+    // Initially defined by Squarespace Style Editor
+    @media screen and (max-width: 1030px){ font-size: 14px; letter-spacing: .015em; }
+    @media screen and (max-width: 930px){ font-size: 13px; }
 }

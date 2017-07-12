@@ -487,6 +487,16 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
  * Custom CSS styles that relate to the header area.
  * Note: Not all Squarespace templates have the same classes/IDs.
 *******************************************************************************/
+.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner {
+  margin-left: 0;
+  margin-right: 0; }
+
+@media screen and (max-width: 848px) {
+  .Header--top {
+    display: none !important; }
+  [data-nc-base="mobile-bar"] {
+    display: block; } }
+
 header.Header.Header--top,
 .Mobile-bar.Mobile-bar--top {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/593af7caff7c50205f5a8037/1497036746362/header-bg.jpg");
@@ -497,15 +507,56 @@ header.Header.Header--top,
 .Header-inner.Header-inner--top {
   padding-left: 7%;
   padding-right: 7%; }
+  @media screen and (max-width: 1500px) {
+    .Header-inner.Header-inner--top {
+      padding-left: 3.5%;
+      padding-right: 3.5%; } }
+  @media screen and (max-width: 1200px) {
+    .Header-inner.Header-inner--top {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media screen and (max-width: 930px) {
+    .Header-inner.Header-inner--top {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
-.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner {
-  margin-left: 0;
-  margin-right: 0; }
+@media screen and (max-width: 1120px) {
+  .Header-branding-logo {
+    max-width: 250px; } }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 1030px) {
+  .Header-branding-logo {
+    max-width: 200px; } }
+
+@media screen and (max-width: 930px) {
+  .Header-branding-logo {
+    max-width: 180px; } }
+
+@media screen and (max-width: 848px) {
   .Mobile-bar-branding-logo {
     width: 42vw;
-    max-width: 160px; } }
+    max-width: 200px; } }
+
+@media screen and (max-width: 1500px) {
+  body:not(.tweak-header-primary-nav-hover-style-button) .Header-nav--primary .Header-nav-item {
+    margin: 0 1.45em; } }
+
+@media screen and (max-width: 1200px) {
+  body:not(.tweak-header-primary-nav-hover-style-button) .Header-nav--primary .Header-nav-item {
+    margin: 0 1.2em; } }
+
+@media screen and (max-width: 1120px) {
+  body:not(.tweak-header-primary-nav-hover-style-button) .Header-nav--primary .Header-nav-item {
+    margin: 0 1em; } }
+
+@media screen and (max-width: 1030px) {
+  .Header-nav {
+    font-size: 14px;
+    letter-spacing: .015em; } }
+
+@media screen and (max-width: 930px) {
+  .Header-nav {
+    font-size: 13px; } }
 
 /******************************************************************************
  * Header
