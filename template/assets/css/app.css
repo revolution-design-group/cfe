@@ -125,7 +125,7 @@
   -ms-box-shadow: 0px 0px 25px 10px rgba(30, 30, 30, 0.1); }
 
 body {
-  margin-bottom: 0; }
+  margin-bottom: 0 !important; }
 
 /******************************************************************************
  * Icons
