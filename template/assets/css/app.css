@@ -502,11 +502,6 @@ header.Header.Header--top,
   margin-left: 0;
   margin-right: 0; }
 
-@media screen and (max-width: 639px) {
-  .Mobile-bar-branding-logo {
-    width: 42vw;
-    max-width: 160px; } }
-
 /******************************************************************************
  * Header
  *
