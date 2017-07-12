@@ -498,6 +498,10 @@ header.Header.Header--top,
   padding-left: 7%;
   padding-right: 7%; }
 
+.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner {
+  margin-left: 0;
+  margin-right: 0; }
+
 /******************************************************************************
  * Header
  *

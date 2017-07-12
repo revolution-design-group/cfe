@@ -19,3 +19,9 @@ header.Header.Header--top,
     padding-left: 7%;
     padding-right: 7%;
 }
+
+// The main nav was overlapping the spotlight icon, so I do this:
+.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner{
+    margin-left: 0;
+    margin-right: 0;
+}
