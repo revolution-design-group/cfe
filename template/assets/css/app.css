@@ -482,6 +482,16 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
           padding-right: 2%; }
       .Footer .form-wrapper .field-list > .form-item:nth-child(5) {
         clear: both; } }
+  @media screen and (max-width: 1080px) {
+    .Footer .Footer-blocks.Footer-blocks--bottom [class*="sqs-col"] {
+      float: none;
+      width: auto; }
+    .Footer .Footer-blocks.Footer-blocks--bottom p {
+      text-align: center; }
+    .Footer .Footer-blocks.Footer-blocks--bottom .social-icon-alignment-left .sqs-svg-icon--list {
+      text-align: center; }
+    .Footer .Footer-blocks.Footer-blocks--bottom .sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):first-child:last-child.sqs-block-socialaccountlinks-v2 {
+      padding-bottom: 17px !important; } }
 
 /* LAYOUT */
 .Footer-inner {

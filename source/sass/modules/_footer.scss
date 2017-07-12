@@ -96,7 +96,29 @@ $color-footer-overlay: rgba(24,47,61,0.7);
             }
         }
     }
+    
+    // Footer Bottom
+    .Footer-blocks.Footer-blocks--bottom{
+        // Center and stack the blocks
+        @media screen and (max-width: 1080px){
+            [class*="sqs-col"] {
+                float: none;
+                width: auto;
+            }
+            p{ text-align: center; }
+            .social-icon-alignment-left .sqs-svg-icon--list{ text-align: center; }
+            
+            // add padding under the social block
+            .sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):first-child:last-child.sqs-block-socialaccountlinks-v2{
+                padding-bottom: 17px !important;
+            }
+        }
+    }
+  
+
 }
+
+
 
 
 
