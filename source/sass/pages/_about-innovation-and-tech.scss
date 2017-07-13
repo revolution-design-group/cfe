@@ -21,11 +21,11 @@
 
 
 // Use the mobile version of the gallery section on mobile!
-#about-innovation-and-technology-gallery{
+#about-innovation-and-technology-mobile-gallery{
     display: none;
 }
 @media screen and (max-width: 640px){
-    #about-innovation-and-technology-gallery{
+    #about-innovation-and-technology-mobile-gallery{
         display: block;
     }
     #about-innovation-and-technology-gallery{

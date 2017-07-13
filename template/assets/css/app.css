@@ -1504,11 +1504,11 @@ body#collection-593b2371579fb3fa4a624423 {
 #about-innovation-and-technology-gallery .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
   content: "Image"; }
 
-#about-innovation-and-technology-gallery {
+#about-innovation-and-technology-mobile-gallery {
   display: none; }
 
 @media screen and (max-width: 640px) {
-  #about-innovation-and-technology-gallery {
+  #about-innovation-and-technology-mobile-gallery {
     display: block; }
   #about-innovation-and-technology-gallery {
     display: none; } }
