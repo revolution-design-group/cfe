@@ -96,18 +96,19 @@
   background-position: right center;
   background-size: cover; }
 
-.blue-asphalt-bg, #about-markets-we-serve-gallery, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"], .collection-type-index main section[id$="-videos-section"] {
+.blue-asphalt-bg, #about-markets-we-serve-gallery, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"], #about-innovation-and-technology-gallery, .collection-type-index main section[id$="-videos-section"] {
   background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/59497e071b10e371ac6f7717/1497988616734/blue-asphalt-bg.jpg") #f4f4f4;
   background-position: center top;
   background-size: 100% 69%;
   background-repeat: no-repeat;
   padding-bottom: 4%; }
   @media screen and (max-width: 1100px) {
-    .blue-asphalt-bg > .Index-page-content, #about-markets-we-serve-gallery > .Index-page-content, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Index-page-content, .collection-type-index main section[id$="-videos-section"] > .Index-page-content, .tweak-footer-layout-stacked .blue-asphalt-bg > .Footer-nav, .tweak-footer-layout-stacked #about-markets-we-serve-gallery > .Footer-nav, body#collection-593b2371579fb3fa4a624423 .tweak-footer-layout-stacked section[id^="locations-served-"][id$="-installations"] > .Footer-nav, .tweak-footer-layout-stacked body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Footer-nav, .collection-type-index main .tweak-footer-layout-stacked section[id$="-videos-section"] > .Footer-nav, .tweak-footer-layout-stacked .collection-type-index main section[id$="-videos-section"] > .Footer-nav,
+    .blue-asphalt-bg > .Index-page-content, #about-markets-we-serve-gallery > .Index-page-content, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Index-page-content, #about-innovation-and-technology-gallery > .Index-page-content, .collection-type-index main section[id$="-videos-section"] > .Index-page-content, .tweak-footer-layout-stacked .blue-asphalt-bg > .Footer-nav, .tweak-footer-layout-stacked #about-markets-we-serve-gallery > .Footer-nav, body#collection-593b2371579fb3fa4a624423 .tweak-footer-layout-stacked section[id^="locations-served-"][id$="-installations"] > .Footer-nav, .tweak-footer-layout-stacked body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Footer-nav, .tweak-footer-layout-stacked #about-innovation-and-technology-gallery > .Footer-nav, .collection-type-index main .tweak-footer-layout-stacked section[id$="-videos-section"] > .Footer-nav, .tweak-footer-layout-stacked .collection-type-index main section[id$="-videos-section"] > .Footer-nav,
     .tweak-footer-layout-stacked .blue-asphalt-bg > .Footer-blocks--bottom,
     .tweak-footer-layout-stacked #about-markets-we-serve-gallery > .Footer-blocks--bottom, body#collection-593b2371579fb3fa4a624423
     .tweak-footer-layout-stacked section[id^="locations-served-"][id$="-installations"] > .Footer-blocks--bottom,
-    .tweak-footer-layout-stacked body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Footer-blocks--bottom, .collection-type-index main
+    .tweak-footer-layout-stacked body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Footer-blocks--bottom,
+    .tweak-footer-layout-stacked #about-innovation-and-technology-gallery > .Footer-blocks--bottom, .collection-type-index main
     .tweak-footer-layout-stacked section[id$="-videos-section"] > .Footer-blocks--bottom,
     .tweak-footer-layout-stacked .collection-type-index main section[id$="-videos-section"] > .Footer-blocks--bottom {
       padding-top: 50px;
@@ -1423,8 +1424,9 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to the About Markets We Serve Page.
 *******************************************************************************/
-#about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
-  position: absolute; }
+@media screen and (min-width: 641px) {
+  #about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
+    position: absolute; } }
 
 /******************************************************************************
  * Page - About Regions We Serve
@@ -1454,10 +1456,14 @@ body#collection-593b2371579fb3fa4a624423 {
  *
  * Custom CSS styles that relate to the About Innovation and Technology Page.
 *******************************************************************************/
-body#collection-595ab206bf629a87a18d58a8 .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
+@media screen and (min-width: 641px) {
+  #about-innovation-and-technology-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
+    position: absolute; } }
+
+#about-innovation-and-technology-gallery .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
   content: "Video"; }
 
-body#collection-595ab206bf629a87a18d58a8 .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
+#about-innovation-and-technology-gallery .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
   content: "Image"; }
 
 /******************************************************************************
@@ -1465,8 +1471,9 @@ body#collection-595ab206bf629a87a18d58a8 .sqs-gallery-design-stacked-slide[data-
  *
  * Custom CSS styles that relate to the Products Landing Page and Individual Product Pages.
 *******************************************************************************/
-.collection-type-index main section[id$="-videos-section"] .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
-  position: absolute; }
+@media screen and (min-width: 641px) {
+  .collection-type-index main section[id$="-videos-section"] .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
+    position: absolute; } }
 
 .collection-type-index main section[id$="-videos-section"] .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
   content: "Video"; }

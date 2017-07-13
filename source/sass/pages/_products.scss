@@ -7,9 +7,10 @@
 .collection-type-index main section[id$="-videos-section"]{
     @extend .blue-asphalt-bg;
     
-    
-    .sqs-block-gallery .sqs-gallery-block-slideshow+.sqs-gallery-design-strip{
-        position: absolute;
+    @media screen and (min-width: 641px){
+        .sqs-block-gallery .sqs-gallery-block-slideshow+.sqs-gallery-design-strip{
+            position: absolute;
+        }
     }
     
     .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before{ content: "Video"; }
