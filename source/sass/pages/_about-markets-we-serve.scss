@@ -13,3 +13,17 @@
         }
     }
 }
+
+
+// Use the mobile version of the gallery section on mobile!
+#about-markets-we-serve-mobile-gallery{
+    display: none;
+}
+@media screen and (max-width: 640px){
+    #about-markets-we-serve-mobile-gallery{
+        display: block;
+    }
+    #about-markets-we-serve-gallery{
+        display: none;
+    }
+}

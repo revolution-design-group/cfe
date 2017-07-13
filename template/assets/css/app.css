@@ -1436,6 +1436,15 @@ body:not(.collection-type-blog) {
   #about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
     position: absolute; } }
 
+#about-markets-we-serve-mobile-gallery {
+  display: none; }
+
+@media screen and (max-width: 640px) {
+  #about-markets-we-serve-mobile-gallery {
+    display: block; }
+  #about-markets-we-serve-gallery {
+    display: none; } }
+
 /******************************************************************************
  * Page - About Regions We Serve
  *
