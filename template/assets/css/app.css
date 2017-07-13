@@ -1242,6 +1242,10 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to the Home Page.
 *******************************************************************************/
+@media screen and (max-width: 640px) {
+  #home-intro .sqs-block-spacer {
+    display: none; } }
+
 #home-brand-logos {
   background-color: #f4f4f4; }
   #home-brand-logos .Index-page-content, #home-brand-logos .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-brand-logos .Footer-nav, #home-brand-logos

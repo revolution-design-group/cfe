@@ -7,7 +7,11 @@
 
 #home-slides{}
 
-#home-intro{}
+#home-intro{
+    @media screen and (max-width: 640px){
+        .sqs-block-spacer{ display: none; }
+    }
+}
 
 #home-brand-logos{
     background-color: #f4f4f4;
