@@ -769,10 +769,10 @@ header.Header.Header--top,
   .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title {
     padding: .5em 0;
     border-top: 3px solid white;
-    border-bottom: 3px solid white; }
-    @media screen and (max-width: 1220px) {
-      .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title {
-        font-size: 16px; } }
+    border-bottom: 3px solid white;
+    /*@media screen and (max-width: 1220px){
+                font-size: 16px;
+            }*/ }
     .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title p a {
       border-color: rgba(255, 255, 255, 0); }
     .sqs-block-image .design-layout-collage .image-card .image-title-wrapper .image-title p a:hover {
@@ -781,8 +781,9 @@ header.Header.Header--top,
   .sqs-block-image .design-layout-collage .image-card .image-subtitle-wrapper, .sqs-block-image .design-layout-collage .image-card .image-button-wrapper {
     display: none; }
 
-.sqs-block-image .design-layout-collage.image-position-right > div:first-child > div {
-  left: -30% !important; }
+@media screen and (min-width: 1213px) {
+  .sqs-block-image .design-layout-collage.image-position-right > div:first-child > div {
+    left: -30% !important; } }
 
 .sqs-block-image .design-layout-card .image-card .image-title-wrapper a:hover,
 .sqs-block-image .design-layout-card .image-card .image-subtitle-wrapper a:hover {
