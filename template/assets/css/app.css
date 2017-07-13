@@ -1470,12 +1470,24 @@ body#collection-593b2371579fb3fa4a624423 {
     content: none; }
   body#collection-593b2371579fb3fa4a624423 section[id="locations-served-hawaii-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
     content: "Hawaii"; }
+    @media screen and (max-width: 640px) {
+      body#collection-593b2371579fb3fa4a624423 section[id="locations-served-hawaii-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
+        content: none; } }
   body#collection-593b2371579fb3fa4a624423 section[id="locations-served-oregon-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
     content: "Oregon"; }
+    @media screen and (max-width: 640px) {
+      body#collection-593b2371579fb3fa4a624423 section[id="locations-served-oregon-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
+        content: none; } }
   body#collection-593b2371579fb3fa4a624423 section[id="locations-served-nevada-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
     content: "Nevada"; }
+    @media screen and (max-width: 640px) {
+      body#collection-593b2371579fb3fa4a624423 section[id="locations-served-nevada-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
+        content: none; } }
   body#collection-593b2371579fb3fa4a624423 section[id="locations-served-california-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
     content: "California"; }
+    @media screen and (max-width: 640px) {
+      body#collection-593b2371579fb3fa4a624423 section[id="locations-served-california-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
+        content: none; } }
 
 /******************************************************************************
  * Page - About Innovation and Technology
