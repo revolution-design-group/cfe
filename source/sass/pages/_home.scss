@@ -72,6 +72,10 @@
 }
 
 #home-regions-served{
+    Index-page-content{
+        @media screen and (min-width: 1213px){ padding-top: 10% }
+    }
+    
     .Index-page-image:before{
         background-image: $usa-map;
         background-position: right 20%;
