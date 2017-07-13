@@ -56,6 +56,13 @@ $color-footer-overlay: rgba(24,47,61,0.7);
         background-size: 1600px;
     }
     
+    // Footer Middle
+    .Footer-blocks--middle{
+        @media screen and (max-width: 640px){
+            .sqs-block-spacer{ display: none; }
+        }
+    }
+    
     // Footer Form
     .form-block{ max-width: 922px; }
     form input.button{ color: white !important; }

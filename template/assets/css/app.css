@@ -476,6 +476,9 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
   @media (max-width: 1600px) {
     .Footer {
       background-size: 1600px; } }
+  @media screen and (max-width: 640px) {
+    .Footer .Footer-blocks--middle .sqs-block-spacer {
+      display: none; } }
   .Footer .form-block {
     max-width: 922px; }
   .Footer form input.button {
