@@ -43,6 +43,7 @@ body:not(.collection-type-blog){
     @media screen and (max-width: 640px ){
         .sqs-gallery-design-stacked-slide img{
             max-width: 90%;
+            height: auto !important;
             left: 50% !important;
             @include transform(translatex(-50%));
         }
