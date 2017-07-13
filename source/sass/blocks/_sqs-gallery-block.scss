@@ -27,6 +27,10 @@ $img-width-mobile: 45%; // for max-width: 640px
 }
 body:not(.collection-type-blog){
     
+    .sqs-gallery-block-slideshow {
+        img{ @extend .subtle-box-shadow; }
+    }
+    
     @media screen and (max-width: 640px ){
     
         .sqs-gallery-block-slideshow {
@@ -48,8 +52,6 @@ body:not(.collection-type-blog){
                 }
             }
 
-
-            img{ @extend .subtle-box-shadow; }
 
             /* set height of the gallery section */
             .sqs-gallery-design-stacked {
