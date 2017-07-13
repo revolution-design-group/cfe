@@ -31,7 +31,7 @@ body:not(.collection-type-blog){
         img{ @extend .subtle-box-shadow; }
     }
     
-    @media screen and (max-width: 640px ){
+    @media screen and (min-width: 641px ){
     
         .sqs-gallery-block-slideshow {
             background-color: transparent;
