@@ -842,9 +842,39 @@ body:not(.collection-type-blog) {
   /* Thumbnail Stirp */ }
   body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
     background-color: transparent;
-    /* img-wrapper class (injected) used to add floating line frame behind img */ }
+    /* img-wrapper class (injected) used to add floating line frame behind img */
+    /* Title and Description */ }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper {
       overflow: visible !important; }
+    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
+      height: auto !important;
+      max-width: 50% !important;
+      text-shadow: 0 0 7.5px rgba(20, 20, 20, 0.4); }
+      @media screen and (max-width: 1350px) {
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
+          margin-top: -25px; } }
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
+        font-size: 16px; }
+        @media screen and (max-width: 1080px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
+            font-size: 14px; } }
+        @media screen and (max-width: 640px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
+            display: none; } }
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
+        font-family: alternate-gothic-no-2-d;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: .05em;
+        color: white;
+        text-transform: uppercase;
+        font-size: 35px; }
+        @media screen and (max-width: 1080px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
+            font-size: 30px; } }
+        @media screen and (max-width: 640px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
+            font-size: 25px; } }
   @media screen and (max-width: 640px) {
     body:not(.collection-type-blog) .sqs-gallery-design-stacked-slide img {
       max-width: 90%;
@@ -929,11 +959,7 @@ body:not(.collection-type-blog) {
           height: auto !important;
           max-width: 50% !important;
           text-shadow: 0 0 7.5px rgba(20, 20, 20, 0.4);
-          background-color: transparent; } }
-      @media screen and (min-width: 641px) and (max-width: 1350px) {
-        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
-          margin-top: -25px; } }
-  @media screen and (min-width: 641px) {
+          background-color: transparent; }
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-inside:before {
             content: "";
             display: block;
@@ -945,40 +971,16 @@ body:not(.collection-type-blog) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-inside:before {
             margin-bottom: 15px; } }
   @media screen and (min-width: 641px) {
-          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
-            font-size: 16px; } }
-        @media screen and (min-width: 641px) and (max-width: 1080px) {
-          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
-            font-size: 14px; } }
-        @media screen and (min-width: 641px) and (max-width: 640px) {
-          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-description p {
-            display: none; } }
-  @media screen and (min-width: 641px) {
-          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
-            font-family: alternate-gothic-no-2-d;
-            font-weight: 400;
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title:before {
+            font-family: proxima-nova;
+            font-weight: 300;
             font-style: normal;
-            letter-spacing: .05em;
-            color: white;
+            letter-spacing: 0.04em;
             text-transform: uppercase;
-            font-size: 35px; } }
-        @media screen and (min-width: 641px) and (max-width: 1080px) {
-          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
-            font-size: 30px; } }
-        @media screen and (min-width: 641px) and (max-width: 640px) {
-          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
-            font-size: 25px; } }
-  @media screen and (min-width: 641px) {
-            body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title:before {
-              font-family: proxima-nova;
-              font-weight: 300;
-              font-style: normal;
-              letter-spacing: 0.04em;
-              text-transform: uppercase;
-              line-height: 1em;
-              margin-bottom: .5em;
-              font-size: .6em;
-              display: block; }
+            line-height: 1em;
+            margin-bottom: .5em;
+            font-size: .6em;
+            display: block; }
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-overlay,
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
           overflow: visible !important; }
