@@ -8,3 +8,13 @@
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
+
+
+@media screen and (max-width: 640px){
+    .sqs-block[class*=float-right]{
+        margin-left: 0px;
+    }
+    .sqs-block[class*=float-left]{
+        margin-right: 0px;
+    }
+}
