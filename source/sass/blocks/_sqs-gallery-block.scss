@@ -28,8 +28,23 @@ $img-width-mobile: 45%; // for max-width: 640px
 body:not(.collection-type-blog){
     .sqs-gallery-block-slideshow {
         background-color: transparent;
+        
         @include slideshow-mb($img-displacementY);
         @media screen and (max-width: 1080px ){ @include slideshow-mb(3/4 * $img-displacementY); }
+        
+        
+        // I add/remove a class (.RDG-expanded-video) via JQuery when people click on video/thumbnails. I use this class to make the video player bigger.
+        transition: margin-bottom .3s ease;
+        > .sqs-gallery-design-stacked{ transition: padding-bottom .3s ease; }
+        @media screen and (min-width: 641px){
+            &.RDG-expanded-video{
+                margin-bottom: 0 !important;
+                > .sqs-gallery-design-stacked{
+                    padding-bottom: 56.2% !important;
+                }
+            }
+        }
+        
 
         img{ @extend .subtle-box-shadow; }
 

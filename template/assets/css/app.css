@@ -823,6 +823,7 @@ body:not(.collection-type-blog) {
   body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
     background-color: transparent;
     margin-bottom: 80px;
+    transition: margin-bottom .3s ease;
     /* set height of the gallery section */
     /* img-wrapper class (injected) used to add floating line frame behind img */
     /* // Second way that uses background image
@@ -846,6 +847,13 @@ body:not(.collection-type-blog) {
     @media screen and (max-width: 1080px) {
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
         margin-bottom: 60px; } }
+    body:not(.collection-type-blog) .sqs-gallery-block-slideshow > .sqs-gallery-design-stacked {
+      transition: padding-bottom .3s ease; }
+    @media screen and (min-width: 641px) {
+      body:not(.collection-type-blog) .sqs-gallery-block-slideshow.RDG-expanded-video {
+        margin-bottom: 0 !important; }
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow.RDG-expanded-video > .sqs-gallery-design-stacked {
+          padding-bottom: 56.2% !important; } }
     @media screen and (min-width: 641px) {
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked {
         height: 0 !important;
