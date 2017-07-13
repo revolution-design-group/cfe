@@ -834,6 +834,7 @@ header.Header.Header--top,
 body:not(.collection-type-blog) {
   /* Thumbnail Stirp */ }
   body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
+    background-color: transparent;
     /* img-wrapper class (injected) used to add floating line frame behind img */
     /* Videos */ }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper {
@@ -845,7 +846,6 @@ body:not(.collection-type-blog) {
     body:not(.collection-type-blog) {
       /* Position the img and text */ }
       body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
-        background-color: transparent;
         margin-bottom: 80px;
         transition: margin-bottom .3s ease;
         /* set height of the gallery section */

@@ -28,6 +28,8 @@ $img-width-mobile: 45%; // for max-width: 640px
 body:not(.collection-type-blog){
     
     .sqs-gallery-block-slideshow {
+        background-color: transparent;
+        
         img{ @extend .subtle-box-shadow; }
         /* img-wrapper class (injected) used to add floating line frame behind img */
         .img-wrapper{
@@ -44,7 +46,6 @@ body:not(.collection-type-blog){
     @media screen and (min-width: 641px ){
     
         .sqs-gallery-block-slideshow {
-            background-color: transparent;
 
             @include slideshow-mb($img-displacementY);
             @media screen and (max-width: 1080px ){ @include slideshow-mb(3/4 * $img-displacementY); }
