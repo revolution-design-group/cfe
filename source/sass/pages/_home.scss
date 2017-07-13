@@ -78,6 +78,11 @@
         background-repeat: no-repeat;
         background-size: 50%;
     }
+    
+    
+    @media screen and (max-width: 640px){
+        .sqs-block-spacer{ display: block; }
+    }
 }
 
 #home-featured-projects {

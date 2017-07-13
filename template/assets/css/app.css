@@ -1316,6 +1316,10 @@ body:not(.collection-type-blog) {
   background-repeat: no-repeat;
   background-size: 50%; }
 
+@media screen and (max-width: 640px) {
+  #home-regions-served .sqs-block-spacer {
+    display: block; } }
+
 #home-featured-projects {
   /* // Adjust image so it is full-height of the row, and it centers horizontally if it overflows
     .sqs-block-image .image-block-outer-wrapper.image-block-v2 .image-inset{
