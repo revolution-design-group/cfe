@@ -1522,6 +1522,10 @@ body#collection-593b2371579fb3fa4a624423 {
   .collection-type-index main section[id$="-videos-section"] .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
     position: absolute; } }
 
+@media screen and (max-width: 480px) {
+  .collection-type-index main section[id$="-videos-section"] .sqs-gallery-block-slideshow .meta {
+    display: none !important; } }
+
 .collection-type-index main section[id$="-videos-section"] .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before {
   content: "Video"; }
 
