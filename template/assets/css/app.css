@@ -875,6 +875,9 @@ body:not(.collection-type-blog) {
         @media screen and (max-width: 640px) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
             font-size: 25px; } }
+  @media screen and (max-width: 480px) {
+    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
+      display: block !important; } }
   @media screen and (max-width: 640px) {
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta {
       max-width: 100% !important;

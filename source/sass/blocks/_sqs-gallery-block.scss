@@ -65,6 +65,9 @@ body:not(.collection-type-blog){
     
     
     
+    @media screen and (max-width: 480px ){
+        .sqs-gallery-block-slideshow .meta{ display: block !important; }
+    }
     @media screen and (max-width: 640px ){
         .sqs-gallery-block-slideshow .meta{
             max-width: 100% !important;
