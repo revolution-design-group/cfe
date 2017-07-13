@@ -104,7 +104,7 @@
   @media screen and (min-width: 641px) {
     .blue-asphalt-bg, #about-markets-we-serve-gallery, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"], #about-innovation-and-technology-gallery, .collection-type-index main section[id$="-videos-section"] {
       padding-bottom: 4%; } }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1100px) and (min-width: 641px) {
     .blue-asphalt-bg > .Index-page-content, #about-markets-we-serve-gallery > .Index-page-content, body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Index-page-content, #about-innovation-and-technology-gallery > .Index-page-content, .collection-type-index main section[id$="-videos-section"] > .Index-page-content, .tweak-footer-layout-stacked .blue-asphalt-bg > .Footer-nav, .tweak-footer-layout-stacked #about-markets-we-serve-gallery > .Footer-nav, body#collection-593b2371579fb3fa4a624423 .tweak-footer-layout-stacked section[id^="locations-served-"][id$="-installations"] > .Footer-nav, .tweak-footer-layout-stacked body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] > .Footer-nav, .tweak-footer-layout-stacked #about-innovation-and-technology-gallery > .Footer-nav, .collection-type-index main .tweak-footer-layout-stacked section[id$="-videos-section"] > .Footer-nav, .tweak-footer-layout-stacked .collection-type-index main section[id$="-videos-section"] > .Footer-nav,
     .tweak-footer-layout-stacked .blue-asphalt-bg > .Footer-blocks--bottom,
     .tweak-footer-layout-stacked #about-markets-we-serve-gallery > .Footer-blocks--bottom, body#collection-593b2371579fb3fa4a624423
