@@ -1453,10 +1453,12 @@ body:not(.collection-type-blog) {
 body#collection-593b2371579fb3fa4a624423 {
   /* Style the Slideshow Galleries */
   /* Per state, change the meta-title:before to be the state name */ }
-  body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] {
-    padding-bottom: 4%; }
+  @media screen and (max-width: 640px) {
+    body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] {
+      background-size: cover; } }
+  @media screen and (min-width: 641px) {
     body#collection-593b2371579fb3fa4a624423 section[id^="locations-served-"][id$="-installations"] .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
-      position: absolute; }
+      position: absolute; } }
   body#collection-593b2371579fb3fa4a624423 section.Index-page .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
     content: none; }
   body#collection-593b2371579fb3fa4a624423 section[id="locations-served-hawaii-installations"] .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide[data-type=image] .meta .meta-title:before {
