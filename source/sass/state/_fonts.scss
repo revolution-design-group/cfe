@@ -118,4 +118,11 @@ p, li{
 }
 
 
+ .sqs-block-button .sqs-block-button-element--medium{
+    // same as p and li
+    @media screen and (max-width: 768px){ font-size: 17px; line-height: 1.7em; }
+    @media screen and (max-width: 640px){ font-size: 16px; line-height: 1.5em; }
+}
+
+
 

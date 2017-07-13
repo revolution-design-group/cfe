@@ -417,6 +417,16 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
   color: #656668;
   padding: .7em 1.75em; }
 
+@media screen and (max-width: 768px) {
+  .sqs-block-button .sqs-block-button-element--medium {
+    font-size: 17px;
+    line-height: 1.7em; } }
+
+@media screen and (max-width: 640px) {
+  .sqs-block-button .sqs-block-button-element--medium {
+    font-size: 16px;
+    line-height: 1.5em; } }
+
 /******************************************************************************
  * Modules
 *******************************************************************************/
