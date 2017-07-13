@@ -877,13 +877,10 @@ body:not(.collection-type-blog) {
             font-size: 25px; } }
   @media screen and (max-width: 640px) {
     body:not(.collection-type-blog) .sqs-gallery-design-stacked-slide img {
-      max-width: 90%;
-      height: auto !important;
-      left: 50% !important;
-      transform: translatex(-50%);
-      -webkit-transform: translatex(-50%);
-      -moz-transform: translatex(-50%);
-      -ms-transform: translatex(-50%); } }
+      /*max-width: 90%;
+            height: auto !important;
+            left: 50% !important;
+            @include transform(translatex(-50%));*/ } }
   @media screen and (min-width: 641px) {
     body:not(.collection-type-blog) {
       /* Position the img and text */ }
