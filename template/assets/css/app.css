@@ -838,6 +838,14 @@ body:not(.collection-type-blog) {
     /* img-wrapper class (injected) used to add floating line frame behind img */ }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper {
       overflow: visible !important; }
+  @media screen and (max-width: 640px) {
+    body:not(.collection-type-blog) .sqs-gallery-design-stacked-slide img {
+      max-width: 90%;
+      left: 50%;
+      transform: translatex(-50%);
+      -webkit-transform: translatex(-50%);
+      -moz-transform: translatex(-50%);
+      -ms-transform: translatex(-50%); } }
   @media screen and (min-width: 641px) {
     body:not(.collection-type-blog) {
       /* Position the img and text */ }

@@ -38,6 +38,18 @@ body:not(.collection-type-blog){
         
     }
     
+    
+    
+    @media screen and (max-width: 640px ){
+        .sqs-gallery-design-stacked-slide img{
+            max-width: 90%;
+            left: 50%;
+            @include transform(translatex(-50%));
+        }
+    }
+    
+    
+    
     @media screen and (min-width: 641px ){
     
         .sqs-gallery-block-slideshow {
