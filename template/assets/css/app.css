@@ -835,12 +835,8 @@ body:not(.collection-type-blog) {
   /* Thumbnail Stirp */ }
   body:not(.collection-type-blog) .sqs-gallery-block-slideshow {
     background-color: transparent;
-    /* img-wrapper class (injected) used to add floating line frame behind img */
-    /* Videos */ }
+    /* img-wrapper class (injected) used to add floating line frame behind img */ }
     body:not(.collection-type-blog) .sqs-gallery-block-slideshow .img-wrapper {
-      overflow: visible !important; }
-    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-overlay,
-    body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
       overflow: visible !important; }
   @media screen and (min-width: 641px) {
     body:not(.collection-type-blog) {
@@ -967,6 +963,9 @@ body:not(.collection-type-blog) {
               margin-bottom: .5em;
               font-size: .6em;
               display: block; }
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-overlay,
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-gallery-design-stacked-slide {
+          overflow: visible !important; }
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
           left: 21%;
           top: 45.5%;
