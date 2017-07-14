@@ -1327,7 +1327,10 @@ body:not(.collection-type-blog) {
       margin-left: auto;
       margin-right: auto; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta .meta-title {
-    font-size: 50px; }
+    font-size: 35px; }
+    @media screen and (min-width: 1351px) {
+      #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta .meta-title {
+        font-size: 45px; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-title:before {
     content: "Markets Served";
     text-transform: uppercase;
@@ -1337,7 +1340,7 @@ body:not(.collection-type-blog) {
     font-size: .6em;
     width: 100%; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-description p {
-    visibility: hidden; }
+    display: none; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow, #home-markets-served .sqs-block-gallery .sqs-gallery-design-stacked {
     width: 90%;
     margin: auto; }
