@@ -1360,7 +1360,7 @@ body:not(.collection-type-blog) {
 
 #home-regions-served .Index-page-image:before {
   background-image: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/5939b87303596ed39c39da73/1496954995520/usa-map.png");
-  background-position: right 20%;
+  background-position: right 40%;
   background-repeat: no-repeat;
   background-size: 50%; }
   @media screen and (max-width: 640px) {
