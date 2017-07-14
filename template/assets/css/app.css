@@ -1672,6 +1672,13 @@ body:not(.sqs-edit-mode) section[id$="-videos-section-mobile"] {
   body#collection-5928b81703596ef18961c137 #contact-info p {
     text-align: center; } }
 
+@media screen and (max-width: 640px) {
+  body#collection-5928b81703596ef18961c137 #contact-alternate-footer {
+    display: none; } }
+
+body#collection-5928b81703596ef18961c137 .Footer-blocks--top {
+  display: none; }
+
 /******************************************************************************
  * Squarespace
 *******************************************************************************/

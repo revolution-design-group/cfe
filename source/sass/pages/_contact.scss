@@ -12,4 +12,10 @@ body#collection-5928b81703596ef18961c137{
         }
     }
     
+    #contact-alternate-footer{
+        @media screen and (max-width: 640px){ display: none; }
+    }
+    
+    .Footer-blocks--top{ display:  none; }
+    
 }
