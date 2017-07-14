@@ -1302,8 +1302,8 @@ body:not(.collection-type-blog) {
   #home-brand-logos .Index-page-content, #home-brand-logos .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-brand-logos .Footer-nav, #home-brand-logos
   .tweak-footer-layout-stacked .Footer-blocks--bottom,
   .tweak-footer-layout-stacked #home-brand-logos .Footer-blocks--bottom {
-    padding-bottom: 0;
-    padding-top: 0; }
+    padding-bottom: 1.75%;
+    padding-top: 1.75%; }
   #home-brand-logos .sqs-gallery-design-grid .sqs-gallery-design-grid-slide .margin-wrapper {
     margin-bottom: 0 !important; }
 
