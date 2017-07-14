@@ -119,7 +119,8 @@ body:not(.collection-type-blog){
             .img-wrapper{
                 width: $img-width;
                 @media screen and (max-width: 640px ){ width: $img-width-mobile; }
-                height: 95%;
+                height: auto;
+                max-height: 95%;
                 border: 1px solid rgba(255,255,255,.5);
                 @media screen and (max-width: 640px ){ border-width: 0; }
                 img{
