@@ -57,6 +57,7 @@ body:not(.collection-type-blog){
                     text-transform: uppercase;
                     font-size: 35px;
                     @media screen and (max-width: 1080px) { font-size: 30px; }
+                    @media screen and (max-width: 800px) { font-size: 28px; }
                     @media screen and (max-width: 640px) { font-size: 25px; }
                 }
             }

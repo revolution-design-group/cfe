@@ -405,6 +405,9 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
     font-size: 16px;
     line-height: 1.5em; } }
 
+.sqs-block-html blockquote, .sqs-block-markdown blockquote {
+  font-style: italic; }
+
 /******************************************************************************
  * Buttons
 *******************************************************************************/
@@ -874,6 +877,9 @@ body:not(.collection-type-blog) {
         @media screen and (max-width: 1080px) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
             font-size: 30px; } }
+        @media screen and (max-width: 800px) {
+          body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
+            font-size: 28px; } }
         @media screen and (max-width: 640px) {
           body:not(.collection-type-blog) .sqs-gallery-block-slideshow .meta .meta-title {
             font-size: 25px; } }

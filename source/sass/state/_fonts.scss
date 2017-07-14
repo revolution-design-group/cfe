@@ -99,6 +99,10 @@ p, li{
     @media screen and (max-width: 640px){ font-size: 16px; line-height: 1.5em; }
 }
 
+.sqs-block-html blockquote, .sqs-block-markdown blockquote{
+    font-style: italic;
+}
+
 
 /******************************************************************************
  * Buttons
