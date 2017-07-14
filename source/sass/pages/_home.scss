@@ -90,6 +90,7 @@
             content: "Markets Served";
             text-transform: uppercase;
             color: $color-brand-palette-blue;
+            @media screen and (max-width: 640px) { color: white; }
             font-weight: 500;
             margin-bottom: 5px;
             font-size: .6em;

@@ -1424,6 +1424,9 @@ body:not(.collection-type-blog) {
     font-size: .6em;
     width: 100%;
     display: block; }
+    @media screen and (max-width: 640px) {
+      #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-title:before {
+        color: white; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-description p {
     display: none; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow, #home-markets-served .sqs-block-gallery .sqs-gallery-design-stacked {
