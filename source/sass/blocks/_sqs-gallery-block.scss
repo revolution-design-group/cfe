@@ -197,7 +197,10 @@ body:not(.collection-type-blog){
                 overflow: visible !important;
             }
             // Position play icon
-            .sqs-video-overlay .img-wrapper:after{
+            .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
+                display: none;
+            }
+            .sqs-video-wrapper .sqs-video-overlay .img-wrapper:after{
                 content: '';
                 display: block;
                 position: absolute;
