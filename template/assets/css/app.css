@@ -1482,6 +1482,15 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to the About Markets We Serve Page.
 *******************************************************************************/
+#about-markets-we-serve-gallery .sqs-gallery-block-slideshow {
+  margin-bottom: 2%; }
+  @media screen and (max-width: 900px) {
+    #about-markets-we-serve-gallery .sqs-gallery-block-slideshow {
+      margin-bottom: 6%; } }
+  @media screen and (min-width: 641px) and (max-width: 786px) {
+    #about-markets-we-serve-gallery .sqs-gallery-block-slideshow {
+      margin-bottom: 10%; } }
+
 @media screen and (min-width: 641px) {
   #about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
     position: absolute; } }
