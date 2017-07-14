@@ -11,6 +11,29 @@
     @media screen and (max-width: 640px){
         .sqs-block-spacer{ display: none; }
     }
+    
+    // Make product image block sit to far right of page
+    #block-yui_3_17_2_5_1495826143677_3705{
+        @media screen and (min-width: 1001px){
+            margin-right: -10%;
+            width: 60%;
+        }
+        @media screen and (min-width: 851px) and (max-width: 1000px){
+            margin-right: -9%;
+            width: 52%;
+        }
+        @media screen and (min-width: 691px) and (max-width: 850px){
+            margin-right: -7%;
+            width: 57%;
+        }
+        @media screen and (min-width: 641px) and (max-width: 690px){
+            margin-right: -8%;
+            width: 63%;
+        }
+        @media screen and (max-width: 640px){
+            .sqs-block-content{ width: 75%; margin: 0 auto; }
+        }
+    }
 }
 
 #home-brand-logos{

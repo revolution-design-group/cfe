@@ -1296,6 +1296,31 @@ body:not(.collection-type-blog) {
   #home-intro .sqs-block-spacer {
     display: none; } }
 
+@media screen and (min-width: 1001px) {
+  #home-intro #block-yui_3_17_2_5_1495826143677_3705 {
+    margin-right: -10%;
+    width: 60%; } }
+
+@media screen and (min-width: 851px) and (max-width: 1000px) {
+  #home-intro #block-yui_3_17_2_5_1495826143677_3705 {
+    margin-right: -9%;
+    width: 52%; } }
+
+@media screen and (min-width: 691px) and (max-width: 850px) {
+  #home-intro #block-yui_3_17_2_5_1495826143677_3705 {
+    margin-right: -7%;
+    width: 57%; } }
+
+@media screen and (min-width: 641px) and (max-width: 690px) {
+  #home-intro #block-yui_3_17_2_5_1495826143677_3705 {
+    margin-right: -8%;
+    width: 63%; } }
+
+@media screen and (max-width: 640px) {
+  #home-intro #block-yui_3_17_2_5_1495826143677_3705 .sqs-block-content {
+    width: 75%;
+    margin: 0 auto; } }
+
 #home-brand-logos {
   background-color: #f4f4f4;
   background-image: none; }
