@@ -1405,6 +1405,9 @@ body:not(.collection-type-blog) {
         top: 0; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside {
     text-align: center; }
+    @media screen and (max-width: 640px) {
+      #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside {
+        padding: 10px; } }
     #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside:before {
       margin-left: auto;
       margin-right: auto; }
