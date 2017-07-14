@@ -224,7 +224,6 @@ body:not(.collection-type-blog){
                 @media screen and (max-width: 640px ){
                     @include fn-position-video-icon($img-width-mobile, 3/8 * $img-displacementX, 3/8 * $img-displacementY);
                 }
-}
             }
             // OLD WAY to position play icon USING Sqsp ICON
             /*
