@@ -1565,13 +1565,13 @@ body:not(.collection-type-blog) {
   #about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
     position: absolute; } }
 
-#about-markets-we-serve-mobile-gallery {
+body:not(.sqs-edit-mode) #about-markets-we-serve-mobile-gallery {
   display: none; }
 
 @media screen and (max-width: 640px) {
-  #about-markets-we-serve-mobile-gallery {
+  body:not(.sqs-edit-mode) #about-markets-we-serve-mobile-gallery {
     display: block; }
-  #about-markets-we-serve-gallery {
+  body:not(.sqs-edit-mode) #about-markets-we-serve-gallery {
     display: none; } }
 
 /******************************************************************************
@@ -1626,13 +1626,13 @@ body#collection-593b2371579fb3fa4a624423 {
 #about-innovation-and-technology-gallery .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
   content: "Image"; }
 
-#about-innovation-and-technology-mobile-gallery {
+body:not(.sqs-edit-mode) #about-innovation-and-technology-mobile-gallery {
   display: none; }
 
 @media screen and (max-width: 640px) {
-  #about-innovation-and-technology-mobile-gallery {
+  body:not(.sqs-edit-mode) #about-innovation-and-technology-mobile-gallery {
     display: block; }
-  #about-innovation-and-technology-gallery {
+  body:not(.sqs-edit-mode) #about-innovation-and-technology-gallery {
     display: none; } }
 
 /******************************************************************************
@@ -1653,6 +1653,15 @@ body#collection-593b2371579fb3fa4a624423 {
 
 .collection-type-index main section[id$="-videos-section"] .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before {
   content: "Image"; }
+
+body:not(.sqs-edit-mode) section[id$="-videos-section-mobile"] {
+  display: none; }
+
+@media screen and (max-width: 640px) {
+  body:not(.sqs-edit-mode) section[id$="-videos-section-mobile"] {
+    display: block; }
+  body:not(.sqs-edit-mode) section[id$="-videos-section"] {
+    display: none; } }
 
 /******************************************************************************
  * Page - About Page

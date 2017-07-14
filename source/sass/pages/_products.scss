@@ -19,3 +19,21 @@
     .sqs-gallery-design-stacked-slide[data-type="video"] .meta .meta-title:before{ content: "Video"; }
     .sqs-gallery-design-stacked-slide[data-type="image"] .meta .meta-title:before{ content: "Image"; }
 }
+
+
+
+
+
+body:not(.sqs-edit-mode){
+    section[id$="-videos-section-mobile"]{
+        display: none;
+    }
+    @media screen and (max-width: 640px){
+        section[id$="-videos-section-mobile"]{
+            display: block;
+        }
+        section[id$="-videos-section"]{
+            display: none;
+        }
+    }
+}
