@@ -1314,8 +1314,8 @@ body:not(.collection-type-blog) {
   #home-markets-served .Index-page-content, #home-markets-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-markets-served .Footer-nav, #home-markets-served
   .tweak-footer-layout-stacked .Footer-blocks--bottom,
   .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
-    padding-top: 4%;
-    padding-bottom: 0; }
+    padding-top: 9%;
+    padding-bottom: 1%; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .img-wrapper {
     width: 45%; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta {
