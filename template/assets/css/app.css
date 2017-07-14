@@ -1012,6 +1012,8 @@ body:not(.collection-type-blog) {
           overflow: visible !important; }
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
           display: none; }
+        body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .img-wrapper {
+          position: relative; }
         body:not(.collection-type-blog) .sqs-gallery-block-slideshow .sqs-video-wrapper .sqs-video-overlay .img-wrapper:after {
           content: '';
           display: block;
