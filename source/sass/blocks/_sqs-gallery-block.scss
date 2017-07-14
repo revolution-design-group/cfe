@@ -200,7 +200,7 @@ body:not(.collection-type-blog){
             .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon{
                 display: none;
             }
-            .sqs-video-wrapper .sqs-video-overlay .img-wrapper{ position: relative; }
+            .sqs-video-wrapper .sqs-video-overlay .img-wrapper{ position: absolute; }
             .sqs-video-wrapper .sqs-video-overlay .img-wrapper:after{
                 content: '';
                 display: block;
