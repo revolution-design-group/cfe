@@ -1489,7 +1489,7 @@ body:not(.collection-type-blog) {
       margin-bottom: 6%; } }
   @media screen and (min-width: 641px) and (max-width: 786px) {
     #about-markets-we-serve-gallery .sqs-gallery-block-slideshow {
-      margin-bottom: 10%; } }
+      margin-bottom: 12%; } }
 
 @media screen and (min-width: 641px) {
   #about-markets-we-serve-gallery .sqs-block-gallery .sqs-gallery-block-slideshow + .sqs-gallery-design-strip {
