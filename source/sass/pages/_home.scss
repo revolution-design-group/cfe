@@ -76,6 +76,7 @@
         }
         .meta-inside{
             text-align: center;
+            @media screen and (max-width: 640px){ padding: 10px; }
             &:before{
                 margin-left: auto;
                 margin-right: auto;
