@@ -1422,7 +1422,8 @@ body:not(.collection-type-blog) {
     font-weight: 500;
     margin-bottom: 5px;
     font-size: .6em;
-    width: 100%; }
+    width: 100%;
+    display: block; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-description p {
     display: none; }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow, #home-markets-served .sqs-block-gallery .sqs-gallery-design-stacked {

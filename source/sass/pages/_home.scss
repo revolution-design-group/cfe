@@ -87,13 +87,14 @@
             @media screen and (max-width: 800px) { font-size: 28px; }
         }
         .meta-title:before{
-                content: "Markets Served";
-                text-transform: uppercase;
-                color: $color-brand-palette-blue;
-                font-weight: 500;
-                margin-bottom: 5px;
-                font-size: .6em;
-                width: 100%;
+            content: "Markets Served";
+            text-transform: uppercase;
+            color: $color-brand-palette-blue;
+            font-weight: 500;
+            margin-bottom: 5px;
+            font-size: .6em;
+            width: 100%;
+            display: block;
         }
         .meta-description p{ display: none; }
     
