@@ -1297,7 +1297,8 @@ body:not(.collection-type-blog) {
     display: none; } }
 
 #home-brand-logos {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  background-image: none; }
   #home-brand-logos .Index-page-content, #home-brand-logos .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-brand-logos .Footer-nav, #home-brand-logos
   .tweak-footer-layout-stacked .Footer-blocks--bottom,
   .tweak-footer-layout-stacked #home-brand-logos .Footer-blocks--bottom {
