@@ -12,6 +12,15 @@
         .sqs-block-spacer{ display: none; }
     }
     
+    // force the button to sit right at the bottom of the text
+    @media screen and (min-width: 900px){
+        .sqs-block-button{
+            float: left;
+            width: 45%;
+            clear: none;
+        }
+    }
+    
     // Make product image block sit to far right of page
     #block-yui_3_17_2_5_1495826143677_3705{
         @media screen and (min-width: 1001px){
@@ -41,15 +50,6 @@
     background-image: none;
     .Index-page-content{ padding-bottom: 1.75%; padding-top: 1.75%; }
     .sqs-gallery-design-grid .sqs-gallery-design-grid-slide .margin-wrapper{ margin-bottom: 0 !important; margin-right: 95px !important; }
-    
-    // force the button to sit right at the bottom of the text
-    @media screen and (min-width: 900px){
-        .sqs-block-button{
-            float: left;
-            width: 45%;
-            clear: none;
-        }
-    }
 }
 
 #home-markets-served{

@@ -1296,6 +1296,12 @@ body:not(.collection-type-blog) {
   #home-intro .sqs-block-spacer {
     display: none; } }
 
+@media screen and (min-width: 900px) {
+  #home-intro .sqs-block-button {
+    float: left;
+    width: 45%;
+    clear: none; } }
+
 @media screen and (min-width: 1001px) {
   #home-intro #block-yui_3_17_2_5_1495826143677_3705 {
     margin-right: -10%;
@@ -1332,11 +1338,6 @@ body:not(.collection-type-blog) {
   #home-brand-logos .sqs-gallery-design-grid .sqs-gallery-design-grid-slide .margin-wrapper {
     margin-bottom: 0 !important;
     margin-right: 95px !important; }
-  @media screen and (min-width: 900px) {
-    #home-brand-logos .sqs-block-button {
-      float: left;
-      width: 45%;
-      clear: none; } }
 
 #home-markets-served {
   background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg") #3c769f;
