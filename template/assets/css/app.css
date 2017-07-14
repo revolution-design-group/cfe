@@ -1447,6 +1447,11 @@ body:not(.collection-type-blog) {
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%); }
+  @media screen and (max-width: 640px) {
+    #home-markets-served .sqs-gallery-controls .previous {
+      left: -9.5%; }
+    #home-markets-served .sqs-gallery-controls .next {
+      right: -9.5%; } }
   @media screen and (min-width: 641px) {
     #home-markets-served {
       overflow: visible; } }

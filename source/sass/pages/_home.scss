@@ -114,6 +114,15 @@
             @include vertically-centered(absolute); 
         }
     }
+    
+    @media screen and (max-width: 640px){
+        .sqs-gallery-controls .previous{
+            left: -9.5%;
+        }
+        .sqs-gallery-controls .next{
+            right: -9.5%;
+        }
+    }
         
     
     // make overflow visible
