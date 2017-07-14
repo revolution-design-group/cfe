@@ -1378,18 +1378,30 @@ body:not(.collection-type-blog) {
   background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg") #3c769f;
   background-position: center 60px;
   background-size: cover;
-  background-repeat: no-repeat;
-  overflow: visible; }
+  background-repeat: no-repeat; }
   #home-markets-served .Index-page-content, #home-markets-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-markets-served .Footer-nav, #home-markets-served
   .tweak-footer-layout-stacked .Footer-blocks--bottom,
   .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
     padding-top: 7.5%;
     padding-bottom: 1.5%; }
+    @media screen and (min-width: 640px) {
+      #home-markets-served .Index-page-content, #home-markets-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-markets-served .Footer-nav, #home-markets-served
+      .tweak-footer-layout-stacked .Footer-blocks--bottom,
+      .tweak-footer-layout-stacked #home-markets-served .Footer-blocks--bottom {
+        padding-top: 8%;
+        padding-bottom: 8%; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .img-wrapper {
     width: 45%; }
+    @media screen and (max-width: 640px) {
+      #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .img-wrapper {
+        width: 100%; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta {
     width: 45% !important;
     top: 30px; }
+    @media screen and (max-width: 640px) {
+      #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta {
+        width: 100% !important;
+        top: 0; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside {
     text-align: center; }
     #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-inside:before {
@@ -1420,6 +1432,9 @@ body:not(.collection-type-blog) {
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%); }
+  @media screen and (min-width: 641px) {
+    #home-markets-served {
+      overflow: visible; } }
 
 @media screen and (min-width: 1000px) {
   #home-regions-served .Index-page-content, #home-regions-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-regions-served .Footer-nav, #home-regions-served

@@ -61,14 +61,19 @@
     .Index-page-content{
         padding-top: 7.5%;
         padding-bottom: 1.5%;
+        @media screen and (min-width: 640px){ padding-top: 8%; padding-bottom: 8%; }
     }
     
     
     .sqs-block-gallery .sqs-gallery-block-slideshow {
         .img-wrapper{
-            width:45%
+            width:45%;
+            @media screen and (max-width: 640px){ width: 100%; }
         }
-        .meta{ width: 45% !important; top: 30px; }
+        .meta{ 
+            width: 45% !important; top: 30px; 
+            @media screen and (max-width: 640px){ width: 100% !important; top: 0; }
+        }
         .meta-inside{
             text-align: center;
             &:before{
@@ -105,7 +110,7 @@
         
     
     // make overflow visible
-    overflow: visible;
+    @media screen and (min-width: 641px){ overflow: visible; }
 }
 
 #home-regions-served{
