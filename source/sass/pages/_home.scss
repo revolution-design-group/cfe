@@ -82,8 +82,9 @@
             }
         }
         .meta .meta-title{ 
-            font-size: 35px;
             @media screen and (min-width: 1351px){ font-size: 45px; }
+            font-size: 35px;
+            @media screen and (max-width: 800px) { font-size: 28px; }
         }
         .meta-title:before{
                 content: "Markets Served";

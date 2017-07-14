@@ -1412,6 +1412,9 @@ body:not(.collection-type-blog) {
     @media screen and (min-width: 1351px) {
       #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta .meta-title {
         font-size: 45px; } }
+    @media screen and (max-width: 800px) {
+      #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta .meta-title {
+        font-size: 28px; } }
   #home-markets-served .sqs-block-gallery .sqs-gallery-block-slideshow .meta-title:before {
     content: "Markets Served";
     text-transform: uppercase;
