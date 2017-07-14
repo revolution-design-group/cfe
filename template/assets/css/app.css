@@ -1352,8 +1352,10 @@ body:not(.collection-type-blog) {
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%); }
 
-@media screen and (min-width: 1213px) {
-  #home-regions-served Index-page-content {
+@media screen and (min-width: 1000px) {
+  #home-regions-served .Index-page-content, #home-regions-served .tweak-footer-layout-stacked .Footer-nav, .tweak-footer-layout-stacked #home-regions-served .Footer-nav, #home-regions-served
+  .tweak-footer-layout-stacked .Footer-blocks--bottom,
+  .tweak-footer-layout-stacked #home-regions-served .Footer-blocks--bottom {
     padding-top: 10%; } }
 
 #home-regions-served .Index-page-image:before {

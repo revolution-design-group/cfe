@@ -76,8 +76,8 @@
 }
 
 #home-regions-served{
-    Index-page-content{
-        @media screen and (min-width: 1213px){ padding-top: 10% }
+    .Index-page-content{
+        @media screen and (min-width: 1000px){ padding-top: 10% }
     }
     
     .Index-page-image:before{
