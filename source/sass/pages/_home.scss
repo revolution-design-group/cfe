@@ -68,7 +68,7 @@
     .sqs-block-gallery .sqs-gallery-block-slideshow {
         .img-wrapper{
             width:45%;
-            @media screen and (max-width: 640px){ width: 100%; }
+            @media screen and (max-width: 640px){ width: 90%; margin: 0 auto; }
         }
         .meta{ 
             width: 45% !important; top: 30px; 
