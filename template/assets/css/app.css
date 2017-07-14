@@ -1664,6 +1664,18 @@ body:not(.sqs-edit-mode) section[id$="-videos-section-mobile"] {
     display: none; } }
 
 /******************************************************************************
+ * Page - Services Page
+ *
+ * Custom CSS styles that relate to the Services Page.
+*******************************************************************************/
+@media screen and (max-width: 640px) {
+  #services-alternate-footer {
+    display: none; } }
+
+#collection-593898b1d1758e7df3628347 .Footer-blocks--top {
+  display: none; }
+
+/******************************************************************************
  * Page - About Page
  *
  * Custom CSS styles that relate to the Contact Page.
