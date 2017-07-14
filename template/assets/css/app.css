@@ -1305,7 +1305,8 @@ body:not(.collection-type-blog) {
     padding-bottom: 1.75%;
     padding-top: 1.75%; }
   #home-brand-logos .sqs-gallery-design-grid .sqs-gallery-design-grid-slide .margin-wrapper {
-    margin-bottom: 0 !important; }
+    margin-bottom: 0 !important;
+    margin-right: 95px !important; }
 
 #home-markets-served {
   background: url("https://static1.squarespace.com/static/59287b8fe3df2873d7677c19/t/592f184eebbd1aca603d1760/1496258639147/Trees-Mountains-Blue-web-cropped.jpg") #3c769f;
