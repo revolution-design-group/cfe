@@ -494,7 +494,9 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
           width: 55px;
           height: 3px; }
         .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-title {
-          font-size: 27px !important; } }
+          font-size: 27px !important; }
+        .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-subtitle {
+          font-size: 15px !important; } }
   @media screen and (max-width: 640px) {
     .Footer .Footer-blocks--middle .sqs-block-spacer {
       display: none; } }
