@@ -56,6 +56,22 @@ $color-footer-overlay: rgba(24,47,61,0.7);
         background-size: 1600px;
     }
     
+    // Footer Top
+    .Footer-blocks--top{
+        @media screen and (max-width: 550px){
+            .sqs-block-image .design-layout-card {
+                display: block !important;
+                > div{
+                    width: 100% !important;
+                    .image-card>*{
+                        text-align: center !important;
+                    }
+                }
+            }
+        }
+    }
+    
+    
     // Footer Middle
     .Footer-blocks--middle{
         @media screen and (max-width: 640px){

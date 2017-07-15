@@ -482,6 +482,13 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
   @media (max-width: 1600px) {
     .Footer {
       background-size: 1600px; } }
+  @media screen and (max-width: 550px) {
+    .Footer .Footer-blocks--top .sqs-block-image .design-layout-card {
+      display: block !important; }
+      .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div {
+        width: 100% !important; }
+        .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-card > * {
+          text-align: center !important; } }
   @media screen and (max-width: 640px) {
     .Footer .Footer-blocks--middle .sqs-block-spacer {
       display: none; } }
