@@ -66,6 +66,12 @@ $color-footer-overlay: rgba(24,47,61,0.7);
                     .image-card>*{
                         text-align: center !important;
                     }
+                    .image-title:before{ 
+                        margin-left: 0 auto 15px;
+                        width: 55px;
+                        height: 3px;
+                    }
+                    .image-title { font-size: 27px !important; }
                 }
             }
         }

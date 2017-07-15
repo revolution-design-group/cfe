@@ -488,7 +488,13 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
       .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div {
         width: 100% !important; }
         .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-card > * {
-          text-align: center !important; } }
+          text-align: center !important; }
+        .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-title:before {
+          margin-left: 0 auto 15px;
+          width: 55px;
+          height: 3px; }
+        .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-title {
+          font-size: 27px !important; } }
   @media screen and (max-width: 640px) {
     .Footer .Footer-blocks--middle .sqs-block-spacer {
       display: none; } }
