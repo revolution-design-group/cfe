@@ -345,23 +345,23 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
 
 /* H1 */
 @media screen and (max-width: 1080px) {
-  h1, .BlogItem-title {
+  h1, .BlogItem-title, .BlogList-item-title {
     font-size: 40px; } }
 
 @media screen and (max-width: 800px) {
-  h1, .BlogItem-title {
+  h1, .BlogItem-title, .BlogList-item-title {
     font-size: 38px; } }
 
 @media screen and (max-width: 690px) {
-  h1, .BlogItem-title {
+  h1, .BlogItem-title, .BlogList-item-title {
     font-size: 33px; } }
 
 @media screen and (max-width: 640px) {
-  h1, .BlogItem-title {
+  h1, .BlogItem-title, .BlogList-item-title {
     font-size: 27px; } }
 
 @media screen and (max-width: 375px) {
-  h1, .BlogItem-title {
+  h1, .BlogItem-title, .BlogList-item-title {
     font-size: 25px; } }
 
 .html-block h1 em {

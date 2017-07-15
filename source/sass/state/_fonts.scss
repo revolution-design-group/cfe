@@ -56,7 +56,7 @@ section.Intro.Intro--has-image{
 }
 
 /* H1 */
-h1, .BlogItem-title{
+h1, .BlogItem-title, .BlogList-item-title{
     @media screen and (max-width: 1080px){ font-size: 40px; }
     @media screen and (max-width: 800px){ font-size: 38px; }
     @media screen and (max-width: 690px){ font-size: 33px; }
