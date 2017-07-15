@@ -490,7 +490,7 @@ section.Intro.Intro--has-image .html-block h1.text-align-center:before {
         .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-card > * {
           text-align: center !important; }
         .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-title:before {
-          margin-left: 0 auto 15px;
+          margin: 0 auto 15px;
           width: 50px;
           height: 3px; }
         .Footer .Footer-blocks--top .sqs-block-image .design-layout-card > div .image-title {
