@@ -1196,6 +1196,9 @@ body:not(.collection-type-blog) {
  *
  * Custom CSS styles that relate to Blog pages.
 *******************************************************************************/
+.collection-type-blog .back-link {
+  text-align: right; }
+
 .collection-type-blog .sqs-gallery-block-slideshow {
   /* add red collage bg to slide image */
   /* add drop shadows to slide image */ }

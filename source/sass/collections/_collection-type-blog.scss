@@ -6,6 +6,11 @@
 
 .collection-type-blog {
     
+    // back link (which I added using JQuery)
+    .back-link{
+        text-align: right;
+    }
+    
     // Add white abstract bg to list view
     &.view-list {
         .Main.Main--blog-list{
