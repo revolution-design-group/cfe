@@ -3,4 +3,21 @@
  *
  * Custom CSS styles that relate to Squarespace Summary Blocks.
 *******************************************************************************/
-.sqs-block-summary {}
+
+
+.sqs-block-summary-v2 .summary-title {
+    //Copied from BlogList-item-title
+    margin-bottom: 10px;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: 0.025em;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    color: rgba(35, 31, 32, 0.9);
+    -webkit-box-ordinal-group: 3;
+    order: 3;
+    text-decoration: none;
+    //end copy
+}

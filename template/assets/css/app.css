@@ -313,6 +313,7 @@ body {
 #home-featured-projects .image-title-wrapper:before,
 .BlogList-item-title:before,
 .BlogItem-title:before,
+.summary-title-link:before,
 .html-block h1:before {
   content: "";
   display: block;
@@ -852,6 +853,20 @@ header.Header.Header--top,
  *
  * Custom CSS styles that relate to Squarespace Summary Blocks.
 *******************************************************************************/
+.sqs-block-summary-v2 .summary-title {
+  margin-bottom: 10px;
+  font-family: proxima-nova;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  letter-spacing: 0.025em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  color: rgba(35, 31, 32, 0.9);
+  -ms-flex-order: 3;
+      order: 3;
+  text-decoration: none; }
+
 /******************************************************************************
  * Squarespace Block - Gallery
  *
