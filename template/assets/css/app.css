@@ -1198,7 +1198,7 @@ body:not(.collection-type-blog) {
 *******************************************************************************/
 .collection-type-blog .back-link {
   text-align: center;
-  margin-top: 2em; }
+  margin-bottom: 2em; }
 
 .collection-type-blog .BlogItem-pagination {
   margin-top: 2em; }
