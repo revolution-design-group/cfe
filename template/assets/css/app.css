@@ -867,7 +867,7 @@ header.Header.Header--top,
       order: 3;
   text-decoration: none; }
 
-.sqs-block-summary-v2 .summary-metadata-item {
+.sqs-block-summary-v2 .summary-metadata-item a {
   font-family: alternate-gothic-no-2-d;
   font-weight: 400;
   font-style: normal;
