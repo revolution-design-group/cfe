@@ -876,6 +876,19 @@ header.Header.Header--top,
   text-transform: uppercase;
   color: rgba(97, 147, 189, 0.9); }
 
+.sqs-block-summary-v2 .summary-read-more-link {
+  vertical-align: baseline;
+  font-family: proxima-nova;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #1d1d1d;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.15s ease-out; }
+
 /******************************************************************************
  * Squarespace Block - Gallery
  *
