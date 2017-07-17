@@ -8,7 +8,8 @@
     
     // back link (which I added using JQuery)
     .back-link{
-        text-align: right;
+        text-align: center;
+        margin-top: 2em;
     }
     
     // Add white abstract bg to list view
@@ -24,6 +25,9 @@
         }
     }
 
+    .BlogItem-pagination{
+        margin-top: 2em;
+    }
     
    
     .sqs-gallery-block-slideshow {
