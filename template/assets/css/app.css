@@ -1197,7 +1197,7 @@ body:not(.collection-type-blog) {
  * Custom CSS styles that relate to Blog pages.
 *******************************************************************************/
 .collection-type-blog .back-link {
-  text-align: center;
+  text-align: left;
   margin-bottom: 2em; }
   .collection-type-blog .back-link a {
     transition: opacity 0.15s ease-out;
