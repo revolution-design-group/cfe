@@ -81,7 +81,7 @@
 	 * This is removed from your final JavaScript build.
 	 *
 	 */
-	__webpack_require__(/*! ../sass/app.scss */ 33);
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../sass/app.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	/**
 	 *
@@ -4083,15 +4083,6 @@
 	 * Export
 	*******************************************************************************/
 	exports.default = example;
-
-/***/ }),
-/* 33 */
-/*!******************************!*\
-  !*** ./source/sass/app.scss ***!
-  \******************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "../css/app.css";
 
 /***/ })
 /******/ ]);
