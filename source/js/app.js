@@ -6,13 +6,12 @@
  * This is removed from your final JavaScript build.
  *
  */
-require( "../sass/app.scss" );
 
 
 
 import * as core from "./core";
 import * as sqs from "./sqs";
-import example from "./modules/example";
+import sidebar from "./modules/sidebar";
 
 
 /**
@@ -26,8 +25,8 @@ class App {
     constructor () {
         this.core = core;
         this.sqs = sqs;
-        this.example = example;
-
+        this.sidebar = sidebar;
+        
         this.initModules();
     }
 
@@ -42,7 +41,7 @@ class App {
      *
      */
     initModules () {
-        this.example.init( this );
+        this.sidebar.init( this );
     }
 }
 

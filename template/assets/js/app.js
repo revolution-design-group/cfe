@@ -53,7 +53,14 @@
 	  value: true
 	});
 	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /**
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * Require for Webpack File Loader.
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * File Loader is a way to compile your Sass with Webpack.
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * This is simply a link to your Sass entry point.
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * This is removed from your final JavaScript build.
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 	
 	var _core = __webpack_require__(/*! ./core */ 1);
 	
@@ -63,25 +70,15 @@
 	
 	var sqs = _interopRequireWildcard(_sqs);
 	
-	var _example = __webpack_require__(/*! ./modules/example */ 32);
+	var _sidebar = __webpack_require__(/*! ./modules/sidebar */ 32);
 	
-	var _example2 = _interopRequireDefault(_example);
+	var _sidebar2 = _interopRequireDefault(_sidebar);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	/**
-	 *
-	 * Require for Webpack File Loader.
-	 * File Loader is a way to compile your Sass with Webpack.
-	 * This is simply a link to your Sass entry point.
-	 * This is removed from your final JavaScript build.
-	 *
-	 */
-	__webpack_require__(/*! ../sass/app.scss */ 33);
 	
 	/**
 	 *
@@ -96,7 +93,7 @@
 	
 	    this.core = core;
 	    this.sqs = sqs;
-	    this.example = _example2.default;
+	    this.sidebar = _sidebar2.default;
 	
 	    this.initModules();
 	  }
@@ -115,7 +112,7 @@
 	  _createClass(App, [{
 	    key: "initModules",
 	    value: function initModules() {
-	      this.example.init(this);
+	      this.sidebar.init(this);
 	    }
 	  }]);
 	
@@ -3926,7 +3923,7 @@
 /***/ }),
 /* 32 */
 /*!**************************************!*\
-  !*** ./source/js/modules/example.js ***!
+  !*** ./source/js/modules/sidebar.js ***!
   \**************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3940,11 +3937,16 @@
 	
 	var core = _interopRequireWildcard(_core);
 	
+	var _sqs = __webpack_require__(/*! ../sqs */ 30);
+	
+	var sps = _interopRequireWildcard(_sqs);
+	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
-	// Here's jQuery in case you need it. If you're just doing DOM manipulation, you
-	// probably won't need it. Recommend using core.dom module to handle node caching.
-	// import $ from "jquery/dist/jquery";
+	// This is a module using an object literal pattern.
+	// It's an easy way to organize your custom JavaScript into modules with methods.
+	// Since this system uses Webpack, you can reuse other modules and dependencies
+	// by importing them into the module.
 	
 	
 	var $_jsElements = null;
@@ -3952,17 +3954,15 @@
 	/**
 	 *
 	 * @public
-	 * @module example
+	 * @module sidebar
 	 * @description An example hook module.
 	 *
 	 */
-	// This is a module using an object literal pattern.
-	// It's an easy way to organize your custom JavaScript into modules with methods.
-	// Since this system uses Webpack, you can reuse other modules and dependencies
-	// by importing them into the module.
 	
-	
-	var example = {
+	// Here's jQuery in case you need it. If you're just doing DOM manipulation, you
+	// probably won't need it. Recommend using core.dom module to handle node caching.
+	// import $ from "jquery/dist/jquery";
+	var sidebar = {
 	    /**
 	     *
 	     * @public
@@ -3975,7 +3975,7 @@
 	        if (this.isActive()) {
 	            initElement();
 	        }
-	        // console.log( "example module: initialized" );
+	        // console.log( "sidebar module: initialized" );
 	    },
 	
 	
@@ -4032,7 +4032,7 @@
 	     *
 	     */
 	    getElements: function getElements() {
-	        $_jsElements = core.dom.body.find(".js-element");
+	        $_jsElements = $(".js-sidebar");
 	
 	        return $_jsElements.length;
 	    }
@@ -4048,13 +4048,26 @@
 	 *
 	 */
 	var execElement = function execElement($element) {
-	    // Grab some data from $el.
-	    var elementData = $element.data();
 	
-	    // Misc:
-	    console.log("Look ma, there's an element, and its data attributes!");
-	    console.log($element);
-	    console.log(elementData);
+	    var contentArea = $(".Main-content");
+	    var sidebarData = $element.data();
+	    var url = sidebarData.url;
+	    var mainContent = null;
+	
+	    core.api.fetch(url, { format: "json" }).then(function (response) {
+	        return response.json();
+	    }).then(function (json) {
+	        mainContent = json.mainContent;
+	    }).then(function () {
+	
+	        contentArea.append(mainContent);
+	        contentArea.find(".sqs-layout").addClass("custom-sidebar");
+	
+	        window.Squarespace.AFTER_BODY_LOADED = false;
+	        window.Squarespace.afterBodyLoad();
+	
+	        $element.addClass("is-loaded");
+	    });
 	};
 	
 	/**
@@ -4082,16 +4095,7 @@
 	/******************************************************************************
 	 * Export
 	*******************************************************************************/
-	exports.default = example;
-
-/***/ }),
-/* 33 */
-/*!******************************!*\
-  !*** ./source/sass/app.scss ***!
-  \******************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "../css/app.css";
+	exports.default = sidebar;
 
 /***/ })
 /******/ ]);

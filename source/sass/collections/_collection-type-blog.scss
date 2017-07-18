@@ -21,6 +21,21 @@
         }
     }
     
+    // Added Custom Sidebar to default Brine template using js
+    .Main-content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .custom-sidebar {
+        width: 300px;
+        padding-left: 40px;
+    }
+    .BlogList {
+        width: 100%; 
+    }
+    
+    
     // Add white abstract bg to list view
     &.view-list {
         .Main.Main--blog-list{

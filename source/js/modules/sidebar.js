@@ -8,6 +8,7 @@ import * as core from "../core";
 // Here's jQuery in case you need it. If you're just doing DOM manipulation, you
 // probably won't need it. Recommend using core.dom module to handle node caching.
 // import $ from "jquery/dist/jquery";
+import * as sps from "../sqs";
 
 
 let $_jsElements = null;
@@ -16,7 +17,7 @@ let $_jsElements = null;
 /**
  *
  * @public
- * @module example
+ * @module sidebar
  * @description An example hook module.
  *
  */
@@ -33,7 +34,7 @@ const sidebar = {
         if ( this.isActive() ) {
             initElement();
         }
-        // console.log( "example module: initialized" );
+        // console.log( "sidebar module: initialized" );
     },
 
 
@@ -90,11 +91,12 @@ const sidebar = {
      *
      */
     getElements () {
-        $_jsElements = core.dom.body.find( ".js-element" );
+        $_jsElements = $( ".js-sidebar" );
+        
 
         return ( $_jsElements.length );
     }
-};
+}; 
 
 
 /**
@@ -107,13 +109,28 @@ const sidebar = {
  *
  */
 const execElement = function ( $element ) {
-    // Grab some data from $el.
-    const elementData = $element.data();
+    
+    const contentArea = $( ".Main-content" );
+    const sidebarData = $element.data();
+    const url = sidebarData.url;
+    let mainContent = null;
 
-    // Misc:
-    console.log( `Look ma, there's an element, and its data attributes!` );
-    console.log( $element );
-    console.log( elementData );
+    core.api.fetch( url, { format: "json" } )
+        .then( ( response ) => {
+            return response.json();
+        }).then( ( json ) => {
+            mainContent = json.mainContent;
+        }).then( () => {
+            
+            contentArea.append( mainContent );
+            contentArea.find( ".sqs-layout" ).addClass( "custom-sidebar" );
+            
+            window.Squarespace.AFTER_BODY_LOADED = false;
+            window.Squarespace.afterBodyLoad();
+
+            $element.addClass( "is-loaded" );
+        
+        });
 };
 
 
@@ -144,4 +161,4 @@ const initElement = function ( ) {
 /******************************************************************************
  * Export
 *******************************************************************************/
-export default example;
+export default sidebar;
