@@ -54,10 +54,10 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50%;
-            left: -1 * $displacement;
+            left: $displacement;
             top: -1 * $displacement;
             bottom: $displacement;
-            right: $displacement;
+            right: -1 * $displacement;
 
             @include box-shadow(20px 20px 40px rgba(0,0,0,.1));
         } 
