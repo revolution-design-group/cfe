@@ -110,7 +110,7 @@ const sidebar = {
  */
 const execElement = function ( $element ) {
     
-    const contentArea = $( ".Main-content" );
+    const contentArea = $( ".Main.Main--blog-list" );
     const sidebarData = $element.data();
     const url = sidebarData.url;
     let mainContent = null;
@@ -123,10 +123,10 @@ const execElement = function ( $element ) {
         }).then( () => {
             
             contentArea.append( mainContent );
-            contentArea.find( ".sqs-layout" ).addClass( "custom-sidebar" );
+            contentArea.find( '.sqs-layout[data-type="page"]' ).addClass( "custom-sidebar" );
             
             window.Squarespace.AFTER_BODY_LOADED = false;
-            window.Squarespace.afterBodyLoad();
+            window.Squarespace.afterBodyLoad(); 
 
             $element.addClass( "is-loaded" );
         

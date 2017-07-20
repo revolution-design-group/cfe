@@ -33,6 +33,7 @@ const api = {
             .map( (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[ key ])}`)
             .join("&")
             .replace(/%20/g, "+");
+        
 
         return fetch(`${url}?${urlParameters}`, {
             credentials: "same-origin"

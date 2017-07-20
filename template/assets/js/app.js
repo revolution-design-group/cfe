@@ -4049,7 +4049,7 @@
 	 */
 	var execElement = function execElement($element) {
 	
-	    var contentArea = $(".Main-content");
+	    var contentArea = $(".Main.Main--blog-list");
 	    var sidebarData = $element.data();
 	    var url = sidebarData.url;
 	    var mainContent = null;
@@ -4061,7 +4061,7 @@
 	    }).then(function () {
 	
 	        contentArea.append(mainContent);
-	        contentArea.find(".sqs-layout").addClass("custom-sidebar");
+	        contentArea.find('.sqs-layout[data-type="page"]').addClass("custom-sidebar");
 	
 	        window.Squarespace.AFTER_BODY_LOADED = false;
 	        window.Squarespace.afterBodyLoad();
